@@ -8,6 +8,31 @@ This benchmark is published by Aura UG (haftungsbeschränkt), the company that m
 We ran every candidate ourselves, switchfile included; see [Who publishes this](#who-publishes-this) and
 [Disclaimer](#disclaimer).
 
+## Results (2026-11-16)
+
+Numbers in the right cell, in percent: mean per file (every PDF counts once) and summed over all numeric cells (large
+tables count more), with 95 % intervals for all PDFs; per producer as per file \| summed. Failures count as 0.
+
+<!-- RESULTS-TABLE -->
+| Candidate | all PDFs, per file | all PDFs, summed | Word PDFs | Excel PDFs | LibreOffice PDFs | corrupted numbers (PDFs) | failed |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| switchfile | 94.1 [90.7; 97.1] | 97.2 [95.6; 98.7] | 98.9 \| 99.5 | 93.1 \| 99.4 | 93.7 \| 95.1 | 18 (6) | 0 |
+| CloudConvert | 82.6 [75.1; 89.3] | 68.4 [38.0; 95.5] | 97.9 \| 97.3 | 79.9 \| 65.9 | 80.7 \| 67.6 | 612 (32) | 0 |
+| pymupdf4llm | 81.6 [74.0; 88.4] | 68.3 [37.9; 95.3] | 97.7 \| 97.2 | 79.9 \| 65.9 | 78.7 \| 67.3 | 245 (22) | 0 |
+| Docling | 67.6 [56.7; 77.9] | 57.2 [29.3; 86.6] | 98.9 \| 99.5 | 59.0 \| 53.6 | 65.7 \| 56.0 | 454 (37) | 0 |
+| pdfplumber + our wrapper | 48.5 [35.8; 61.5] | 48.1 [20.6; 79.2] | 58.8 \| 67.1 | 41.2 \| 45.7 | 50.9 \| 48.4 | 413 (25) | 0 |
+| markitdown | 36.9 [26.8; 47.1] | 39.7 [21.3; 64.2] | 41.7 \| 56.9 | 39.7 \| 39.0 | 33.8 \| 38.5 | 172 (16) | 0 |
+| pdftotext (baseline) | 0.0 [0.0; 0.0] | 0.0 [0.0; 0.0] | 0.0 \| 0.0 | 0.0 \| 0.0 | 0.0 \| 0.0 | 0 (0) | 0 |
+<!-- /RESULTS-TABLE -->
+
+Corrupted numbers are numbers in the output that do not stand in the original like that, for example a `2` torn off
+`CaCl2` or `65 280` glued together from two cells; the count is over all 160 PDFs (in brackets: PDFs affected).
+
+Word recall, reading order, time per page, paired differences and the split by country, format
+and language: [RESULTS.md](RESULTS.md). These results hold for these documents, versions and the date stated; see
+[Disclaimer](#disclaimer).
+
+
 ## Data
 
 - 82 public spreadsheets (XLSX) and Word documents (DOCX) from government open-data portals and Zenodo, in English,
@@ -75,27 +100,6 @@ cells). Results are reported for Word, Excel and LibreOffice PDFs side by side a
 language. Every candidate gets one attempt per PDF with a limit of 600 s; a PDF without output counts as a failure and
 scores 0. Full report: [RESULTS.md](RESULTS.md); outputs in `results/outputs/` (LibreOffice), `results/outputs-word/`
 and `results/outputs-excel/`; per-file scores in `results/scores-2026-11-16-all.json`; run windows in `results/runs.json`.
-
-## Results (2026-11-16)
-
-Numbers in the right cell, in percent: mean per file (every PDF counts once) and summed over all numeric cells (large
-tables count more), with 95 % intervals for all PDFs; per producer as per file \| summed. Failures count as 0.
-
-<!-- RESULTS-TABLE -->
-| Candidate | all PDFs, per file | all PDFs, summed | Word PDFs | Excel PDFs | LibreOffice PDFs | failed |
-|---|---:|---:|---:|---:|---:|---:|
-| switchfile | 94.1 [90.7; 97.1] | 97.2 [95.6; 98.7] | 98.9 \| 99.5 | 93.1 \| 99.4 | 93.7 \| 95.1 | 0 |
-| CloudConvert | 82.6 [75.1; 89.3] | 68.4 [38.0; 95.5] | 97.9 \| 97.3 | 79.9 \| 65.9 | 80.7 \| 67.6 | 0 |
-| pymupdf4llm | 81.6 [74.0; 88.4] | 68.3 [37.9; 95.3] | 97.7 \| 97.2 | 79.9 \| 65.9 | 78.7 \| 67.3 | 0 |
-| Docling | 67.6 [56.7; 77.9] | 57.2 [29.3; 86.6] | 98.9 \| 99.5 | 59.0 \| 53.6 | 65.7 \| 56.0 | 0 |
-| pdfplumber + our wrapper | 48.5 [35.8; 61.5] | 48.1 [20.6; 79.2] | 58.8 \| 67.1 | 41.2 \| 45.7 | 50.9 \| 48.4 | 0 |
-| markitdown | 36.9 [26.8; 47.1] | 39.7 [21.3; 64.2] | 41.7 \| 56.9 | 39.7 \| 39.0 | 33.8 \| 38.5 | 0 |
-| pdftotext (baseline) | 0.0 [0.0; 0.0] | 0.0 [0.0; 0.0] | 0.0 \| 0.0 | 0.0 \| 0.0 | 0.0 \| 0.0 | 0 |
-<!-- /RESULTS-TABLE -->
-
-Corrupted numbers, word recall, reading order, time per page, paired differences and the split by country, format
-and language: [RESULTS.md](RESULTS.md). These results hold for these documents, versions and the date stated; see
-[Disclaimer](#disclaimer).
 
 ## Candidates
 
