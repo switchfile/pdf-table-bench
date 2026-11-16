@@ -1,0 +1,400 @@
+[
+ {
+  "id": "en-xlsx-592b2ea140",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "en-xlsx-595202635e",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-aafe52190f",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "en-xlsx-391ae47f0b",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "en-xlsx-ce8f515659",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "en-xlsx-9008a3081f",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "en-xlsx-2bc93ec3c4",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "en-xlsx-d4cd1cd9c3",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-72e80465a7",
+  "pages": 1,
+  "tables": 1,
+  "cells": 50,
+  "coverage": 1.0,
+  "sheets": [
+   "Sheet1"
+  ]
+ },
+ {
+  "id": "en-xlsx-781705321e",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "en-xlsx-a52a7afe86",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "de-xlsx-f89657cbd3",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "de-xlsx-fe52d0bf86",
+  "pages": 5,
+  "tables": 2,
+  "cells": 152,
+  "coverage": 1.0,
+  "sheets": [
+   "Luftqualität",
+   "Lärmbelastung"
+  ]
+ },
+ {
+  "id": "de-xlsx-2e9e9401fb",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "de-xlsx-958257100a",
+  "pages": 3,
+  "tables": 1,
+  "cells": 86,
+  "coverage": 1.0,
+  "sheets": [
+   "Bruttowertschöpfung"
+  ]
+ },
+ {
+  "id": "de-xlsx-8d1b587c62",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "de-xlsx-a050b8c7e6",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "de-xlsx-3ec75eda6f",
+  "pages": 6,
+  "tables": 1,
+  "cells": 451,
+  "coverage": 1.0,
+  "sheets": [
+   "Table 1"
+  ]
+ },
+ {
+  "id": "de-xlsx-358d2e68af",
+  "pages": 5,
+  "tables": 2,
+  "cells": 189,
+  "coverage": 0.9856,
+  "sheets": [
+   "Info",
+   "seit 1990"
+  ]
+ },
+ {
+  "id": "de-xlsx-1de61e49b7",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "de-xlsx-798abe6335",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "de-xlsx-a22a40caf5",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "de-xlsx-ab0180532a",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-f8e1f974e0",
+  "pages": 4,
+  "tables": 1,
+  "cells": 264,
+  "coverage": 1.0,
+  "sheets": [
+   "Feuil1"
+  ]
+ },
+ {
+  "id": "fr-xlsx-5b491ddea1",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-3ec1dd0b9a",
+  "pages": 10,
+  "tables": 1,
+  "cells": 429,
+  "coverage": 0.9958,
+  "sheets": [
+   "Frontières"
+  ]
+ },
+ {
+  "id": "fr-xlsx-923d051de8",
+  "pages": 16,
+  "tables": 1,
+  "cells": 345,
+  "coverage": 1.0,
+  "sheets": [
+   "agec"
+  ]
+ },
+ {
+  "id": "fr-xlsx-5879717f42",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-0074c2eedb",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-bcb0eb386d",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-e3784832a0",
+  "pages": 2,
+  "tables": 1,
+  "cells": 72,
+  "coverage": 1.0,
+  "sheets": [
+   "Balance_Budgetaire_parametree_4"
+  ]
+ },
+ {
+  "id": "fr-xlsx-ebb33bdc5f",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "fr-xlsx-a36e550688",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-9d9afe5410",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-265f49a66c",
+  "pages": 6,
+  "tables": 1,
+  "cells": 1177,
+  "coverage": 1.0,
+  "sheets": [
+   "Premier tour"
+  ]
+ },
+ {
+  "id": "fr-xlsx-cc307ae3a4",
+  "pages": 6,
+  "tables": 1,
+  "cells": 1296,
+  "coverage": 1.0,
+  "sheets": [
+   "Premier tour"
+  ]
+ },
+ {
+  "id": "fr-xlsx-618428252b",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-94e145f987",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "fr-xlsx-30a937374d",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-d77000a5ec",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-ee383298b9",
+  "pages": 4,
+  "tables": 1,
+  "cells": 816,
+  "coverage": 1.0,
+  "sheets": [
+   "Data"
+  ]
+ },
+ {
+  "id": "fr-xlsx-c404848c2b",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-37a781c580",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-fc71180860",
+  "pages": 16,
+  "tables": 1,
+  "cells": 154,
+  "coverage": 1.0,
+  "sheets": [
+   "LomReport"
+  ]
+ },
+ {
+  "id": "fr-xlsx-5cc02852fa",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-a10ed7eed2",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-95a735682e",
+  "pages": 16,
+  "tables": 1,
+  "cells": 304,
+  "coverage": 1.0,
+  "sheets": [
+   "LomReport"
+  ]
+ },
+ {
+  "id": "fr-xlsx-e3f862ea7d",
+  "pages": 7,
+  "tables": 2,
+  "cells": 666,
+  "coverage": 0.9821,
+  "sheets": [
+   "Masque de saisie",
+   "Référentiel"
+  ]
+ },
+ {
+  "id": "fr-xlsx-f6c1ba3465",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-439dfd2771",
+  "pages": 6,
+  "tables": 1,
+  "cells": 1926,
+  "coverage": 1.0,
+  "sheets": [
+   "Premier tour"
+  ]
+ },
+ {
+  "id": "fr-xlsx-5eaef2f465",
+  "pages": 1,
+  "tables": 1,
+  "cells": 74,
+  "coverage": 1.0,
+  "sheets": [
+   "2021 - tableau complet"
+  ]
+ },
+ {
+  "id": "fr-xlsx-d2001111a2",
+  "pages": 7,
+  "tables": 1,
+  "cells": 2173,
+  "coverage": 0.9983,
+  "sheets": [
+   "2021 - CFDE élus"
+  ]
+ },
+ {
+  "id": "fr-xlsx-f59a4214d3",
+  "pages": 3,
+  "tables": 1,
+  "cells": 60,
+  "coverage": 1.0,
+  "sheets": [
+   "Feuil1"
+  ]
+ },
+ {
+  "id": "fr-xlsx-05271b91a2",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-xlsx-c99a65e271",
+  "pages": 6,
+  "tables": 2,
+  "cells": 111,
+  "coverage": 0.975,
+  "sheets": [
+   "Méthodologie",
+   "Résultats"
+  ]
+ },
+ {
+  "id": "fr-xlsx-35f73dbc54",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-a59c976398",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-165dbeac9a",
+  "pages": 2,
+  "tables": 1,
+  "cells": 78,
+  "coverage": 1.0,
+  "sheets": [
+   "Balance_Budgetaire_parametree_4"
+  ]
+ },
+ {
+  "id": "fr-xlsx-1733527f3f",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "fr-xlsx-486a7cfc27",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-be6b69ce27",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-xlsx-2d354373bf",
+  "reason": "removed after review: personal data of third parties (2026-11-15)"
+ },
+ {
+  "id": "fr-xlsx-76cd7e2bfa",
+  "pages": 1,
+  "tables": 1,
+  "cells": 84,
+  "coverage": 1.0,
+  "sheets": [
+   "Feuil1"
+  ]
+ },
+ {
+  "id": "fr-xlsx-aaa510ba28",
+  "pages": 6,
+  "tables": 1,
+  "cells": 630,
+  "coverage": 1.0,
+  "sheets": [
+   "DONNEES_PAIE"
+  ]
+ }
+]

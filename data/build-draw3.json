@@ -1,0 +1,218 @@
+[
+ {
+  "id": "en-xlsx-b91fc599ac",
+  "reason": "page block not on its own page"
+ },
+ {
+  "id": "en-xlsx-933fc28c82",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "en-xlsx-36967b578c",
+  "pages": 4,
+  "tables": 4,
+  "cells": 544,
+  "coverage": 1.0,
+  "sheets": [
+   "Report"
+  ],
+  "crop": {
+   "Report": "A1:H68"
+  }
+ },
+ {
+  "id": "en-xlsx-7a0289c381",
+  "reason": "page blocks do not match the print"
+ },
+ {
+  "id": "en-xlsx-5c1daf83ba",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-3767c70b59",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-0ab954f487",
+  "pages": 4,
+  "tables": 4,
+  "cells": 480,
+  "coverage": 1.0,
+  "sheets": [
+   "NOV 18"
+  ],
+  "crop": {
+   "NOV 18": "A1:E96"
+  }
+ },
+ {
+  "id": "en-xlsx-b1e79789c8",
+  "reason": "time limit"
+ },
+ {
+  "id": "en-xlsx-61afc31bd4",
+  "reason": "page blocks do not match the print"
+ },
+ {
+  "id": "en-xlsx-b63901b785",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-bbbf40e1c8",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "en-xlsx-77bf08f3c2",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-6c95368a08",
+  "reason": "page blocks do not match the print"
+ },
+ {
+  "id": "en-xlsx-5749987c89",
+  "reason": "page block not on its own page"
+ },
+ {
+  "id": "en-xlsx-7a0a44c976",
+  "reason": "sheet too small or too large, coverage below 0.97"
+ },
+ {
+  "id": "en-xlsx-e8634c8958",
+  "pages": 4,
+  "tables": 4,
+  "cells": 203,
+  "coverage": 1.0,
+  "sheets": [
+   "Sheet1"
+  ],
+  "crop": {
+   "Sheet1": "A1:D96"
+  }
+ },
+ {
+  "id": "de-xlsx-8ae91c7e12",
+  "reason": "page blocks do not match the print"
+ },
+ {
+  "id": "de-xlsx-8fef54b211",
+  "pages": 4,
+  "tables": 4,
+  "cells": 451,
+  "coverage": 1.0,
+  "sheets": [
+   "Table 1"
+  ]
+ },
+ {
+  "id": "de-xlsx-074e0444c2",
+  "reason": "page limit"
+ },
+ {
+  "id": "de-xlsx-4d73b9c00b",
+  "reason": "sheet too small or too large, page blocks do not match the print"
+ },
+ {
+  "id": "de-xlsx-ea7f117761",
+  "reason": "sheet too small or too large, page blocks do not match the print"
+ },
+ {
+  "id": "de-xlsx-4dd1fb260f",
+  "reason": "page limit"
+ },
+ {
+  "id": "de-xlsx-f24e20a0e9",
+  "reason": "page limit"
+ },
+ {
+  "id": "de-xlsx-24dd6c23dd",
+  "pages": 7,
+  "tables": 7,
+  "cells": 4424,
+  "coverage": 1.0,
+  "sheets": [
+   "DTV_DTVw (Download)"
+  ],
+  "crop": {
+   "DTV_DTVw (Download)": "A1:U273"
+  }
+ },
+ {
+  "id": "de-xlsx-21b58572bb",
+  "pages": 1,
+  "tables": 1,
+  "cells": 27,
+  "coverage": 1.0,
+  "sheets": [
+   "Tabelle1"
+  ]
+ },
+ {
+  "id": "de-xlsx-2378d024c2",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "de-xlsx-ceeca6d4d0",
+  "pages": 4,
+  "tables": 4,
+  "cells": 469,
+  "coverage": 1.0,
+  "sheets": [
+   "Tabelle1"
+  ],
+  "crop": {
+   "Tabelle1": "A1:E102"
+  }
+ },
+ {
+  "id": "de-xlsx-44cd41ec73",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "de-xlsx-5156559b03",
+  "pages": 4,
+  "tables": 4,
+  "cells": 384,
+  "coverage": 1.0,
+  "sheets": [
+   "Baumarten_gesamt_2016_06_08_ges"
+  ],
+  "crop": {
+   "Baumarten_gesamt_2016_06_08_ges": "A1:D96"
+  }
+ },
+ {
+  "id": "de-xlsx-510aee42e4",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "de-xlsx-2f6f8557b8",
+  "pages": 4,
+  "tables": 4,
+  "cells": 992,
+  "coverage": 1.0,
+  "sheets": [
+   "DTV_DTVw (Download)"
+  ],
+  "crop": {
+   "DTV_DTVw (Download)": "A1:L113"
+  }
+ },
+ {
+  "id": "de-xlsx-4f4e6a3538",
+  "pages": 4,
+  "tables": 4,
+  "cells": 249,
+  "coverage": 1.0,
+  "sheets": [
+   "Tabelle S. 1"
+  ],
+  "crop": {
+   "Tabelle S. 1": "A1:M49"
+  }
+ },
+ {
+  "id": "de-xlsx-20b0de30ba",
+  "reason": "page blocks do not match the print"
+ }
+]

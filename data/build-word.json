@@ -1,0 +1,226 @@
+[
+ {
+  "id": "fr-docx-ddbbc2ea20",
+  "pages": 20,
+  "pages_other": 20,
+  "coverage": 0.9982
+ },
+ {
+  "id": "fr-docx-eb0ef2469f",
+  "pages": 2,
+  "pages_other": 3,
+  "coverage": 0.974
+ },
+ {
+  "id": "fr-docx-2a11524583",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-docx-27ad832070",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-docx-e03598a7c5",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-docx-46441b96ca",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 0.9956
+ },
+ {
+  "id": "fr-docx-e400e30b17",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 0.997
+ },
+ {
+  "id": "fr-docx-23ad3ac6d0",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-docx-aa64f85c6f",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-docx-451c06f7fb",
+  "pages": 19,
+  "pages_other": 19,
+  "coverage": 0.9858
+ },
+ {
+  "id": "de-docx-72e83f0a9b",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 0.9958
+ },
+ {
+  "id": "de-docx-b22ed73b6c",
+  "pages": 16,
+  "pages_other": 16,
+  "coverage": 0.9981
+ },
+ {
+  "id": "de-docx-77beeaad70",
+  "pages": 3,
+  "pages_other": 5,
+  "coverage": 0.9924
+ },
+ {
+  "id": "de-docx-3a043cc5a1",
+  "pages": 3,
+  "pages_other": 5,
+  "coverage": 0.9924
+ },
+ {
+  "id": "de-docx-d6e1cb15c9",
+  "pages": 2,
+  "pages_other": 2,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-docx-ac009d8b54",
+  "pages": 6,
+  "pages_other": 6,
+  "coverage": 0.9994
+ },
+ {
+  "id": "de-docx-8b255933cc",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-96d9d39294",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-d0a9a87c05",
+  "pages": 8,
+  "pages_other": 8,
+  "coverage": 0.9982
+ },
+ {
+  "id": "en-docx-eec9a76936",
+  "pages": 11,
+  "pages_other": 11,
+  "coverage": 0.9993
+ },
+ {
+  "id": "en-docx-75e588c6f1",
+  "pages": 11,
+  "pages_other": 13,
+  "coverage": 0.9933
+ },
+ {
+  "id": "en-docx-fcc33ae211",
+  "pages": 3,
+  "pages_other": 3,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-1f99bcfea6",
+  "pages": 18,
+  "pages_other": 18,
+  "coverage": 0.9986
+ },
+ {
+  "id": "en-docx-0564abb7b3",
+  "pages": 5,
+  "pages_other": 5,
+  "coverage": 0.9977
+ },
+ {
+  "id": "en-docx-9a9563d088",
+  "pages": 11,
+  "pages_other": 11,
+  "coverage": 0.9991
+ },
+ {
+  "id": "en-docx-ee34dcf199",
+  "pages": 13,
+  "pages_other": 13,
+  "coverage": 0.9969
+ },
+ {
+  "id": "en-docx-eb004b9323",
+  "pages": 3,
+  "pages_other": 3,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-98989999fe",
+  "reason": "removed after review: personal data of third parties (2026-11-15)"
+ },
+ {
+  "id": "en-docx-3a1f2c0c4c",
+  "pages": 2,
+  "pages_other": 2,
+  "coverage": 0.9975
+ },
+ {
+  "id": "en-docx-77b20b9ab0",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-598cb03a5a",
+  "pages": 11,
+  "pages_other": 11,
+  "coverage": 0.9944
+ },
+ {
+  "id": "en-docx-7194cc80ec",
+  "pages": 3,
+  "pages_other": 3,
+  "coverage": 0.9951
+ },
+ {
+  "id": "en-docx-2e30e111a8",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-05b7047dc9",
+  "pages": 3,
+  "pages_other": 3,
+  "coverage": 0.995
+ },
+ {
+  "id": "en-docx-63f906b7f8",
+  "reason": "no PDF from the producer"
+ },
+ {
+  "id": "en-docx-57ad4ee6b4",
+  "pages": 3,
+  "pages_other": 4,
+  "coverage": 0.9956
+ },
+ {
+  "id": "en-docx-544406eaaf",
+  "pages": 7,
+  "pages_other": 6,
+  "coverage": 0.9931
+ },
+ {
+  "id": "en-docx-fcbcdd4b4f",
+  "pages": 2,
+  "pages_other": 2,
+  "coverage": 1.0
+ }
+]

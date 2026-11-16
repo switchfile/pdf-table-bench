@@ -1,0 +1,7 @@
+{
+ "date": "2026-11-16",
+ "switchfile": "2026-11-16 12:36\u201312:42",
+ "cloudconvert": "2026-11-16 09:52\u201310:00",
+ "local": "2026-11-16 09:52\u201311:45",
+ "note": "UTC; open tools in the candidates container on a shared server (4 cores, no network), switchfile and CloudConvert through their public APIs"
+}

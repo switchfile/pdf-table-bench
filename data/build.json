@@ -1,0 +1,758 @@
+[
+ {
+  "id": "en-xlsx-5cca2a494d",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "en-xlsx-65ae10eaf4",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "en-xlsx-8ea546b304",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "en-xlsx-35ba3bc2e4",
+  "pages": 3,
+  "tables": 1,
+  "cells": 211,
+  "coverage": 0.9915,
+  "sheets": [
+   "Spending Cases"
+  ]
+ },
+ {
+  "id": "en-xlsx-0c0d7368a4",
+  "pages": 1,
+  "tables": 1,
+  "cells": 50,
+  "coverage": 1.0,
+  "sheets": [
+   "Sheet1"
+  ]
+ },
+ {
+  "id": "en-xlsx-7041590741",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-7d46d6f1e1",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "en-xlsx-bc8376b5b1",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "en-xlsx-6134eb065a",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "en-xlsx-3e677a9c40",
+  "pages": 1,
+  "tables": 1,
+  "cells": 396,
+  "coverage": 0.997,
+  "sheets": [
+   "25K Expenditure Report - Apr 23"
+  ]
+ },
+ {
+  "id": "en-xlsx-b0f71dd7f9",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-b151062294",
+  "pages": 1,
+  "tables": 1,
+  "cells": 42,
+  "coverage": 1.0,
+  "sheets": [
+   "Sheet1"
+  ]
+ },
+ {
+  "id": "en-xlsx-43f53985ef",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-a210d1300f",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "en-xlsx-dff6555425",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "en-xlsx-a440878f40",
+  "pages": 12,
+  "tables": 1,
+  "cells": 1553,
+  "coverage": 0.9991,
+  "sheets": [
+   "Sheet1"
+  ]
+ },
+ {
+  "id": "en-xlsx-49d85ebd9c",
+  "reason": "time limit"
+ },
+ {
+  "id": "en-xlsx-38f34ed167",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "en-xlsx-35c504b4e6",
+  "reason": "time limit"
+ },
+ {
+  "id": "en-xlsx-5b9948a835",
+  "pages": 1,
+  "tables": 1,
+  "cells": 368,
+  "coverage": 1.0,
+  "sheets": [
+   "25K Expenditure Report - Jun 24"
+  ]
+ },
+ {
+  "id": "en-xlsx-6aaffe9d66",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "en-xlsx-78b2fa4e93",
+  "pages": 2,
+  "tables": 1,
+  "cells": 854,
+  "coverage": 1.0,
+  "sheets": [
+   "Travel"
+  ]
+ },
+ {
+  "id": "en-xlsx-414147d3c5",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-840de04748",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "de-xlsx-76a7055067",
+  "pages": 4,
+  "tables": 1,
+  "cells": 196,
+  "coverage": 1.0,
+  "sheets": [
+   "Tabelle1"
+  ]
+ },
+ {
+  "id": "de-xlsx-3bbaaebf10",
+  "pages": 2,
+  "tables": 2,
+  "cells": 596,
+  "coverage": 0.9795,
+  "sheets": [
+   "Info",
+   "seit 1980"
+  ]
+ },
+ {
+  "id": "de-xlsx-ef46c88ea0",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "de-xlsx-00e41fd59a",
+  "pages": 1,
+  "tables": 1,
+  "cells": 53,
+  "coverage": 1.0,
+  "sheets": [
+   "Tabelle1"
+  ]
+ },
+ {
+  "id": "de-xlsx-269e17eeec",
+  "reason": "page limit"
+ },
+ {
+  "id": "de-xlsx-c8641d9e72",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "de-xlsx-49a3d205be",
+  "pages": 2,
+  "tables": 2,
+  "cells": 846,
+  "coverage": 0.9908,
+  "sheets": [
+   "Info",
+   "seit 1980"
+  ]
+ },
+ {
+  "id": "de-xlsx-ffc543b7d2",
+  "reason": "page limit"
+ },
+ {
+  "id": "de-xlsx-d58081082b",
+  "pages": 3,
+  "tables": 2,
+  "cells": 822,
+  "coverage": 0.9933,
+  "sheets": [
+   "Info",
+   "seit 1980"
+  ]
+ },
+ {
+  "id": "de-xlsx-419cd9607c",
+  "pages": 6,
+  "tables": 1,
+  "cells": 878,
+  "coverage": 1.0,
+  "sheets": [
+   "Tabelle1"
+  ]
+ },
+ {
+  "id": "fr-xlsx-654a0e80c4",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-c2fbb1a209",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-5ff8d78c29",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-275949c971",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-5e5046f461",
+  "pages": 2,
+  "tables": 1,
+  "cells": 189,
+  "coverage": 1.0,
+  "sheets": [
+   "nuits carrées"
+  ]
+ },
+ {
+  "id": "fr-xlsx-2682f341dd",
+  "pages": 2,
+  "tables": 1,
+  "cells": 48,
+  "coverage": 1.0,
+  "sheets": [
+   "Lexique"
+  ]
+ },
+ {
+  "id": "fr-xlsx-8da5c90bd7",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "fr-xlsx-bb1c190040",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-227833729c",
+  "pages": 5,
+  "tables": 1,
+  "cells": 45,
+  "coverage": 0.9836,
+  "sheets": [
+   "phare"
+  ]
+ },
+ {
+  "id": "fr-xlsx-f5407c4838",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-xlsx-f8fe7f69b3",
+  "pages": 1,
+  "tables": 1,
+  "cells": 31,
+  "coverage": 1.0,
+  "sheets": [
+   "Feuil1"
+  ]
+ },
+ {
+  "id": "fr-xlsx-d6f01efdd5",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-557f396618",
+  "pages": 5,
+  "tables": 1,
+  "cells": 1249,
+  "coverage": 1.0,
+  "sheets": [
+   "bpe_2021_tcm"
+  ]
+ },
+ {
+  "id": "fr-xlsx-267b9faa9d",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-d2059bc698",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-4781ee3ae5",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-xlsx-6b758ca569",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-bc4edf0449",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-53ee6aec15",
+  "pages": 4,
+  "tables": 1,
+  "cells": 154,
+  "coverage": 1.0,
+  "sheets": [
+   "Data"
+  ]
+ },
+ {
+  "id": "fr-xlsx-bf62103ea7",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-xlsx-ca1b0fd68b",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-xlsx-ca818ff10f",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-3c77a555d1",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-6cd827abaa",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-2a7ff955e4",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-f8792b1df4",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-c595ec15b6",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-72c86c4fe6",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-xlsx-2b38676baa",
+  "pages": 4,
+  "tables": 1,
+  "cells": 126,
+  "coverage": 1.0,
+  "sheets": [
+   "synthèse"
+  ]
+ },
+ {
+  "id": "fr-xlsx-247471ad07",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-868b8c832a",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-e090d33e8d",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-xlsx-4a7f82eafd",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-856f650d7b",
+  "pages": 14,
+  "tables": 1,
+  "cells": 2120,
+  "coverage": 1.0,
+  "sheets": [
+   "Data"
+  ]
+ },
+ {
+  "id": "fr-xlsx-6334ac290e",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-6c411f8c7b",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "fr-xlsx-d6bfe6dc51",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-xlsx-3dc34f2488",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-xlsx-c4ad5d2152",
+  "reason": "sheet too small or too large"
+ },
+ {
+  "id": "fr-xlsx-b2a4b1d007",
+  "reason": "sheet too small or too large, page limit"
+ },
+ {
+  "id": "fr-docx-ddbbc2ea20",
+  "pages": 20,
+  "tables": 14,
+  "cells": 87,
+  "coverage": 0.9992
+ },
+ {
+  "id": "fr-docx-3b8b01e979",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-docx-eb0ef2469f",
+  "pages": 3,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.9809
+ },
+ {
+  "id": "fr-docx-2a11524583",
+  "pages": 1,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-docx-27ad832070",
+  "pages": 1,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-docx-7fd276ab82",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "fr-docx-e03598a7c5",
+  "pages": 4,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-docx-46441b96ca",
+  "pages": 1,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-docx-e400e30b17",
+  "pages": 4,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-docx-02d869272f",
+  "reason": "page limit"
+ },
+ {
+  "id": "fr-docx-23ad3ac6d0",
+  "pages": 1,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-docx-f11db9a714",
+  "reason": "page limit"
+ },
+ {
+  "id": "de-docx-3c6474aac3",
+  "reason": "too little text"
+ },
+ {
+  "id": "de-docx-aa64f85c6f",
+  "pages": 1,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-docx-84bae19394",
+  "reason": "page limit"
+ },
+ {
+  "id": "de-docx-451c06f7fb",
+  "pages": 19,
+  "tables": 11,
+  "cells": 272,
+  "coverage": 0.9858
+ },
+ {
+  "id": "de-docx-72e83f0a9b",
+  "pages": 4,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.9979
+ },
+ {
+  "id": "de-docx-b22ed73b6c",
+  "pages": 16,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.9981
+ },
+ {
+  "id": "de-docx-816ce08138",
+  "reason": "page limit"
+ },
+ {
+  "id": "de-docx-77beeaad70",
+  "pages": 5,
+  "tables": 1,
+  "cells": 166,
+  "coverage": 0.9936
+ },
+ {
+  "id": "de-docx-3a043cc5a1",
+  "pages": 5,
+  "tables": 1,
+  "cells": 166,
+  "coverage": 0.9936
+ },
+ {
+  "id": "de-docx-d6e1cb15c9",
+  "pages": 2,
+  "tables": 1,
+  "cells": 8,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-docx-ac009d8b54",
+  "pages": 6,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.9994
+ },
+ {
+  "id": "de-docx-8b255933cc",
+  "pages": 1,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-docx-6ac54a2a05",
+  "reason": "PDF text not in the truth (below 0.85)"
+ },
+ {
+  "id": "en-docx-96d9d39294",
+  "pages": 1,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-cdf0a378a5",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "en-docx-d0a9a87c05",
+  "pages": 8,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.9982
+ },
+ {
+  "id": "en-docx-d9dbde027a",
+  "reason": "tracked changes (print shows deleted text)"
+ },
+ {
+  "id": "en-docx-eec9a76936",
+  "pages": 11,
+  "tables": 3,
+  "cells": 237,
+  "coverage": 0.9993
+ },
+ {
+  "id": "en-docx-75e588c6f1",
+  "pages": 13,
+  "tables": 4,
+  "cells": 225,
+  "coverage": 0.9937
+ },
+ {
+  "id": "en-docx-fcc33ae211",
+  "pages": 3,
+  "tables": 1,
+  "cells": 12,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-1f99bcfea6",
+  "pages": 18,
+  "tables": 7,
+  "cells": 331,
+  "coverage": 0.9984
+ },
+ {
+  "id": "en-docx-0564abb7b3",
+  "pages": 5,
+  "tables": 10,
+  "cells": 634,
+  "coverage": 0.9985
+ },
+ {
+  "id": "en-docx-8d4b6bcbbd",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-docx-9a9563d088",
+  "pages": 11,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.9995
+ },
+ {
+  "id": "en-docx-7ea9d029e8",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-docx-ee34dcf199",
+  "pages": 13,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.9972
+ },
+ {
+  "id": "en-docx-13d923c45e",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-docx-f774e69ecc",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-docx-eb004b9323",
+  "pages": 3,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-ac6fb18b1e",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-docx-98989999fe",
+  "reason": "removed after review: personal data of third parties (2026-11-15)"
+ },
+ {
+  "id": "en-docx-3a1f2c0c4c",
+  "pages": 2,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.9975
+ },
+ {
+  "id": "en-docx-77b20b9ab0",
+  "pages": 1,
+  "tables": 1,
+  "cells": 24,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-598cb03a5a",
+  "pages": 11,
+  "tables": 2,
+  "cells": 49,
+  "coverage": 0.9931
+ },
+ {
+  "id": "en-docx-7194cc80ec",
+  "pages": 3,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.9951
+ },
+ {
+  "id": "en-docx-2e30e111a8",
+  "pages": 1,
+  "tables": 1,
+  "cells": 66,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-05b7047dc9",
+  "pages": 3,
+  "tables": 0,
+  "cells": 0,
+  "coverage": 0.995
+ },
+ {
+  "id": "en-docx-63f906b7f8",
+  "pages": 14,
+  "tables": 5,
+  "cells": 91,
+  "coverage": 0.9984
+ },
+ {
+  "id": "en-docx-57ad4ee6b4",
+  "pages": 4,
+  "tables": 5,
+  "cells": 445,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-docx-11d1bab40c",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-docx-7df1315d52",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-docx-544406eaaf",
+  "pages": 6,
+  "tables": 2,
+  "cells": 111,
+  "coverage": 0.9931
+ },
+ {
+  "id": "en-docx-fcbcdd4b4f",
+  "pages": 2,
+  "tables": 1,
+  "cells": 411,
+  "coverage": 1.0
+ }
+]

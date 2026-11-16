@@ -1,0 +1,4032 @@
+Freie und Hansestadt Hamburg
+Behörde für Verkehr und Mobilitätswende
+Amt Verkehr / Verkehrs- und Infrastrukturdaten
+Zählstelle
+Ebene
+Bezeichnung
+1013
+371 Krohnstieg NO Garstedter Weg
+1013
+371 Krohnstieg NO Garstedter Weg
+1013
+371 Krohnstieg NO Garstedter Weg
+1013
+371 Krohnstieg NO Garstedter Weg
+1017
+372 Garstedter Weg SW Krohnstieg
+1017
+372 Garstedter Weg SW Krohnstieg
+1017
+372 Garstedter Weg SW Krohnstieg
+1017
+372 Garstedter Weg SW Krohnstieg
+1018
+373 Swebenweg W Krohnstieg
+1018
+373 Swebenweg W Krohnstieg
+1018
+373 Swebenweg W Krohnstieg
+1018
+373 Swebenweg W Krohnstieg
+1022
+367 Zeppelinstraße N Terminalzufahrten (UFu)
+1022
+367 Zeppelinstraße N Terminalzufahrten (UFu)
+1022
+367 Zeppelinstraße N Terminalzufahrten (UFu)
+1022
+367 Zeppelinstraße N Terminalzufahrten (UFu)
+1035
+2 Kollaustraße SO Vogt-Cordes-Damm
+1035
+2 Kollaustraße SO Vogt-Cordes-Damm
+1035
+2 Kollaustraße SO Vogt-Cordes-Damm
+1035
+2 Kollaustraße SO Vogt-Cordes-Damm
+1041
+344 A23 NW AD Hamburg-Nordwest
+1041
+344 A23 NW AD Hamburg-Nordwest
+1041
+344 A23 NW AD Hamburg-Nordwest
+1041
+344 A23 NW AD Hamburg-Nordwest
+1043
+343 A7 NO AD Hamburg-Nordwest
+1043
+343 A7 NO AD Hamburg-Nordwest
+1043
+343 A7 NO AD Hamburg-Nordwest
+1043
+343 A7 NO AD Hamburg-Nordwest
+1045
+342 A7 SO AD Hamburg-Nordwest
+1045
+342 A7 SO AD Hamburg-Nordwest
+1045
+342 A7 SO AD Hamburg-Nordwest
+1045
+342 A7 SO AD Hamburg-Nordwest
+1054
+10 Luruper Hauptstraße O Engelbrechtweg (Landesgrenze)
+1054
+10 Luruper Hauptstraße O Engelbrechtweg (Landesgrenze)
+1054
+10 Luruper Hauptstraße O Engelbrechtweg (Landesgrenze)
+1054
+10 Luruper Hauptstraße O Engelbrechtweg (Landesgrenze)
+1061
+11 Fruchtallee NW Emilienstraße
+1061
+11 Fruchtallee NW Emilienstraße
+1061
+11 Fruchtallee NW Emilienstraße
+1061
+11 Fruchtallee NW Emilienstraße
+1077
+9 Doormannsweg SW Fruchtallee
+1077
+9 Doormannsweg SW Fruchtallee
+1077
+9 Doormannsweg SW Fruchtallee
+1077
+9 Doormannsweg SW Fruchtallee
+1081
+3 Habichtstraße NW Meisenstraße
+1081
+3 Habichtstraße NW Meisenstraße
+1081
+3 Habichtstraße NW Meisenstraße
+1081
+3 Habichtstraße NW Meisenstraße
+1097
+4 Wandsbeker Marktstraße SW Wandsbeker Königstraße
+1097
+4 Wandsbeker Marktstraße SW Wandsbeker Königstraße
+1097
+4 Wandsbeker Marktstraße SW Wandsbeker Königstraße
+1097
+4 Wandsbeker Marktstraße SW Wandsbeker Königstraße
+1102
+13 Wallringtunnel N Deichtorplatz
+1102
+13 Wallringtunnel N Deichtorplatz
+1102
+13 Wallringtunnel N Deichtorplatz
+1102
+13 Wallringtunnel N Deichtorplatz
+1114
+5 Deichtortunnel O Meßberg
+
+Kategorie
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+DTV (Kfz/24h)
+51000 52000 52000 53000 52000 52000 51000 52000 50000 52000 53000 51000 51000 52000 51000 51000 42000
+DTVw (Kfz/24h)
+56000 56000 57000 58000 57000 56000 56000 57000 55000 56000 57000 56000 56000 56000 56000 56000 46000
+SV-Anteil am DTVw (%)
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+5
+5
+5
+4
+5
+5
+5
+Baustelleneinfluss
+DTV (Kfz/24h)
+12000 11000 11000 11000 11000 11000 11000 11000 11000 11000 12000 12000 13000 12000 12000 12000 10000
+DTVw (Kfz/24h)
+13000 13000 13000 13000 13000 12000 12000 13000 13000 13000 13000 14000 15000 14000 14000 14000 12000
+SV-Anteil am DTVw (%)
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+4
+4
+5
+4
+4
+4
+4
+Baustelleneinfluss
+DTV (Kfz/24h)
+42000 43000 43000 44000 43000 43000 43000 44000 43000 43000 44000 41000 41000 42000 42000 42000 35000
+DTVw (Kfz/24h)
+46000 46000 47000 48000 47000 47000 47000 48000 47000 47000 47000 45000 44000 45000 45000 45000 38000
+SV-Anteil am DTVw (%)
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+5
+5
+5
+5
+5
+5
+5
+Baustelleneinfluss
+DTV (Kfz/24h)
+39000 40000 41000 41000 41000 40000 41000 43000 42000 43000 45000 45000 46000 47000 47000 46000 36000
+DTVw (Kfz/24h)
+44000 45000 46000 46000 46000 46000 47000 49000 48000 49000 51000 51000 51000 52000 52000 52000 41000
+SV-Anteil am DTVw (%)
+6
+6
+6
+5
+5
+5
+5
+5
+5
+5
+5
+4
+4
+4
+4
+4
+4
+Baustelleneinfluss
+DTV (Kfz/24h)
+58000 58000
+57000 56000 53000 51000 51000 50000 48000 51000 51000 51000 52000 51000 51000 45000
+DTVw (Kfz/24h)
+65000 65000
+64000 63000 60000 57000 57000 57000 54000 57000 57000 57000 59000 58000 57000 51000
+SV-Anteil am DTVw (%)
+3
+3
+3
+3
+3
+3
+4
+4
+4
+4
+4
+4
+Baustelleneinfluss
+B
+B
+B
+DTV (Kfz/24h)
+81000 80000 81000 82000 82000 81000 82000 83000 83000 84000 85000 82000 76000 74000 75000 77000 83000
+DTVw (Kfz/24h)
+88000 87000 88000 90000 89000 88000 89000 90000 90000 91000 91000 87000 81000 78000 80000 81000 90000
+SV-Anteil am DTVw (%)
+11
+11
+11
+11
+11
+12
+12
+11
+11
+11
+11
+11
+12
+12
+10
+9
+8
+Baustelleneinfluss
+B
+B
+B
+B
+B
+B
+B
+DTV (Kfz/24h)
+104000 102000 103000 106000 106000 104000 102000 104000 102000 105000 105000 101000 95000 94000 91000 88000 95000
+DTVw (Kfz/24h)
+110000 109000 111000 115000 114000 111000 109000 111000 109000 112000 111000 108000 101000 99000 96000 93000 102000
+SV-Anteil am DTVw (%)
+14
+14
+15
+14
+14
+14
+14
+14
+14
+14
+14
+13
+13
+13
+14
+13
+12
+Baustelleneinfluss
+B
+B
+B
+B
+B
+B
+B
+DTV (Kfz/24h)
+140000 138000 138000 141000 140000 136000 134000 135000 133000 136000 134000 131000 126000 121000 120000 120000 115000
+DTVw (Kfz/24h)
+150000 147000 148000 152000 151000 146000 144000 145000 143000 146000 142000 139000 133000 128000 127000 126000 124000
+SV-Anteil am DTVw (%)
+14
+14
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+15
+14
+13
+Baustelleneinfluss
+B
+B
+B
+B
+B
+B
+B
+DTV (Kfz/24h)
+20000 23000 22000 23000 22000 23000 22000 22000 22000 22000 21000 22000 23000 24000 23000 22000 21000
+DTVw (Kfz/24h)
+23000 25000 25000 25000 25000 25000 25000 25000 24000 24000 24000 25000 26000 27000 25000 24000 23000
+SV-Anteil am DTVw (%)
+7
+7
+6
+7
+6
+6
+7
+Baustelleneinfluss
+DTV (Kfz/24h)
+52000
+51000 49000 49000 48000 49000 49000 49000 48000 48000 49000 48000 45000 47000 41000
+DTVw (Kfz/24h)
+58000
+58000 55000 55000 54000 54000 55000 54000 53000 53000 54000 53000 50000 52000 46000
+SV-Anteil am DTVw (%)
+5
+5
+5
+5
+5
+5
+5
+6
+6
+6
+6
+5
+6
+6
+6
+Baustelleneinfluss
+B
+B
+B
+DTV (Kfz/24h)
+37000 37000
+37000 36000 36000 35000 35000 34000 36000 36000 35000 34000 35000 35000 31000 25000
+DTVw (Kfz/24h)
+40000 40000
+41000 40000 40000 39000 39000 38000 38000 38000 37000 36000 38000 37000 33000 27000
+SV-Anteil am DTVw (%)
+3
+4
+4
+4
+3
+3
+3
+4
+4
+4
+4
+4
+5
+4
+Baustelleneinfluss
+B
+B
+B
+DTV (Kfz/24h)
+46000 45000 45000 45000 44000 44000 43000 42000 42000 42000 42000 44000 44000 41000 41000 31000 35000
+DTVw (Kfz/24h)
+50000 49000 49000 49000 49000 49000 48000 46000 47000 47000 46000 48000 48000 44000 44000 32000 38000
+SV-Anteil am DTVw (%)
+4
+4
+6
+6
+6
+6
+6
+6
+6
+Baustelleneinfluss
+B
+B
+DTV (Kfz/24h)
+43000 43000 42000 42000 42000 41000 41000 42000 40000 41000 43000 41000 40000 39000 36000 41000 34000
+DTVw (Kfz/24h)
+48000 48000 47000 47000 47000 46000 45000 46000 44000 45000 47000 45000 44000 43000 40000 45000 38000
+SV-Anteil am DTVw (%)
+6
+4
+4
+3
+4
+4
+4
+Baustelleneinfluss
+DTV (Kfz/24h)
+31000 30000 30000 30000 30000 32000 32000 32000 31000 31000 31000
+32000
+31000 30000
+DTVw (Kfz/24h)
+36000 34000 34000 35000 35000 37000 37000 37000 35000 35000 35000
+36000
+35000 34000
+SV-Anteil am DTVw (%)
+7
+7
+8
+8
+8
+8
+6
+5
+5
+Baustelleneinfluss
+B
+B
+B
+B
+DTV (Kfz/24h)
+61000 62000 62000 60000 57000 58000 54000 56000 56000 53000 55000 57000 57000 57000 58000 57000 49000
+
+1114
+1114
+1114
+1123
+1123
+1123
+1123
+1134
+1134
+1134
+1134
+1145
+1145
+1145
+1145
+1154
+1154
+1154
+1154
+1164
+1164
+1164
+1164
+1173
+1173
+1173
+1173
+1188
+1188
+1188
+1188
+1196
+1196
+1196
+1196
+1204
+1204
+1204
+1204
+1205
+1205
+1205
+1205
+1208
+1208
+1208
+1208
+1212
+1212
+1212
+1212
+1221
+1221
+1221
+1221
+2018
+2018
+2018
+2018
+2028
+2028
+2028
+2028
+
+5 Deichtortunnel O Meßberg
+5 Deichtortunnel O Meßberg
+5 Deichtortunnel O Meßberg
+381 Oberbaumbrücke NO Poggenmühle
+381 Oberbaumbrücke NO Poggenmühle
+381 Oberbaumbrücke NO Poggenmühle
+381 Oberbaumbrücke NO Poggenmühle
+382 Überseeallee O Shanghaiallee
+382 Überseeallee O Shanghaiallee
+382 Überseeallee O Shanghaiallee
+382 Überseeallee O Shanghaiallee
+15 A7 SO AS HH-Othmarschen (Elbtunnel)
+15 A7 SO AS HH-Othmarschen (Elbtunnel)
+15 A7 SO AS HH-Othmarschen (Elbtunnel)
+15 A7 SO AS HH-Othmarschen (Elbtunnel)
+16 Köhlbrandbrücke O Waltershofer Damm
+16 Köhlbrandbrücke O Waltershofer Damm
+16 Köhlbrandbrücke O Waltershofer Damm
+16 Köhlbrandbrücke O Waltershofer Damm
+14 Veddeler Damm O Worthdamm
+14 Veddeler Damm O Worthdamm
+14 Veddeler Damm O Worthdamm
+14 Veddeler Damm O Worthdamm
+6 Neue Elbbrücke NO Veddeler Marktplatz
+6 Neue Elbbrücke NO Veddeler Marktplatz
+6 Neue Elbbrücke NO Veddeler Marktplatz
+6 Neue Elbbrücke NO Veddeler Marktplatz
+338 A252 W AK Hamburg-Süd
+338 A252 W AK Hamburg-Süd
+338 A252 W AK Hamburg-Süd
+338 A252 W AK Hamburg-Süd
+337 A1 S AK Hamburg-Süd
+337 A1 S AK Hamburg-Süd
+337 A1 S AK Hamburg-Süd
+337 A1 S AK Hamburg-Süd
+335 A1 O AD Hamburg-Südost
+335 A1 O AD Hamburg-Südost
+335 A1 O AD Hamburg-Südost
+335 A1 O AD Hamburg-Südost
+336 A25 SO AD Hamburg-Südost
+336 A25 SO AD Hamburg-Südost
+336 A25 SO AD Hamburg-Südost
+336 A25 SO AD Hamburg-Südost
+334 A1 W AD Hamburg-Südost
+334 A1 W AD Hamburg-Südost
+334 A1 W AD Hamburg-Südost
+334 A1 W AD Hamburg-Südost
+17 A253 N AS HH-Neuland (Europabrücke)
+17 A253 N AS HH-Neuland (Europabrücke)
+17 A253 N AS HH-Neuland (Europabrücke)
+17 A253 N AS HH-Neuland (Europabrücke)
+8 Buxtehuder Straße NW Bleicherweg
+8 Buxtehuder Straße NW Bleicherweg
+8 Buxtehuder Straße NW Bleicherweg
+8 Buxtehuder Straße NW Bleicherweg
+306 Tarpen W Essener Straße (Landesgrenze)
+306 Tarpen W Essener Straße (Landesgrenze)
+306 Tarpen W Essener Straße (Landesgrenze)
+306 Tarpen W Essener Straße (Landesgrenze)
+289 Meenkwiese W Meenkbrücke
+289 Meenkwiese W Meenkbrücke
+289 Meenkwiese W Meenkbrücke
+289 Meenkwiese W Meenkbrücke
+
+DTVw (Kfz/24h)
+67000 69000 70000 67000 62000
+SV-Anteil am DTVw (%)
+9
+9
+9
+9
+10
+Baustelleneinfluss
+B
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+115000 114000 114000 117000 116000
+DTVw (Kfz/24h)
+122000 121000 122000 125000 123000
+SV-Anteil am DTVw (%)
+18
+16
+16
+18
+17
+Baustelleneinfluss
+B
+B
+DTV (Kfz/24h)
+27000 29000 28000 28000 28000
+DTVw (Kfz/24h)
+34000 36000 35000 35000 35000
+SV-Anteil am DTVw (%)
+35
+35
+36
+38
+39
+Baustelleneinfluss
+DTV (Kfz/24h)
+21000 21000 21000 22000 21000
+DTVw (Kfz/24h)
+26000 26000 27000 27000 27000
+SV-Anteil am DTVw (%)
+27
+29
+30
+31
+32
+Baustelleneinfluss
+DTV (Kfz/24h)
+113000 111000 110000 109000 110000
+DTVw (Kfz/24h)
+126000 125000 124000 122000 123000
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+66000 64000 64000 66000 63000
+DTVw (Kfz/24h)
+76000 74000 74000 76000 72000
+SV-Anteil am DTVw (%)
+16
+16
+17
+18
+18
+Baustelleneinfluss
+DTV (Kfz/24h)
+119000 117000
+108000
+DTVw (Kfz/24h)
+128000 125000
+115000
+SV-Anteil am DTVw (%)
+19
+19
+21
+Baustelleneinfluss
+B
+B
+DTV (Kfz/24h)
+94000 91000 89000
+DTVw (Kfz/24h)
+102000 99000 97000
+SV-Anteil am DTVw (%)
+26
+25
+26
+Baustelleneinfluss
+B
+B
+B
+DTV (Kfz/24h)
+41000 41000 40000
+DTVw (Kfz/24h)
+47000 47000 46000
+SV-Anteil am DTVw (%)
+13
+13
+14
+Baustelleneinfluss
+B
+B
+B
+DTV (Kfz/24h)
+105000 103000 101000 104000
+DTVw (Kfz/24h)
+115000 113000 112000 114000
+SV-Anteil am DTVw (%)
+25
+24
+25
+25
+Baustelleneinfluss
+B
+B
+B
+DTV (Kfz/24h)
+49000 48000 49000 54000 52000
+DTVw (Kfz/24h)
+55000 54000 56000 62000 60000
+SV-Anteil am DTVw (%)
+8
+8
+9
+11
+13
+Baustelleneinfluss
+DTV (Kfz/24h)
+32000 32000 33000 33000 33000
+DTVw (Kfz/24h)
+35000 36000 37000 36000 36000
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+17000 17000 17000 18000 17000
+DTVw (Kfz/24h)
+19000 19000 19000 20000 19000
+SV-Anteil am DTVw (%)
+4
+5
+5
+4
+4
+Baustelleneinfluss
+DTV (Kfz/24h)
+6000
+7000
+7000
+7000
+6000
+DTVw (Kfz/24h)
+7000
+7000
+8000
+8000
+7000
+SV-Anteil am DTVw (%)
+7
+5
+5
+6
+6
+Baustelleneinfluss
+
+64000
+10
+
+59000
+9
+
+61000
+10
+
+61000
+10
+
+59000
+7
+
+60000
+7
+
+62000
+7
+
+62000
+7
+
+62000
+7
+
+63000
+7
+
+62000
+6
+
+55000
+6
+
+13000
+15000
+5
+
+13000
+15000
+6
+
+14000
+16000
+5
+
+14000
+16000
+4
+
+14000
+16000
+4
+
+15000
+17000
+4
+
+11000
+13000
+4
+
+11000
+14000
+6
+
+11000
+14000
+7
+
+10000
+12000
+7
+
+12000
+14000
+7
+
+13000
+15000
+7
+
+14000
+16000
+7
+
+12000
+14000
+6
+
+B
+
+111000 111000 112000 110000 115000 107000 115000 117000 115000 117000 112000 104000
+120000 119000 120000 118000 123000 113000 122000 124000 123000 124000 119000 112000
+19
+19
+19
+18
+16
+17
+17
+16
+17
+18
+17
+17
+B
+B
+B
+B
+B
+B
+B
+27000 24000 24000 26000 29000 28000 29000 29000 32000 33000 33000 31000
+34000 30000 29000 33000 37000 34000 36000 35000 39000 40000 40000 38000
+36
+36
+40
+38
+36
+36
+35
+35
+34
+33
+32
+33
+B
+B
+19000 19000 18000 19000
+20000 19000 20000 22000 24000 24000 21000
+24000 24000 23000 24000
+25000 24000 25000 27000 28000 29000 26000
+30
+30
+31
+30
+28
+28
+28
+28
+27
+26
+28
+110000 110000
+122000 123000
+
+109000 115000 114000 118000 118000
+123000 128000 127000 130000 130000
+6
+6
+8
+8
+8
+B
+B
+B
+B
+63000 61000 68000 69000 67000 67000 68000 71000 72000
+72000 71000 78000 80000 77000 77000 80000 80000 79000
+18
+18
+18
+17
+17
+16
+17
+14
+14
+B
+115000 117000 112000
+114000 117000 119000
+123000 126000 120000
+126000 128000 129000
+19
+19
+20
+17
+17
+16
+B
+B
+B
+94000 97000 95000 92000 92000 95000 105000 113000 105000
+102000 106000 105000 101000 101000 104000 114000 123000 117000
+23
+23
+24
+25
+26
+26
+25
+25
+25
+B
+39000 38000 38000 40000 39000 38000 43000 47000 46000
+45000 44000 43000 46000 44000 43000 49000 53000 53000
+13
+13
+12
+12
+12
+12
+12
+13
+12
+B
+106000 107000 104000 102000 104000 107000 116000 117000 117000
+115000 118000 115000 113000 114000 118000 128000 128000 131000
+23
+23
+24
+24
+24
+24
+23
+24
+23
+B
+49000 46000 54000 56000 51000 52000 50000
+46000
+56000 53000 61000 64000 58000 59000 57000
+52000
+11
+11
+11
+10
+9
+9
+10
+8
+B
+B
+B
+32000 31000 32000 33000 33000 30000 31000 32000 30000
+36000 35000 35000 37000 37000 33000 35000 35000 33000
+8
+8
+7
+6
+6
+6
+5
+
+116000 117000 106000
+128000 128000 118000
+8
+8
+8
+
+30000
+34000
+6
+
+30000
+33000
+5
+
+27000
+30000
+5
+
+16000
+18000
+4
+
+16000
+18000
+4
+
+17000
+18000
+4
+
+18000
+20000
+4
+
+17000
+19000
+4
+
+17000
+19000
+5
+
+17000
+19000
+4
+
+19000
+21000
+3
+
+18000
+20000
+3
+
+18000
+20000
+3
+
+17000
+19000
+3
+
+14000
+16000
+2
+
+6000
+7000
+6
+
+7000
+7000
+6
+
+7000
+7000
+6
+
+6000
+7000
+6
+
+7000
+7000
+6
+
+6000
+7000
+6
+
+6000
+6000
+6
+
+6000
+6000
+6
+
+6000
+7000
+6
+
+6000
+7000
+6
+
+7000
+8000
+5
+
+5000
+6000
+6
+
+67000
+72000
+12
+
+64000
+68000
+12
+
+B
+125000 124000 117000
+135000 132000 126000
+17
+18
+15
+B
+112000 113000
+122000 122000
+24
+24
+48000
+54000
+11
+
+51000
+56000
+10
+
+127000 125000 110000
+137000 136000 123000
+21
+21
+22
+47000
+52000
+8
+
+45000
+50000
+7
+B
+
+38000
+42000
+7
+B
+
+2031
+2031
+2031
+2031
+2042
+2042
+2042
+2042
+2056
+2056
+2056
+2056
+
+150 Pinneberger Straße NW Siloahweg (Landesgrenze)
+150 Pinneberger Straße NW Siloahweg (Landesgrenze)
+150 Pinneberger Straße NW Siloahweg (Landesgrenze)
+150 Pinneberger Straße NW Siloahweg (Landesgrenze)
+151 Holsteiner Chaussee N Schleswiger Damm (Landesgrenze)
+151 Holsteiner Chaussee N Schleswiger Damm (Landesgrenze)
+151 Holsteiner Chaussee N Schleswiger Damm (Landesgrenze)
+151 Holsteiner Chaussee N Schleswiger Damm (Landesgrenze)
+153 Holsteiner Chaussee S Marek-James-Straße
+153 Holsteiner Chaussee S Marek-James-Straße
+153 Holsteiner Chaussee S Marek-James-Straße
+153 Holsteiner Chaussee S Marek-James-Straße
+
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+
+9000
+11000
+6
+
+9000
+10000
+8
+
+9000
+10000
+8
+
+8000
+9000
+8
+
+8000
+10000
+7
+
+9000
+10000
+7
+
+9000
+10000
+7
+
+9000
+9000
+5
+
+8000
+9000
+6
+
+8000
+9000
+6
+
+8000
+9000
+6
+
+8000
+9000
+6
+
+9000
+9000
+6
+
+9000
+10000
+6
+
+9000
+10000
+6
+
+9000
+10000
+6
+
+7000
+8000
+5
+
+13000
+14000
+3
+
+14000
+15000
+2
+
+14000
+15000
+5
+
+13000
+15000
+4
+
+14000
+16000
+4
+
+14000
+15000
+3
+
+14000
+15000
+3
+
+14000
+15000
+3
+
+14000
+16000
+3
+
+14000
+15000
+3
+
+14000
+16000
+3
+
+13000
+15000
+2
+
+14000
+16000
+3
+
+14000
+16000
+3
+
+15000
+16000
+3
+
+15000
+16000
+3
+
+12000
+13000
+2
+
+7000
+8000
+4
+
+7000
+8000
+4
+
+7000
+8000
+5
+
+7000
+7000
+4
+
+7000
+8000
+5
+
+7000
+8000
+4
+
+7000
+8000
+4
+
+7000
+8000
+4
+
+7000
+8000
+4
+
+7000
+8000
+3
+
+7000
+7000
+3
+
+7000
+7000
+3
+
+7000
+8000
+3
+
+7000
+8000
+3
+
+8000
+9000
+4
+
+8000
+9000
+4
+
+6000
+7000
+2
+
+2065
+2065
+2065
+2065
+2076
+2076
+2076
+2076
+2082
+2082
+2082
+2082
+2091
+2091
+2091
+2091
+2104
+2104
+2104
+2104
+2111
+2111
+2111
+2111
+2113
+2113
+2113
+2113
+2115
+2115
+2115
+2115
+2118
+2118
+2118
+2118
+2121
+2121
+2121
+2121
+2123
+2123
+2123
+2123
+2125
+2125
+2125
+2125
+2127
+2127
+2127
+2127
+2134
+2134
+2134
+2134
+2141
+2141
+2141
+2141
+2152
+2152
+2152
+
+152 Schleswiger Damm SO Marek-James-Straße
+152 Schleswiger Damm SO Marek-James-Straße
+152 Schleswiger Damm SO Marek-James-Straße
+152 Schleswiger Damm SO Marek-James-Straße
+27 Holsteiner Chaussee S A23 AS HH-Eidelstedt
+27 Holsteiner Chaussee S A23 AS HH-Eidelstedt
+27 Holsteiner Chaussee S A23 AS HH-Eidelstedt
+27 Holsteiner Chaussee S A23 AS HH-Eidelstedt
+121 Holsteiner Chaussee N A23 AS HH-Eidelstedt
+121 Holsteiner Chaussee N A23 AS HH-Eidelstedt
+121 Holsteiner Chaussee N A23 AS HH-Eidelstedt
+121 Holsteiner Chaussee N A23 AS HH-Eidelstedt
+26 A23 NW AS HH-Eidelstedt
+26 A23 NW AS HH-Eidelstedt
+26 A23 NW AS HH-Eidelstedt
+26 A23 NW AS HH-Eidelstedt
+345 Papenreye O Kollaustraße
+345 Papenreye O Kollaustraße
+345 Papenreye O Kollaustraße
+345 Papenreye O Kollaustraße
+154 Schleswiger Damm NW Wendlohstraße
+154 Schleswiger Damm NW Wendlohstraße
+154 Schleswiger Damm NW Wendlohstraße
+154 Schleswiger Damm NW Wendlohstraße
+155 Wendlohstraße NO Frohmestraße
+155 Wendlohstraße NO Frohmestraße
+155 Wendlohstraße NO Frohmestraße
+155 Wendlohstraße NO Frohmestraße
+156 Frohmestraße SO Wendlohstraße
+156 Frohmestraße SO Wendlohstraße
+156 Frohmestraße SO Wendlohstraße
+156 Frohmestraße SO Wendlohstraße
+157 Frohmestraße W Schleswiger Damm
+157 Frohmestraße W Schleswiger Damm
+157 Frohmestraße W Schleswiger Damm
+157 Frohmestraße W Schleswiger Damm
+112 Borsteler Chaussee NW Alsterkrugchaussee
+112 Borsteler Chaussee NW Alsterkrugchaussee
+112 Borsteler Chaussee NW Alsterkrugchaussee
+112 Borsteler Chaussee NW Alsterkrugchaussee
+113 Alsterkrugchaussee NO Deelböge
+113 Alsterkrugchaussee NO Deelböge
+113 Alsterkrugchaussee NO Deelböge
+113 Alsterkrugchaussee NO Deelböge
+114 Deelböge SO Alsterkrugchaussee
+114 Deelböge SO Alsterkrugchaussee
+114 Deelböge SO Alsterkrugchaussee
+114 Deelböge SO Alsterkrugchaussee
+115 Rosenbrook SW Deelböge
+115 Rosenbrook SW Deelböge
+115 Rosenbrook SW Deelböge
+115 Rosenbrook SW Deelböge
+162 Nedderfeld O Kollaustraße
+162 Nedderfeld O Kollaustraße
+162 Nedderfeld O Kollaustraße
+162 Nedderfeld O Kollaustraße
+149 Pinneberger Chaussee NW Wildacker (Landesgrenze)
+149 Pinneberger Chaussee NW Wildacker (Landesgrenze)
+149 Pinneberger Chaussee NW Wildacker (Landesgrenze)
+149 Pinneberger Chaussee NW Wildacker (Landesgrenze)
+272 Norderstedt - Niendorfer Straße N Krohnstieg (Landesgrenze)
+272 Norderstedt - Niendorfer Straße N Krohnstieg (Landesgrenze)
+272 Norderstedt - Niendorfer Straße N Krohnstieg (Landesgrenze)
+
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+
+9000
+10000
+5
+
+10000
+11000
+5
+
+10000
+11000
+5
+
+10000
+11000
+5
+
+10000
+11000
+6
+
+10000
+11000
+5
+
+9000
+11000
+5
+
+9000
+10000
+5
+
+9000
+10000
+5
+
+9000
+10000
+5
+
+9000
+10000
+5
+
+9000
+10000
+5
+
+9000
+10000
+5
+
+10000
+11000
+5
+
+9000
+10000
+4
+
+9000
+10000
+5
+
+9000
+10000
+4
+
+24000
+26000
+6
+
+24000
+27000
+5
+
+24000
+26000
+5
+
+24000
+27000
+5
+
+23000
+26000
+5
+
+24000
+26000
+5
+
+24000
+27000
+5
+
+24000
+27000
+5
+
+23000
+26000
+5
+
+22000
+25000
+5
+
+24000
+27000
+5
+
+25000
+28000
+5
+
+26000
+29000
+5
+
+27000
+30000
+5
+
+27000
+30000
+5
+
+27000
+30000
+5
+
+21000
+24000
+5
+
+18000
+20000
+7
+
+19000
+21000
+6
+
+19000
+21000
+6
+
+19000
+21000
+7
+
+19000
+21000
+7
+
+18000
+20000
+6
+
+18000
+20000
+6
+
+18000
+20000
+7
+
+18000
+20000
+7
+
+17000
+19000
+7
+
+75000
+80000
+10
+
+76000
+81000
+12
+
+76000
+81000
+13
+
+78000
+83000
+12
+
+79000
+85000
+12
+
+76000
+82000
+12
+
+75000
+81000
+12
+
+76000
+82000
+12
+
+76000
+82000
+12
+
+76000
+82000
+12
+
+27000
+30000
+3
+
+29000
+32000
+3
+
+30000
+33000
+3
+
+27000
+31000
+3
+
+27000
+30000
+3
+
+26000
+29000
+3
+
+28000
+31000
+3
+
+27000
+30000
+3
+
+26000
+29000
+3
+
+26000
+29000
+3
+
+26000
+29000
+3
+
+25000
+28000
+3
+
+24000
+27000
+3
+
+26000
+29000
+3
+
+26000
+29000
+3
+
+25000
+28000
+3
+
+22000
+24000
+2
+
+28000
+31000
+4
+
+28000
+31000
+3
+
+28000
+32000
+3
+
+29000
+32000
+4
+
+28000
+32000
+4
+
+28000
+31000
+4
+
+27000
+30000
+4
+
+29000
+32000
+3
+
+29000
+33000
+3
+
+28000
+31000
+3
+
+31000
+34000
+3
+
+30000
+34000
+3
+
+30000
+33000
+3
+
+29000
+32000
+3
+
+28000
+30000
+3
+
+27000
+29000
+3
+
+28000
+31000
+3
+
+8000
+8000
+3
+
+8000
+8000
+3
+
+7000
+8000
+3
+
+8000
+9000
+3
+
+8000
+9000
+3
+
+7000
+8000
+3
+
+7000
+8000
+3
+
+8000
+9000
+3
+
+8000
+9000
+3
+
+8000
+9000
+2
+
+36000
+40000
+4
+
+37000
+41000
+4
+
+36000
+41000
+4
+
+36000
+40000
+4
+
+35000
+40000
+4
+
+35000
+39000
+4
+
+34000
+38000
+4
+
+36000
+40000
+4
+
+36000
+41000
+4
+
+36000
+40000
+4
+
+16000
+18000
+5
+
+16000
+18000
+5
+
+16000
+18000
+5
+
+16000
+18000
+5
+
+16000
+17000
+5
+
+16000
+17000
+5
+
+15000
+17000
+5
+
+16000
+18000
+4
+
+16000
+18000
+4
+
+17000
+19000
+4
+
+24000
+27000
+5
+
+23000
+26000
+4
+
+24000
+26000
+4
+
+22000
+25000
+4
+
+23000
+25000
+4
+
+23000
+25000
+4
+
+23000
+26000
+4
+
+23000
+25000
+4
+
+21000
+24000
+4
+
+22000
+25000
+4
+
+22000
+25000
+4
+
+22000
+24000
+4
+
+23000
+25000
+4
+
+23000
+26000
+4
+
+23000
+25000
+4
+
+22000
+24000
+3
+
+21000
+23000
+3
+
+36000
+40000
+2
+
+35000
+40000
+2
+
+36000
+40000
+2
+
+36000
+40000
+4
+
+36000
+40000
+4
+
+36000
+40000
+2
+
+36000
+40000
+2
+
+37000
+41000
+2
+
+36000
+40000
+2
+
+36000
+40000
+2
+
+36000
+40000
+2
+
+36000
+40000
+2
+
+36000
+39000
+2
+
+25000
+28000
+2
+
+50000
+56000
+4
+
+49000
+55000
+4
+
+48000
+54000
+4
+
+49000
+55000
+3
+
+48000
+53000
+3
+
+46000
+51000
+4
+
+43000
+47000
+4
+
+44000
+49000
+4
+
+43000
+48000
+4
+
+46000
+50000
+4
+
+47000
+51000
+3
+
+48000
+53000
+3
+
+46000
+51000
+3
+
+43000
+48000
+3
+
+66000
+74000
+3
+
+64000
+72000
+3
+
+63000
+71000
+3
+
+63000
+70000
+4
+
+61000
+68000
+4
+
+61000
+67000
+3
+
+58000
+65000
+3
+
+60000
+66000
+3
+
+59000
+66000
+3
+
+61000
+67000
+3
+
+61000
+68000
+3
+
+61000
+67000
+3
+
+61000
+67000
+3
+
+50000
+56000
+2
+
+20000
+22000
+3
+
+20000
+22000
+3
+
+20000
+22000
+3
+
+21000
+24000
+3
+
+20000
+22000
+3
+
+20000
+22000
+3
+
+20000
+22000
+4
+
+18000
+19000
+3
+
+B
+
+B
+18000
+21000
+6
+
+B
+
+B
+77000
+82000
+12
+
+B
+
+B
+
+B
+
+B
+52000
+58000
+4
+
+B
+
+B
+
+B
+
+B
+16000
+18000
+4
+
+B
+
+B
+
+B
+
+B
+
+B
+8000
+8000
+3
+
+35000
+39000
+3
+
+17000
+18000
+4
+
+7000
+8000
+2
+B
+
+35000
+38000
+4
+B
+
+18000
+20000
+4
+B
+
+76000
+82000
+7
+B
+
+B
+7000
+8000
+2
+
+36000
+40000
+3
+
+B
+73000
+78000
+9
+
+B
+
+B
+
+10000
+11000
+7
+
+35000
+39000
+3
+B
+
+18000
+20000
+4
+B
+
+17000
+18000
+3
+B
+
+B
+42000
+47000
+4
+
+B
+68000
+76000
+3
+
+B
+17000
+19000
+4
+
+B
+
+B
+37000
+41000
+3
+
+B
+72000
+77000
+10
+
+7000
+8000
+2
+
+B
+23000
+26000
+5
+
+B
+35000
+39000
+2
+
+B
+51000
+57000
+4
+
+B
+
+B
+
+B
+
+B
+7000
+8000
+2
+
+B
+22000
+24000
+6
+
+71000
+75000
+11
+B
+
+B
+
+39000
+43000
+3
+
+18000
+20000
+3
+
+B
+
+B
+
+B
+
+B
+20000
+22000
+6
+
+72000
+77000
+12
+
+7000
+8000
+2
+
+39000
+43000
+3
+B
+
+B
+
+B
+
+B
+8000
+9000
+2
+
+B
+21000
+23000
+6
+
+77000
+82000
+11
+B
+
+B
+
+36000
+40000
+2
+
+B
+20000
+22000
+6
+
+B
+58000
+65000
+3
+
+B
+
+B
+
+26000
+29000
+3
+
+26000
+29000
+5
+
+24000
+27000
+4
+
+24000
+27000
+4
+
+23000
+26000
+4
+
+23000
+26000
+4
+
+24000
+26000
+4
+
+24000
+27000
+3
+
+22000
+25000
+3
+
+8000
+9000
+10
+
+8000
+9000
+8
+
+8000
+9000
+8
+
+8000
+9000
+7
+
+9000
+10000
+6
+
+9000
+10000
+6
+
+8000
+9000
+6
+
+9000
+10000
+5
+
+9000
+10000
+5
+
+9000
+10000
+5
+
+9000
+10000
+4
+
+10000
+11000
+4
+
+10000
+11000
+3
+
+11000
+12000
+3
+
+10000
+11000
+3
+
+11000
+12000
+3
+
+13000
+14000
+3
+
+22000
+25000
+6
+
+22000
+24000
+6
+
+22000
+25000
+7
+
+21000
+24000
+6
+
+22000
+24000
+7
+
+21000
+24000
+6
+
+22000
+24000
+6
+
+22000
+24000
+6
+
+22000
+25000
+6
+
+22000
+25000
+6
+
+24000
+27000
+6
+
+24000
+27000
+6
+
+25000
+27000
+6
+
+26000
+29000
+6
+
+27000
+30000
+5
+
+28000
+30000
+5
+
+22000
+25000
+4
+
+B
+
+2152
+2163
+2163
+2163
+2163
+
+272 Norderstedt - Niendorfer Straße N Krohnstieg (Landesgrenze)
+387 Oldesloer Straße NO Swebenweg (Landesgrenze)
+387 Oldesloer Straße NO Swebenweg (Landesgrenze)
+387 Oldesloer Straße NO Swebenweg (Landesgrenze)
+387 Oldesloer Straße NO Swebenweg (Landesgrenze)
+
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+
+21000
+23000
+7
+
+21000
+23000
+8
+
+21000
+23000
+8
+
+21000
+23000
+8
+
+18000
+20000
+7
+
+2172
+2172
+2172
+2172
+2173
+2173
+2173
+2173
+2176
+2176
+2176
+2176
+2177
+2177
+2177
+2177
+2181
+2181
+2181
+2181
+2192
+2192
+2192
+2192
+2194
+2194
+2194
+2194
+2196
+2196
+2196
+2196
+2198
+2198
+2198
+2198
+2206
+2206
+2206
+2206
+2212
+2212
+2212
+2212
+2221
+2221
+2221
+2221
+2223
+2223
+2223
+2223
+2225
+2225
+2225
+2225
+2227
+2227
+2227
+2227
+2228
+2228
+2228
+
+323 A7 N AS HH-Schnelsen-Nord (Landesgrenze)
+323 A7 N AS HH-Schnelsen-Nord (Landesgrenze)
+323 A7 N AS HH-Schnelsen-Nord (Landesgrenze)
+323 A7 N AS HH-Schnelsen-Nord (Landesgrenze)
+106 Oldesloer Straße NO A7 AS HH-Schnelsen-Nord
+106 Oldesloer Straße NO A7 AS HH-Schnelsen-Nord
+106 Oldesloer Straße NO A7 AS HH-Schnelsen-Nord
+106 Oldesloer Straße NO A7 AS HH-Schnelsen-Nord
+104 A7 S AS HH-Schnelsen-Nord
+104 A7 S AS HH-Schnelsen-Nord
+104 A7 S AS HH-Schnelsen-Nord
+104 A7 S AS HH-Schnelsen-Nord
+105 Oldesloer Straße SW A7 AS HH-Schnelsen-Nord
+105 Oldesloer Straße SW A7 AS HH-Schnelsen-Nord
+105 Oldesloer Straße SW A7 AS HH-Schnelsen-Nord
+105 Oldesloer Straße SW A7 AS HH-Schnelsen-Nord
+58 Schleswiger Damm NW AS HH-Schnelsen
+58 Schleswiger Damm NW AS HH-Schnelsen
+58 Schleswiger Damm NW AS HH-Schnelsen
+58 Schleswiger Damm NW AS HH-Schnelsen
+108 Kollaustraße N Osterfeldstraße
+108 Kollaustraße N Osterfeldstraße
+108 Kollaustraße N Osterfeldstraße
+108 Kollaustraße N Osterfeldstraße
+109 Osterfeldstraße O Kollaustraße
+109 Osterfeldstraße O Kollaustraße
+109 Osterfeldstraße O Kollaustraße
+109 Osterfeldstraße O Kollaustraße
+110 Lokstedter Steindamm S Osterfeldstraße
+110 Lokstedter Steindamm S Osterfeldstraße
+110 Lokstedter Steindamm S Osterfeldstraße
+110 Lokstedter Steindamm S Osterfeldstraße
+111 Vogt-Wells-Straße W Lokstedter Steindamm
+111 Vogt-Wells-Straße W Lokstedter Steindamm
+111 Vogt-Wells-Straße W Lokstedter Steindamm
+111 Vogt-Wells-Straße W Lokstedter Steindamm
+309 Ohkamp S Flughafenstraße
+309 Ohkamp S Flughafenstraße
+309 Ohkamp S Flughafenstraße
+309 Ohkamp S Flughafenstraße
+318 Hummelsbütteler Landstraße N Brombeerweg
+318 Hummelsbütteler Landstraße N Brombeerweg
+318 Hummelsbütteler Landstraße N Brombeerweg
+318 Hummelsbütteler Landstraße N Brombeerweg
+378 Karlshöher Weg NW Berner Heerweg
+378 Karlshöher Weg NW Berner Heerweg
+378 Karlshöher Weg NW Berner Heerweg
+378 Karlshöher Weg NW Berner Heerweg
+379 Berner Heerweg NO Berner Brücke
+379 Berner Heerweg NO Berner Brücke
+379 Berner Heerweg NO Berner Brücke
+379 Berner Heerweg NO Berner Brücke
+380 Berner Brücke SO Berner Heerweg
+380 Berner Brücke SO Berner Heerweg
+380 Berner Brücke SO Berner Heerweg
+380 Berner Brücke SO Berner Heerweg
+303 Berner Heerweg SW Berner Allee
+303 Berner Heerweg SW Berner Allee
+303 Berner Heerweg SW Berner Allee
+303 Berner Heerweg SW Berner Allee
+260 Berner Allee W Berner Heerweg
+260 Berner Allee W Berner Heerweg
+260 Berner Allee W Berner Heerweg
+
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+
+70000
+73000
+14
+
+68000
+73000
+14
+
+69000
+73000
+15
+
+68000
+72000
+15
+
+68000
+73000
+16
+
+68000
+73000
+15
+
+67000
+72000
+15
+
+69000
+74000
+14
+
+68000
+73000
+14
+
+68000
+74000
+14
+
+55000
+62000
+6
+
+55000
+61000
+6
+
+54000
+61000
+6
+
+57000
+64000
+6
+
+56000
+63000
+6
+
+57000
+63000
+6
+
+58000
+64000
+5
+
+60000
+66000
+5
+
+59000
+66000
+6
+
+59000
+66000
+5
+
+67000
+71000
+15
+B
+
+69000
+73000
+15
+B
+
+61000
+68000
+5
+
+66000
+70000
+15
+B
+
+59000
+65000
+5
+
+67000
+71000
+15
+B
+
+55000
+61000
+6
+
+65000
+68000
+16
+B
+
+53000
+58000
+6
+
+65000
+69000
+15
+B
+
+54000
+59000
+6
+
+54000
+60000
+5
+
+B
+B
+B
+B
+B
+B
+95000 96000 96000 98000 98000 97000 96000 98000 97000 97000 97000 96000 89000 87000 88000 89000
+102000 102000 103000 105000 105000 104000 103000 105000 105000 105000 104000 102000 95000 92000 93000 94000
+12
+12
+13
+13
+13
+13
+13
+11
+12
+12
+12
+12
+13
+13
+13
+13
+B
+B
+B
+B
+B
+B
+16000 16000 16000 15000 15000 16000 16000 16000 15000 16000 16000 16000 15000 16000 17000 17000
+18000 18000 18000 17000 17000 17000 17000 18000 17000 18000 18000 17000 17000 18000 19000 19000
+5
+5
+5
+5
+4
+4
+4
+4
+5
+4
+3
+4
+5
+4
+4
+4
+B
+B
+B
+B
+B
+B
+20000 20000 19000 20000 19000 19000 19000 19000 19000 18000 19000 19000 19000 20000 20000 19000
+22000 22000 22000 22000 22000 22000 21000 21000 21000 20000 21000 21000 21000 23000 22000 21000
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+4
+4
+4
+4
+
+18000
+20000
+3
+
+47000
+53000
+4
+
+47000
+53000
+4
+
+47000
+52000
+4
+
+46000
+52000
+4
+
+46000
+51000
+4
+
+45000
+51000
+4
+
+44000
+49000
+4
+
+43000
+48000
+4
+
+43000
+48000
+4
+
+33000
+36000
+4
+
+33000
+37000
+4
+
+33000
+37000
+4
+
+32000
+36000
+4
+
+33000
+37000
+4
+
+33000
+37000
+4
+
+34000
+38000
+4
+
+33000
+37000
+4
+
+33000
+37000
+4
+
+33000
+37000
+4
+
+33000
+37000
+4
+
+32000
+35000
+4
+
+31000
+35000
+4
+
+31000
+34000
+3
+
+30000
+34000
+3
+
+30000
+33000
+3
+
+29000
+33000
+3
+
+29000
+33000
+3
+
+48000
+53000
+5
+
+47000
+52000
+4
+
+47000
+52000
+4
+
+45000
+51000
+5
+
+46000
+52000
+4
+
+46000
+52000
+5
+
+46000
+51000
+5
+
+46000
+51000
+5
+
+45000
+50000
+5
+
+4000
+5000
+
+4000
+4000
+1
+
+4000
+4000
+1
+
+4000
+4000
+1
+
+4000
+4000
+1
+
+4000
+4000
+1
+
+4000
+4000
+1
+
+4000
+4000
+2
+
+19000
+21000
+3
+
+18000
+21000
+4
+
+20000
+22000
+3
+
+19000
+21000
+3
+
+19000
+21000
+3
+
+18000
+21000
+3
+
+18000
+20000
+3
+
+13000
+15000
+6
+
+14000
+15000
+7
+
+13000
+15000
+6
+
+13000
+15000
+5
+
+14000
+15000
+6
+
+15000
+17000
+2
+
+15000
+17000
+2
+
+13000
+15000
+2
+
+14000
+16000
+2
+
+24000
+27000
+4
+
+24000
+27000
+5
+
+24000
+26000
+4
+
+21000
+23000
+3
+
+21000
+23000
+3
+
+21000
+23000
+4
+
+12000
+14000
+3
+
+12000
+14000
+3
+
+12000
+14000
+3
+
+40000
+45000
+4
+
+39000
+43000
+4
+
+40000
+44000
+4
+
+41000
+45000
+4
+
+41000
+45000
+4
+
+43000
+47000
+4
+
+42000
+46000
+4
+
+42000
+47000
+4
+
+33000
+37000
+4
+
+32000
+36000
+4
+
+33000
+37000
+4
+
+33000
+37000
+4
+
+34000
+38000
+3
+
+34000
+38000
+4
+
+31000
+34000
+4
+
+29000
+32000
+4
+
+28000
+31000
+4
+
+27000
+30000
+4
+
+27000
+30000
+4
+
+28000
+31000
+4
+
+28000
+31000
+4
+
+29000
+32000
+4
+
+29000
+32000
+4
+
+28000
+31000
+4
+
+43000
+48000
+5
+
+43000
+47000
+4
+
+44000
+49000
+4
+
+45000
+50000
+4
+
+46000
+51000
+4
+
+46000
+51000
+4
+
+43000
+47000
+4
+
+42000
+46000
+4
+
+4000
+4000
+2
+
+4000
+5000
+2
+
+4000
+4000
+4
+
+4000
+4000
+3
+
+4000
+4000
+3
+
+4000
+4000
+3
+
+4000
+4000
+3
+
+4000
+4000
+3
+
+19000
+21000
+4
+
+18000
+21000
+4
+
+18000
+20000
+4
+
+18000
+20000
+4
+
+18000
+20000
+4
+
+19000
+21000
+3
+
+18000
+20000
+3
+
+18000
+19000
+4
+
+18000
+20000
+4
+
+14000
+16000
+6
+
+15000
+17000
+5
+
+14000
+16000
+6
+
+14000
+16000
+6
+
+14000
+15000
+6
+
+14000
+16000
+6
+
+14000
+15000
+6
+
+14000
+15000
+6
+
+14000
+15000
+6
+
+14000
+16000
+6
+
+12000
+13000
+5
+
+15000
+17000
+2
+
+15000
+16000
+2
+
+16000
+17000
+2
+
+14000
+16000
+2
+
+14000
+16000
+2
+
+13000
+15000
+2
+
+14000
+16000
+2
+
+14000
+16000
+2
+
+14000
+15000
+2
+
+14000
+16000
+2
+
+14000
+16000
+2
+
+10000
+11000
+2
+
+23000
+26000
+4
+
+24000
+27000
+4
+
+24000
+27000
+4
+
+25000
+28000
+4
+
+24000
+26000
+4
+
+24000
+27000
+4
+
+23000
+26000
+4
+
+24000
+26000
+4
+
+24000
+26000
+4
+
+24000
+26000
+4
+
+24000
+26000
+4
+
+25000
+28000
+4
+
+21000
+23000
+3
+
+20000
+22000
+3
+
+19000
+22000
+3
+
+20000
+22000
+3
+
+20000
+22000
+3
+
+21000
+24000
+3
+
+19000
+22000
+3
+
+19000
+21000
+3
+
+18000
+20000
+3
+
+18000
+20000
+3
+
+18000
+20000
+3
+
+18000
+20000
+3
+
+19000
+21000
+3
+
+19000
+21000
+3
+
+14000
+16000
+3
+
+12000
+13000
+3
+
+12000
+13000
+4
+
+12000
+13000
+3
+
+12000
+13000
+3
+
+11000
+13000
+3
+
+11000
+13000
+4
+
+11000
+13000
+3
+
+11000
+12000
+3
+
+11000
+13000
+3
+
+12000
+13000
+3
+
+12000
+13000
+3
+
+12000
+13000
+3
+
+12000
+13000
+3
+
+9000
+10000
+3
+
+B
+
+B
+
+B
+
+B
+
+2228
+2234
+2234
+2234
+2234
+
+260 Berner Allee W Berner Heerweg
+299 Steilshooper Allee O Eichenlohweg
+299 Steilshooper Allee O Eichenlohweg
+299 Steilshooper Allee O Eichenlohweg
+299 Steilshooper Allee O Eichenlohweg
+
+Baustelleneinfluss
+DTV (Kfz/24h)
+DTVw (Kfz/24h)
+SV-Anteil am DTVw (%)
+Baustelleneinfluss
+
+37000
+41000
+3
+
+37000
+42000
+3
+
+39000
+44000
+3
+
+37000
+41000
+3
+
+36000
+40000
+3
+
+35000
+39000
+3
+
+36000
+40000
+3
+
+36000
+40000
+3
+
+36000
+40000
+3
+
+37000
+41000
+3
+
+38000
+42000
+3
+
+36000
+40000
+2
+
+35000
+39000
+2
+
+35000
+39000
+2
+
+34000
+37000
+2
+
+33000
+36000
+3
+
+29000
+32000
+3
+
+

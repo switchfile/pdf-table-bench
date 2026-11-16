@@ -1,0 +1,61 @@
+| COMMUNE_NOM        | COLL_INSEE | DATE_MAJ   | CODE_BUREAU |     |
+| ------------------ | ---------- | ---------- | ----------- | --- |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 1   |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 2   |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 3   |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 4   |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 5   |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 6   |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 7   |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 8   |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 9   |
+| Saint-Paul-lès-Dax | 40279      | 2019-03-28 |             | 10  |
+
+LIBELLE_BUREAU
+ECOLE H. LAVIELLE - SALLE N° 1
+ECOLE H. LAVIELLE - SALLE N° 2
+ECOLE H. LAVIELLE - SALLE N° 3
+ECOLE H. LAVIELLE - SALLE N° 4
+ECOLE H. LAVIELLE - SALLE N° 5
+ECOLE H. LAVIELLE - SALLE N° 6
+ECOLE H. LAVIELLE - SALLE N° 7
+ECOLE H. LAVIELLE - SALLE N° 8
+MAISON ASSOCIATIONS SALLE N°9
+MAISON ASSOCIATIONS SALLE N°10
+
+ADRESSE_COMPLETE NUMERO_VOIE
+111 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 111
+111 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 111
+111 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 111
+111 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 111
+111 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 111
+111 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 111
+111 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 111
+111 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 111
+235 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 235
+235 AVENUE DU MARECHAL FOCH 40990 SAINT-PAUL-LES-DAX 235
+
+| LIBELLE_VOIE             | CODE_POSTAL | CIRC_LEG | CANTON        | NB_PRINC |
+| ------------------------ | ----------- | -------- | ------------- | -------- |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 932      |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 921      |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 912      |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 1026     |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 943      |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 921      |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 858      |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 846      |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 938      |
+| AVENUE DU MARECHAL FOCH  | 40990       | 40-02    | 40-05 - Dax-1 | 953      |
+
+NB_COMP NB_EUROP
+6 6
+9 9
+8 8
+6 6
+7 7
+10 10
+5 4
+6 6
+11 11
+7 5

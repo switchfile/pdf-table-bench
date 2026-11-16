@@ -1,0 +1,102 @@
+Linie: 1
+Zählung 2025
+Mo-Fr
+Durchschnittlicher Tageswert
+Haltestelle Ri: Bf. Altona Ri: S Rissen
+Name Einsteiger Aussteiger Einsteiger Aussteiger
+S Rissen 378 0 0 385
+Schule Marschweg 50 27 0 0
+Klövensteenweg (Süd) 21 1 3 33
+Suurheid 16 9 9 18
+Asklepios Westklinikum (West) 76 69 85 69
+Asklepios Westklinikum (Mitte) 91 41 29 91
+Asklepios Westklinikum (Ost) 251 163 146 248
+Bahnübergang Sieversstücken 64 10 22 97
+Sieversstücken 100 10 6 100
+Wittland (S Sülldorf) 51 55 0 0
+Anne-Frank-Straße 50 10 4 35
+Krähenhorst 52 5 5 62
+Karstenstraße 79 31 19 71
+S Blankenese 523 610 656 559
+Mühlenberg 45 44 43 45
+Frahmstraße 76 54 76 118
+Grotefendweg 56 106 118 53
+Darbovenstieg 34 74 60 34
+Sülldorfer Landstraße 162 129 131 151
+Pieperweg 28 34 34 36
+Holtbarg 108 79 114 95
+Schenefelder Holt 351 88 123 343
+Heerbrook 412 122 142 455
+Am Botterbarg 127 30 0 0
+Isfeldstraße 208 42 64 282
+Langelohstraße (Nord) 287 313 289 243
+Knabeweg 250 88 104 234
+Elbe-Einkaufszentrum 755 554 585 766
+Windmühlenweg 193 78 68 175
+Flottbeker Drift 195 121 128 182
+Zum Hünengrab (DESY) 287 132 118 330
+Stutsmoor 82 139 130 92
+Trabrennbahn Bahrenfeld 642 836 771 731
+Ebertallee 240 193 222 310
+Böcklinstraße 34 47 33 52
+S Othmarschen 480 934 1.035 453
+Röpers Weide 25 31 24 28
+Behringstraße (AK Altona) 36 451 492 79
+AK Altona (Eingang) 504 302 316 494
+Behringstraße (AK Altona) 392 36 46 299
+Griegstraße 347 171 143 479
+Kreuzkirche Ottensen 252 158 140 300
+Bleickenallee (Kinderkrankenhaus) 449 144 157 597
+Große Brunnenstraße 158 143 189 241
+Bahrenfelder Straße 54 154 121 96
+Bf. Altona 0 2.203 2.606 0
+
+S Sülldorf 0 0 0 0
+Blankeneser Friedhof 0 0 0 0
+Siebenbuchen 0 0 0 0
+Wulfsdal 0 0 0 0
+S Iserbrook 0 0 0 0
+Haus Rissen 0 0 16 55
+Ortwinstieg 0 0 2 8
+Linie: 2
+Zählung 2025
+Mo-Fr
+Durchschnittlicher Tageswert
+Haltestelle Ri: U S Berliner Tor Ri: Sch., Schenefelder Platz
+Name Einsteiger Aussteiger Einsteiger Aussteiger
+Engelbrechtweg 245 83 80 284
+Luckmoor 354 77 72 341
+Flurstraße (Nord) 385 163 170 322
+Eckhoffplatz (Lurup Center) 569 464 562 769
+Rugenbarg (Nord) 446 289 350 401
+Tannenberg 132 60 63 167
+Stadionstraße 106 207 185 104
+Luruper Chaussee (DESY) 201 189 143 157
+Trabrennbahn Bahrenfeld 473 584 582 558
+August-Kirch-Straße 287 111 97 340
+Silcherstraße 209 144 118 219
+Von-Sauer-Straße 609 280 282 620
+Bornkampsweg 706 211 244 633
+Celsiusweg 194 118 137 270
+S Ottensen 289 681 489 255
+Hohenesch 276 513 537 373
+Große Rainstraße 84 376 134 57
+Bf. Altona 1.231 1.810 1.011 813
+Rathaus Altona 213 192 161 230
+Behnstraße 98 195 106 122
+Fischmarkt 310 428 434 306
+Hafentreppe 198 122 127 158
+St. Pauli Hafenstraße 130 117 155 167
+U S Landungsbrücken 468 399 443 464
+Rambachstraße 98 63 56 68
+U Baumwall 181 177 185 184
+Am Kaiserkai (Elbphilharmonie) 470 370 383 361
+Am Sandtorkai 280 402 1 431
+Singapurstraße 370 639 917 383
+Ericusspitze 186 293 277 182
+U Steinstraße (Deichtorplatz) 39 358 158 17
+Hbf/Steintordamm 84 893 56 5
+Hauptbahnhof/ZOB 100 209 481 67
+Kurt-Schumacher-Allee 48 293 152 23
+U S Berliner Tor (Beim Strohhause) 0 352 345 0
+Auf dem Sande (Speicherstadt) 1 0 0 4

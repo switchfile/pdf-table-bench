@@ -1,0 +1,292 @@
+[
+ {
+  "id": "en-xlsx-35ba3bc2e4",
+  "pages": 3,
+  "pages_other": 3,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-xlsx-0c0d7368a4",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-xlsx-3e677a9c40",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-xlsx-b151062294",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-xlsx-a440878f40",
+  "pages": 12,
+  "pages_other": 12,
+  "coverage": 0.9991,
+  "resplit": true
+ },
+ {
+  "id": "en-xlsx-5b9948a835",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-xlsx-78b2fa4e93",
+  "pages": 2,
+  "pages_other": 2,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-xlsx-76a7055067",
+  "reason": "page blocks do not match the producer's print",
+  "pages": 4,
+  "rounded": 95
+ },
+ {
+  "id": "de-xlsx-00e41fd59a",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0,
+  "rounded": 7
+ },
+ {
+  "id": "de-xlsx-419cd9607c",
+  "pages": 6,
+  "pages_other": 6,
+  "coverage": 0.9968
+ },
+ {
+  "id": "fr-xlsx-5e5046f461",
+  "pages": 2,
+  "pages_other": 2,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-227833729c",
+  "pages": 6,
+  "pages_other": 5,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-f8fe7f69b3",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-xlsx-557f396618",
+  "pages": 5,
+  "pages_other": 5,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-xlsx-53ee6aec15",
+  "pages": 5,
+  "pages_other": 4,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-2b38676baa",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-xlsx-72e80465a7",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-xlsx-3ec75eda6f",
+  "pages": 6,
+  "pages_other": 6,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-xlsx-f8e1f974e0",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 0.9818
+ },
+ {
+  "id": "fr-xlsx-e3784832a0",
+  "pages": 2,
+  "pages_other": 2,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-265f49a66c",
+  "pages": 6,
+  "pages_other": 6,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-cc307ae3a4",
+  "pages": 6,
+  "pages_other": 6,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-ee383298b9",
+  "pages": 3,
+  "pages_other": 4,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-95a735682e",
+  "pages": 19,
+  "pages_other": 16,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-439dfd2771",
+  "pages": 9,
+  "pages_other": 6,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-5eaef2f465",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-xlsx-d2001111a2",
+  "pages": 7,
+  "pages_other": 7,
+  "coverage": 0.9986,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-f59a4214d3",
+  "pages": 3,
+  "pages_other": 3,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-165dbeac9a",
+  "pages": 2,
+  "pages_other": 2,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "fr-xlsx-2d354373bf",
+  "reason": "removed after review: personal data of third parties (2026-11-15)"
+ },
+ {
+  "id": "fr-xlsx-76cd7e2bfa",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "fr-xlsx-aaa510ba28",
+  "pages": 6,
+  "pages_other": 6,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-xlsx-36967b578c",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-xlsx-0ab954f487",
+  "pages": 6,
+  "pages_other": 4,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "en-xlsx-e8634c8958",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-xlsx-8fef54b211",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-xlsx-24dd6c23dd",
+  "pages": 4,
+  "pages_other": 7,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "de-xlsx-21b58572bb",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-xlsx-ceeca6d4d0",
+  "pages": 2,
+  "pages_other": 4,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "de-xlsx-5156559b03",
+  "pages": 6,
+  "pages_other": 4,
+  "coverage": 1.0,
+  "resplit": true
+ },
+ {
+  "id": "de-xlsx-2f6f8557b8",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-xlsx-4f4e6a3538",
+  "reason": "page blocks do not match the producer's print",
+  "pages": 6
+ },
+ {
+  "id": "en-xlsx-43b8598252",
+  "pages": 1,
+  "pages_other": 1,
+  "coverage": 1.0
+ },
+ {
+  "id": "en-xlsx-060b7463e7",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 0.991
+ },
+ {
+  "id": "en-xlsx-bea458d951",
+  "pages": 4,
+  "pages_other": 4,
+  "coverage": 1.0
+ },
+ {
+  "id": "de-xlsx-fa2af86144",
+  "reason": "page blocks do not match the producer's print",
+  "pages": 6
+ }
+]

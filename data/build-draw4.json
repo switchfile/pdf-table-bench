@@ -1,0 +1,127 @@
+[
+ {
+  "id": "en-xlsx-43b8598252",
+  "pages": 1,
+  "tables": 1,
+  "cells": 26,
+  "coverage": 1.0,
+  "sheets": [
+   "in"
+  ]
+ },
+ {
+  "id": "en-xlsx-060b7463e7",
+  "pages": 4,
+  "tables": 4,
+  "cells": 190,
+  "coverage": 0.988,
+  "sheets": [
+   "Sheet1"
+  ],
+  "crop": {
+   "Sheet1": "A1:I22"
+  }
+ },
+ {
+  "id": "en-xlsx-b43b5cca23",
+  "reason": "page blocks do not match the print"
+ },
+ {
+  "id": "en-xlsx-aa8d564284",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-4458881c20",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "en-xlsx-22f4c5deac",
+  "reason": "page blocks do not match the print"
+ },
+ {
+  "id": "en-xlsx-ab688f92bd",
+  "reason": "page block not on its own page"
+ },
+ {
+  "id": "en-xlsx-c6dfb25a25",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "en-xlsx-080ad3de0b",
+  "reason": "page limit"
+ },
+ {
+  "id": "en-xlsx-0434c4e67e",
+  "reason": "coverage below 0.97"
+ },
+ {
+  "id": "en-xlsx-9cc81f5c68",
+  "reason": "page block not on its own page"
+ },
+ {
+  "id": "en-xlsx-285b7ca074",
+  "reason": "publisher already has 2 files (draw 3)"
+ },
+ {
+  "id": "en-xlsx-49f233618c",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "en-xlsx-f49f8b0268",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "en-xlsx-bea458d951",
+  "pages": 4,
+  "tables": 4,
+  "cells": 799,
+  "coverage": 1.0,
+  "sheets": [
+   "Stats"
+  ],
+  "crop": {
+   "Stats": "A1:H100"
+  }
+ },
+ {
+  "id": "de-xlsx-1c6afa6b49",
+  "reason": "sheet too small or too large, page blocks do not match the print"
+ },
+ {
+  "id": "de-xlsx-1ccb8d1b36",
+  "reason": "page limit"
+ },
+ {
+  "id": "de-xlsx-fad72fefaa",
+  "reason": "sheet too small or too large, page blocks do not match the print"
+ },
+ {
+  "id": "de-xlsx-77c16790ba",
+  "reason": "sheet too small or too large, page blocks do not match the print"
+ },
+ {
+  "id": "de-xlsx-90ad51355a",
+  "reason": "page blocks do not match the print, page limit"
+ },
+ {
+  "id": "de-xlsx-fa2af86144",
+  "pages": 4,
+  "tables": 4,
+  "cells": 235,
+  "coverage": 0.9976,
+  "sheets": [
+   "Tabelle S. 1"
+  ],
+  "crop": {
+   "Tabelle S. 1": "A1:J65"
+  }
+ },
+ {
+  "id": "de-xlsx-a4c04bc85e",
+  "reason": "same content as de-xlsx-2f6f8557b8"
+ },
+ {
+  "id": "de-xlsx-2432a62624",
+  "reason": "same content as de-xlsx-5156559b03"
+ }
+]

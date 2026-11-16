@@ -1,0 +1,16 @@
+Le modèle ThermiPig est développé dans le langage Python. Il résulte de l’assemblage des modèles ThermiSim (Marcon _et al_ ., 2016) et InraPorc (van Milgen _et al_ ., 2008), auxquels sont associés des modules annexes permettant le fonctionnement avec un pas de temps horaire, intermédiaire entre leurs pas de temps respectifs de 30 secondes et 1 jour. La température de la salle d’engraissement résulte de l’équilibre entre la chaleur apportée par l’air entrant et celle produite par les animaux et le fonctionnement des équipements d’une part, et les déperditions par la ventilation ou les parois d’autre part. La production de chaleur de chaque porc du groupe est calculée toutes les heures, puis la production de chaleur horaire de tous les animaux présents est additionnée pour le calcul du bilan thermique à l’échelle de la salle. 
+
+En situation de stress thermique, quand la température ambiante dépasse la zone de confort thermique des porcs, un coeOicient d’abattement est appliqué à l’ingéré horaire. Au froid, le besoin en énergie pour la thermorégulation est supposé être compensé par une ingestion supplémentaire spontanée d’aliment dès que les porcs pèsent plus de 50 kg. Chez les porcs plus légers ou rationnés, la couverture du besoin de thermorégulation est réalisée au détriment de l’énergie disponible pour la croissance. 
+
+La salle d’engraissement est caractérisée par un ensemble de données statiques qui correspondent au nombre de places en engraissement et aux dimensions de la salle, à l’isolation des parois, au système de ventilation (nombre et diamètre des ventilateurs), aux ouvertures (nombre et dimensions) et aux autres équipements éventuellement présents (chauOage, _pad cooling_ ). Sont également considérées les règles de pilotage des équipements et leur consommation énergétique. 
+
+Des éléments de base de la conduite des animaux sont renseignés (niveau d’alimentation, caractéristiques des aliments). Le profil de croissance et d’ingestion des porcs en conditions de thermoneutralité, les poids d’entrée, l’objectif de poids de sortie, le nombre de départs et les caractéristiques nutritionnelles des aliments utilisés (teneurs en acides aminés, énergie digestible, métabolisable et nette) sont également décrits. 
+
+La température ambiante de la salle est simulée ainsi que les performances de croissance moyennes du groupe de porc présents dans la salle, la consommation d’énergie par les équipements. 
+
+# **Référence** 
+
+**Quiniou N., Cadéro A., Marcon M., Brossard L., 2021. Simuler avec le modèle bioclimatique ThermiPig les performances des porcs en croissance en tenant compte des conditions climatiques et des caractéristiques de la salle d’engraissement. Journées Rech. Porcine, 53, 89-94.** 
+
+**Le modèle ThermiPig est développé dans le cadre du projet PIGSYS. il simule le bilan thermique d'une salle d'engraissement de porcs selon le climat, les caractéristiques de la salle, des porcs et de la conduite.** 
+

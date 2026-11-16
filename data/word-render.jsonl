@@ -1,0 +1,37 @@
+{"id": "de-docx-3a043cc5a1", "rc": 0, "s": 1.13, "bytes": 32942, "net_out": 28479, "ok": true}
+{"id": "de-docx-451c06f7fb", "rc": 0, "s": 1.8, "bytes": 57515, "net_out": 1488, "ok": true}
+{"id": "de-docx-72e83f0a9b", "rc": 0, "s": 0.73, "bytes": 37718, "net_out": 23816, "ok": true}
+{"id": "de-docx-77beeaad70", "rc": 0, "s": 0.71, "bytes": 32949, "net_out": 1196, "ok": true}
+{"id": "de-docx-8b255933cc", "rc": 0, "s": 0.48, "bytes": 26567, "net_out": 3470, "ok": true}
+{"id": "de-docx-aa64f85c6f", "rc": 0, "s": 0.43, "bytes": 20806, "net_out": 23584, "ok": true}
+{"id": "de-docx-ac009d8b54", "rc": 0, "s": 0.7, "bytes": 37399, "net_out": 1228, "ok": true}
+{"id": "de-docx-b22ed73b6c", "rc": 0, "s": 1.18, "bytes": 58389, "net_out": 1164, "ok": true}
+{"id": "de-docx-d6e1cb15c9", "rc": 0, "s": 0.95, "bytes": 55376, "net_out": 7028, "ok": true}
+{"id": "en-docx-0564abb7b3", "rc": 0, "s": 1.59, "bytes": 42342, "net_out": 23554, "ok": true}
+{"id": "en-docx-05b7047dc9", "rc": 0, "s": 0.51, "bytes": 18442, "net_out": 3247, "ok": true}
+{"id": "en-docx-1f99bcfea6", "rc": 0, "s": 1.31, "bytes": 271748, "net_out": 1438, "ok": true}
+{"id": "en-docx-2e30e111a8", "rc": 0, "s": 0.58, "bytes": 101082, "net_out": 1438, "ok": true}
+{"id": "en-docx-3a1f2c0c4c", "rc": 0, "s": 0.48, "bytes": 16480, "net_out": 1475, "ok": true}
+{"id": "en-docx-544406eaaf", "rc": 0, "s": 0.93, "bytes": 1489072, "net_out": 29416, "ok": true}
+{"id": "en-docx-57ad4ee6b4", "rc": 0, "s": 1.08, "bytes": 37459, "net_out": 29470, "ok": true}
+{"id": "en-docx-598cb03a5a", "rc": 0, "s": 0.88, "bytes": 351525, "net_out": 7026, "ok": true}
+{"id": "en-docx-63f906b7f8", "rc": 1, "s": 180.13, "bytes": 292902, "error": "62:191: execution error: Microsoft Word got an error: AppleEvent timed out. (-1712)", "dialogs": "Microsoft Word: Word found unreadable content in <file>. Do you want to recover the contents of this document? If you trust the source of this document, click Yes.", "net_out": 13408, "ok": false, "note": "messages translated from the German user interface"}
+{"id": "en-docx-7194cc80ec", "rc": 0, "s": 0.46, "bytes": 19488, "net_out": 19503, "ok": true}
+{"id": "en-docx-75e588c6f1", "rc": 0, "s": 0.95, "bytes": 1304279, "net_out": 1250, "ok": true}
+{"id": "en-docx-77b20b9ab0", "rc": 0, "s": 0.49, "bytes": 15387, "net_out": 6704, "ok": true}
+{"id": "en-docx-96d9d39294", "rc": 0, "s": 0.47, "bytes": 20806, "net_out": 1198, "ok": true}
+{"id": "en-docx-9a9563d088", "rc": 0, "s": 0.75, "bytes": 122681, "net_out": 1198, "ok": true}
+{"id": "en-docx-d0a9a87c05", "rc": 0, "s": 0.83, "bytes": 54019, "net_out": 1198, "ok": true}
+{"id": "en-docx-eb004b9323", "rc": 0, "s": 0.47, "bytes": 16831, "net_out": 1438, "ok": true}
+{"id": "en-docx-ee34dcf199", "rc": 0, "s": 0.93, "bytes": 50887, "net_out": 29416, "ok": true}
+{"id": "en-docx-eec9a76936", "rc": 0, "s": 0.75, "bytes": 28772, "net_out": 1198, "ok": true}
+{"id": "en-docx-fcbcdd4b4f", "rc": 0, "s": 0.79, "bytes": 22717, "net_out": 1166, "ok": true, "net_out_first": 711955}
+{"id": "en-docx-fcc33ae211", "rc": 0, "s": 0.55, "bytes": 16574, "net_out": 23556, "ok": true}
+{"id": "fr-docx-23ad3ac6d0", "rc": 0, "s": 0.49, "bytes": 18527, "net_out": 5986, "ok": true}
+{"id": "fr-docx-27ad832070", "rc": 0, "s": 0.49, "bytes": 38343, "net_out": 1250, "ok": true}
+{"id": "fr-docx-2a11524583", "rc": 0, "s": 0.45, "bytes": 15709, "net_out": 6702, "ok": true}
+{"id": "fr-docx-46441b96ca", "rc": 0, "s": 0.47, "bytes": 16991, "net_out": 1198, "ok": true}
+{"id": "fr-docx-ddbbc2ea20", "rc": 0, "s": 1.72, "bytes": 143092, "net_out": 7078, "ok": true}
+{"id": "fr-docx-e03598a7c5", "rc": 0, "s": 0.57, "bytes": 31845, "net_out": 23588, "ok": true}
+{"id": "fr-docx-e400e30b17", "rc": 0, "s": 0.48, "bytes": 5669, "net_out": 3440, "ok": true, "net_out_first": 25862}
+{"id": "fr-docx-eb0ef2469f", "rc": 0, "s": 0.52, "bytes": 16282, "net_out": 1443, "ok": true}

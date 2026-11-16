@@ -1,0 +1,1122 @@
+{
+ "de-docx-3a043cc5a1-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-3a043cc5a1": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-451c06f7fb-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-451c06f7fb": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-72e83f0a9b-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-72e83f0a9b": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-77beeaad70-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-77beeaad70": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-8b255933cc-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-8b255933cc": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-aa64f85c6f-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-aa64f85c6f": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-ac009d8b54-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-ac009d8b54": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-b22ed73b6c-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-b22ed73b6c": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-d6e1cb15c9-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-docx-d6e1cb15c9": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-00e41fd59a-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-00e41fd59a": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-21b58572bb-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-21b58572bb": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-24dd6c23dd-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-24dd6c23dd": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-2f6f8557b8-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-2f6f8557b8": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-3ec75eda6f-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-3ec75eda6f": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-419cd9607c-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-419cd9607c": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-4f4e6a3538": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-5156559b03-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-5156559b03": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-76a7055067": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-8fef54b211-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-8fef54b211": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-ceeca6d4d0-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-ceeca6d4d0": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "de-xlsx-fa2af86144": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-0564abb7b3-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-0564abb7b3": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-05b7047dc9-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-05b7047dc9": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-1f99bcfea6-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-1f99bcfea6": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-2e30e111a8-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-2e30e111a8": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-3a1f2c0c4c-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-3a1f2c0c4c": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-544406eaaf-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-544406eaaf": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-57ad4ee6b4-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-57ad4ee6b4": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-598cb03a5a-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-598cb03a5a": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-63f906b7f8": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-7194cc80ec-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-7194cc80ec": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-75e588c6f1-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-75e588c6f1": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-77b20b9ab0-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-77b20b9ab0": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-96d9d39294-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-96d9d39294": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-9a9563d088-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-9a9563d088": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-d0a9a87c05-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-d0a9a87c05": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-eb004b9323-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-eb004b9323": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-ee34dcf199-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-ee34dcf199": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-eec9a76936-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-eec9a76936": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-fcbcdd4b4f-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-fcbcdd4b4f": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-fcc33ae211-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-docx-fcc33ae211": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-060b7463e7-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-060b7463e7": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-0ab954f487-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-0ab954f487": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-0c0d7368a4-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-0c0d7368a4": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-35ba3bc2e4-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-35ba3bc2e4": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-36967b578c-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-36967b578c": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-3e677a9c40-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-3e677a9c40": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-43b8598252-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-43b8598252": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-5b9948a835-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-5b9948a835": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-72e80465a7-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-72e80465a7": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-78b2fa4e93-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-78b2fa4e93": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-a440878f40-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-a440878f40": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-b151062294-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-b151062294": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-bea458d951-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-bea458d951": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-e8634c8958-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "en-xlsx-e8634c8958": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-23ad3ac6d0-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-23ad3ac6d0": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-27ad832070-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-27ad832070": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-2a11524583-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-2a11524583": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-46441b96ca-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-46441b96ca": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-ddbbc2ea20-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-ddbbc2ea20": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-e03598a7c5-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-e03598a7c5": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-e400e30b17-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-e400e30b17": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-eb0ef2469f-msword": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-docx-eb0ef2469f": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-165dbeac9a-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-165dbeac9a": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-227833729c-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-227833729c": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-265f49a66c-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-265f49a66c": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-2b38676baa-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-2b38676baa": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-439dfd2771-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-439dfd2771": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-53ee6aec15-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-53ee6aec15": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-557f396618-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-557f396618": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-5e5046f461-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-5e5046f461": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-5eaef2f465-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-5eaef2f465": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-76cd7e2bfa-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-76cd7e2bfa": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-95a735682e-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-95a735682e": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-aaa510ba28-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-aaa510ba28": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-cc307ae3a4-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-cc307ae3a4": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-d2001111a2-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-d2001111a2": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-e3784832a0-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-e3784832a0": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-ee383298b9-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-ee383298b9": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-f59a4214d3-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-f59a4214d3": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-f8e1f974e0-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-f8e1f974e0": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-f8fe7f69b3-msexcel": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ },
+ "fr-xlsx-f8fe7f69b3": {
+  "date": "2026-11-16",
+  "status": "finished",
+  "engine": "pymupdf4llm",
+  "engine_version": "1.28.2",
+  "credits": 1
+ }
+}

@@ -1,0 +1,163 @@
+# **Gesamtübersicht 2017** 
+
+# **Umsatzsteuer-Umrechnungskurse** 
+
+# **Euro-Referenzkurse** 
+
+|**Land**|**Währung**|**Januar1**|**Februar2**|
+|---|---|---|---|
+|**Australien**|1 Euro|1,4252<br>AUD|1,3886<br>AUD|
+|**Brasilien**|1 Euro|3,3929<br>BRL|3,3022<br>BRL|
+|**Bulgarien**|1 Euro|1,9558<br>BGN|1,9558<br>BGN|
+|**China (VR)**|1 Euro|7,3189<br>CNY|7,3143<br>CNY|
+|**Dänemark**|1 Euro|7,4355<br>DKK|7,4348<br>DKK|
+|**Großbritannien**|1 Euro|0,86100<br>GBP|0,85273<br>GBP|
+|**Hongkong**|1 Euro|8,2332<br>HKD|8,2586<br>HKD|
+|**Indien**|1 Euro|72,2823<br>INR|71,2908<br>INR|
+|**Indonesien**|1 Euro|14.181,25<br>IDR|14.186,74<br>IDR|
+|**Israel**|1 Euro|4,0543<br>ILS|3,9672<br>ILS|
+|**Japan**|1 Euro|122,14<br>JPY|120,17<br>JPY|
+|**Kanada**|1 Euro|1,4032<br>CAD|1,3942<br>CAD|
+|**Korea, Republik**|1 Euro|1.254,41<br>KRW|1.215,92<br>KRW|
+|**Kroatien**|1 Euro|7,5300<br>HRK|7,4476<br>HRK|
+|**Malaysia**|1 Euro|4,7318<br>MYR|4,7283<br>MYR|
+|**Mexiko**|1 Euro|22,6576<br>MXN|21,6027<br>MXN|
+|**Neuseeland**|1 Euro|1,4923<br>NZD|1,4733<br>NZD|
+|**Norwegen**|1 Euro|8,9990<br>NOK|8,8603<br>NOK|
+|**Philippinen**|1 Euro|52,800<br>PHP|53,208<br>PHP|
+|**Polen**|1 Euro|4,3671<br>PLN|4,3081<br>PLN|
+|**Rumänien**|1 Euro|4,5018<br>RON|4,5136<br>RON|
+|**Russland**|1 Euro|63,4978<br>RUB|62,1520<br>RUB|
+|**Schweden**|1 Euro|9,5110<br>SEK|9,4762<br>SEK|
+|**Schweiz**|1 Euro|1,0714<br>CHF|1,0660<br>CHF|
+|**Singapur**|1 Euro|1,5175<br>SGD|1,5055<br>SGD|
+|**Südafrika**|1 Euro|14,4012<br>ZAR|14,0389<br>ZAR|
+|**Thailand**|1 Euro|37,645<br>THB|37,258<br>THB|
+
+
+
+|**Tschechien**|1 Euro|27,021<br>CZK|27,021<br>CZK|
+|---|---|---|---|
+|**Türkei**|1 Euro|3,9869|3,9011|
+|||TRY|TRY|
+|**Ungarn**|1 Euro|308,99<br>HUF|308,50<br>HUF|
+|**USA**|1 Euro|1,0614<br>USD|1,0643<br>USD|
+
+
+
+|**März3**|**April4**|**Mai5**|**Juni6**|**Juli7**|**August8**|**September9**|**Oktober10**|
+|---|---|---|---|---|---|---|---|
+|1,4018<br>AUD|1,4241<br>AUD|1,4878<br>AUD|1,4861<br>AUD|1,4772<br>AUD|1,4919<br>AUD|1,4946<br>AUD|1,5099<br>AUD|
+|3,3413|3,3620|3,5424|3,6948|3,6928|3,7201|3,7316|3,7503|
+|BRL|BRL|BRL|BRL|BRL|BRL|BRL|BRL|
+|1,9558|1,9558|1,9558|1,9558|1,9558|1,9558|1,9558|1,9558|
+|BGN|BGN|BGN|BGN|BGN|BGN|BGN|BGN|
+|7,3692<br>CNY|7,3892<br>CNY|7,6130<br>CNY|7,6459<br>CNY|7,7965<br>CNY|7,8760<br>CNY|7,8257<br>CNY|7,7890<br>CNY|
+|7,4356<br>DKK|7,4376<br>DKK|7,4400<br>DKK|7,4376<br>DKK|7,4366<br>DKK|7,4379<br>DKK|7,4401<br>DKK|7,4429<br>DKK|
+|0,86560<br>GBP|0,84824<br>GBP|0,85554<br>GBP|0,87724<br>GBP|0,88617<br>GBP|0,91121<br>GBP|0,89470<br>GBP|0,89071<br>GBP|
+|8,2984<br>HKD|8,3364<br>HKD|8,6108<br>HKD|8,7578<br>HKD|8,9893<br>HKD|9,2348<br>HKD|9,3094<br>HKD|9,1763<br>HKD|
+|70,3238<br>INR|69,2016<br>INR|71,2681<br>INR|72,3798<br>INR|74,1945<br>INR|75,5465<br>INR|76,8002<br>INR|76,4977<br>INR|
+|14.255,46<br>IDR|14.265,96<br>IDR|14.730,60<br>IDR|14.940,12<br>IDR|15.363,84<br>IDR|15.753,09<br>IDR|15.852,42<br>IDR|15.904,42<br>IDR|
+|3,9012<br>ILS|3,9153<br>ILS|3,9727<br>ILS|3,9658<br>ILS|4,0899<br>ILS|4,2504<br>ILS|4,2080<br>ILS|4,1265<br>ILS|
+|120,68<br>JPY|118,29<br>JPY|124,09<br>JPY|124,58<br>JPY|129,48<br>JPY|129,70<br>JPY|131,92<br>JPY|132,76<br>JPY|
+|1,4306<br>CAD|1,4408<br>CAD|1,5041<br>CAD|1,4941<br>CAD|1,4641<br>CAD|1,4889<br>CAD|1,4639<br>CAD|1,4801<br>CAD|
+|1.211,23<br>KRW|1.215,64<br>KRW|1.245,02<br>KRW|1.271,29<br>KRW|1.305,21<br>KRW|1.335,93<br>KRW|1.348,89<br>KRW|1.331,01<br>KRW|
+|7,4231<br>HRK|7,4503<br>HRK|7,4317<br>HRK|7,4104<br>HRK|7,4116<br>HRK|7,4054<br>HRK|7,4639<br>HRK|7,5085<br>HRK|
+|4,7413|4,7224|4,7713|4,8045|4,9389|5,0579|5,0191|4,9716|
+|MYR|MYR|MYR|MYR|MYR|MYR|MYR|MYR|
+|20,6333<br>MXN|20,1297<br>MXN|20,7659<br>MXN|20,3786<br>MXN|20,5291<br>MXN|20,0333<br>MXN|21,2431<br>MXN|22,1033<br>MXN|
+|1,5255<br>NZD|1,5389<br>NZD|1,5905<br>NZD|1,5544<br>NZD|1,5658<br>NZD|1,6167<br>NZD|1,6426<br>NZD|1,6695<br>NZD|
+|9,0919<br>NOK|9,1993<br>NOK|9,4001<br>NOK|9,4992<br>NOK|9,3988<br>NOK|9,3201<br>NOK|9,3275<br>NOK|9,3976<br>NOK|
+|53,683<br>PHP|53,441<br>PHP|55,108<br>PHP|56,045<br>PHP|58,306<br>PHP|60,161<br>PHP|60,732<br>PHP|60,471<br>PHP|
+|4,2871<br>PLN|4,2374<br>PLN|4,1998<br>PLN|4,2113<br>PLN|4,2362<br>PLN|4,2666<br>PLN|4,2693<br>PLN|4,2627<br>PLN|
+|4,5476<br>RON|4,5291<br>RON|4,5539<br>RON|4,5721<br>RON|4,5689<br>RON|4,5789<br>RON|4,5992<br>RON|4,5895<br>RON|
+|61,9097|60,5721|63,1641|65,1136|68,7707|70,2902|68,6987|67,8647|
+|RUB|RUB|RUB|RUB|RUB|RUB|RUB|RUB|
+|9,5279<br>SEK|9,5941<br>SEK|9,7097<br>SEK|9,7538<br>SEK|9,5892<br>SEK|9,5485<br>SEK|9,5334<br>SEK|9,6138<br>SEK|
+|1,0706<br>CHF|1,0727<br>CHF|1,0904<br>CHF|1,0874<br>CHF|1,1059<br>CHF|1,1398<br>CHF|1,1470<br>CHF|1,1546<br>CHF|
+|1,5013<br>SGD|1,4996<br>SGD|1,5423<br>SGD|1,5541<br>SGD|1,5790<br>SGD|1,6070<br>SGD|1,6084<br>SGD|1,5992<br>SGD|
+|13,8125|14,4384|14,6665|14,5025|15,1351|15,6310|15,6766|16,1145|
+|ZAR|ZAR|ZAR|ZAR|ZAR|ZAR|ZAR|ZAR|
+|37,260<br>THB|36,967<br>THB|38,103<br>THB|38,181<br>THB|38,834<br>THB|39,267<br>THB|39,497<br>THB|39,069<br>THB|
+
+
+
+|27,021<br>CZK|26,823<br>CZK|26,572<br>CZK|26,264<br>CZK|26,079<br>CZK|26,101<br>CZK|26,075<br>CZK|25,766<br>CZK|
+|---|---|---|---|---|---|---|---|
+|3,9228<br>TRY|3,9150<br>TRY|3,9463<br>TRY|3,9554<br>TRY|4,1021<br>TRY|4,1436<br>TRY|4,1376<br>TRY|4,3234<br>TRY|
+|309,71<br>HUF|311,57<br>HUF|309,77<br>HUF|308,28<br>HUF|306,71<br>HUF|304,37<br>HUF|308,37<br>HUF|309,95<br>HUF|
+|1,0685<br>USD|1,0723<br>USD|1,1058<br>USD|1,1229<br>USD|1,1511<br>USD|1,1807<br>USD|1,1915<br>USD|1,1756<br>USD|
+
+
+
+|**November11**|**Dezember12**|
+|---|---|
+|1,5395|1,5486|
+|AUD|AUD|
+|3,8246|3,8941|
+|BRL|BRL|
+|1,9558|1,9558|
+|BGN|BGN|
+|7,7723|7,8073|
+|CNY|CNY|
+|7,4420|7,4433|
+|DKK|DKK|
+|0,88795|0,88265|
+|GBP|GBP|
+|9,1617|9,2479|
+|HKD|HKD|
+|76,1248|76,0663|
+|INR|INR|
+|15.875,67|16.048,79|
+|IDR|IDR|
+|4,1283|4,1495|
+|ILS|ILS|
+|132,39|133,64|
+|JPY|JPY|
+|1,4978|1,5108|
+|CAD|CAD|
+|1.292,05|1.283,39|
+|KRW|KRW|
+|7,5512|7,5393|
+|HRK|HRK|
+|4,8902|4,8238|
+|MYR|MYR|
+|22,2188|22,6384|
+|MXN|MXN|
+|1,7043|1,7002|
+|NZD|NZD|
+|9,6082|9,8412|
+|NOK|NOK|
+|59,733|59,602|
+|PHP|PHP|
+|4,2268|4,2032|
+|PLN|PLN|
+|4,6347|4,6348|
+|RON|RON|
+|69,2093|69,4092|
+|RUB|RUB|
+|9,8479|9,9370|
+|SEK|SEK|
+|1,1640|1,1689|
+|CHF|CHF|
+|1,5911|1,5938|
+|SGD|SGD|
+|16,5187|15,5847|
+|ZAR|ZAR|
+|38623|38639|
+|,<br>THB|,<br>THB|
+
+
+
+|25,538|25,645|
+|---|---|
+|CZK|CZK|
+|4,5714|4,5511|
+|TRY|TRY|
+|311,89|313,16|
+|HUF|HUF|
+|1,1738|1,1836|
+|USD|USD|
+
+
+

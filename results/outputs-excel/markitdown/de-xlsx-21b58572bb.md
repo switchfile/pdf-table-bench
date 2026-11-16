@@ -1,0 +1,10 @@
+Linie: 4400
+Zählung 2023
+Mo-Fr
+Durchschnittlicher Tageswert
+| Haltestelle        | Ri:  G., Vierland.Str.(Kehre) |            | Ri:  Bf. Bergedorf |            |     |
+| ------------------ | ----------------------------- | ---------- | ------------------ | ---------- | --- |
+| Name               | Einsteiger                    | Aussteiger | Einsteiger         | Aussteiger |     |
+| Bf. Bergedorf      |                               | 228        | 0                  | 0          | 194 |
+| Lehfeld            |                               | 10         | 34                 | 31         | 14  |
+| Am Schleusengraben |                               | 1          | 12                 | 0          | 0   |

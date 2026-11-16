@@ -1,0 +1,22 @@
+<!-- page 1 -->
+
+![Image 1]()
+
+# VILLE DE BAR LE DUC
+
+Liste des associations ayant perçues une subvention supérieure à 23 000 €
+
+## ANNEE 2023
+
+| Nom de l'association | N° Siret | Date de la convention | Objet de la subvention | Subvention accordée | Total accordé | Date de délibération | Date de versement |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Office Municipal des Sports | 35106741800043 | 15/02/2023 | Fonctionnement | 14 000,00 | 24 000,00 | 02/02/2023 | 09/03/2023 |
+|  |  |  | Fête du sport Fééria Barisienne | 4 000,00 6 000,00 |  |  |  |
+| ASPTT | 78338187400024 | 03/07/2023 | Fonctionnement Rencontre Jumelage Bar le Duc/Griesheim Tournoi des Ducs - Roller Hockey en Meuse Soirée disco roller fights cancer | 20 425,00 750,00 900,00 800,00 12 609,00 500,00 500,00 | 36 484,00 | 02/02/2023 | 13/01/2023 l'avance 09/03/2023 |
+|  |  |  | Contrat d'ojectfs LA FORESTIERE- Course hors-stade Rando VTT |  |  | 11/05/2023 | 11/07/2023 |
+| Action Culturelle du Barrois | 31631848400037 | 05/05/2023 | Fonctionnement RenaissanceS | 220 000,00 50 000,00 | 270 000,00 | 02/02/2023 | 05/06/2023 |
+| Be Real | 51511465000044 | 02/05/2023 | Watts à Bar | 21 000,00 | 25 000,00 | 16/03/2023 | 05/06/2023 |
+|  |  |  | Michaudine | 4 000,00 |  |  |  |
+| Comité d'Action Sociale | 32971332500010 | 13/05/2023 | Fonctionnement | 50 929,00 | 50 929,00 | 11/05/2023 | 08/06/2023 |
+| Association de coordination des Centres socio-culturels | 78338253400015 | 01/03/2022 | Fonctionnement et mise à disposition de personnel | 193 267,00 | 193 267,00 | 11/05/2023 | 20/06/2023 l'avance |
+| TOTAL 2023 |  |  |  | 599 680,00 | 599 680,00 |  |  |

@@ -1,0 +1,15 @@
+{
+ "checked": "2026-11-15T16:27+01:00",
+ "plan": "Microsoft 365 Business Standard",
+ "how": "About dialog of each app (German user interface), read through the menus before the run",
+ "word": {
+  "version": "16.115 (26110837)",
+  "license": "Microsoft 365 subscription",
+  "owner": "work account of the company's Microsoft 365 tenant"
+ },
+ "excel": {
+  "version": "16.115 (26110837)",
+  "license": "Microsoft 365 subscription",
+  "owner": "work account of the company's Microsoft 365 tenant"
+ }
+}
