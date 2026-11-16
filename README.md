@@ -4,7 +4,7 @@ An open, reproducible benchmark for PDF → Markdown on native (born-digital) bu
 page-level OCR benchmarks usually do not: whether every number lands in the right table cell, and whether the
 converter writes numbers that are not in the document as written there.
 
-This benchmark is published by Aura UG (haftungsbeschränkt), the company that makes switchfile, one of the candidates.
+This benchmark is published by Aura UG (haftungsbeschränkt), the company that makes [switchfile](https://switchfile.io), one of the candidates.
 We ran every candidate ourselves, switchfile included; see [Who publishes this](#who-publishes-this) and
 [Disclaimer](#disclaimer).
 
@@ -16,7 +16,7 @@ tables count more), with 95 % intervals for all PDFs; per producer as per file \
 <!-- RESULTS-TABLE -->
 | Candidate | all PDFs, per file | all PDFs, summed | Word PDFs | Excel PDFs | LibreOffice PDFs | corrupted numbers (PDFs) | failed |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| switchfile | 94.1 [90.7; 97.1] | 97.2 [95.6; 98.7] | 98.9 \| 99.5 | 93.1 \| 99.4 | 93.7 \| 95.1 | 18 (6) | 0 |
+| [switchfile](https://switchfile.io) | 94.1 [90.7; 97.1] | 97.2 [95.6; 98.7] | 98.9 \| 99.5 | 93.1 \| 99.4 | 93.7 \| 95.1 | 18 (6) | 0 |
 | CloudConvert | 82.6 [75.1; 89.3] | 68.4 [38.0; 95.5] | 97.9 \| 97.3 | 79.9 \| 65.9 | 80.7 \| 67.6 | 612 (32) | 0 |
 | pymupdf4llm | 81.6 [74.0; 88.4] | 68.3 [37.9; 95.3] | 97.7 \| 97.2 | 79.9 \| 65.9 | 78.7 \| 67.3 | 245 (22) | 0 |
 | Docling | 67.6 [56.7; 77.9] | 57.2 [29.3; 86.6] | 98.9 \| 99.5 | 59.0 \| 53.6 | 65.7 \| 56.0 | 454 (37) | 0 |
