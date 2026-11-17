@@ -457,3 +457,21 @@ offline with `DOCLING_ARTIFACTS_PATH`.
 - **Services change:** switchfile and CloudConvert can change without a version number. The numbers hold for the
   date of measurement; the outputs in `results/` show what each service returned on that date.
 - **Native PDFs only:** all PDFs have a text layer. Scanned documents and OCR are not measured.
+
+## Same value (added 2026-11-17)
+
+The cell comparison ignores signs and decimal separators, so a lost minus or decimal point still counted as a hit
+(reported by a reader on Reddit). `score.py` now also counts matched cells whose signed value equals the truth.
+All 160 files, all numeric cells (28,321); no other number changed:
+
+| Candidate | Right cell | Same value | Cells lost |
+|---|---:|---:|---:|
+| switchfile | 27,539 (97.2 %) | 27,539 (97.2 %) | 0 |
+| cloudconvert | 19,374 (68.4 %) | 19,296 (68.1 %) | 78 |
+| pymupdf4llm | 19,330 (68.3 %) | 19,252 (68.0 %) | 78 |
+| docling | 16,198 (57.2 %) | 16,168 (57.1 %) | 30 |
+| pdfplumber | 13,633 (48.1 %) | 13,633 (48.1 %) | 0 |
+| markitdown | 11,244 (39.7 %) | 11,242 (39.7 %) | 2 |
+| pdftotext | 0 (0.0 %) | 0 (0.0 %) | 0 |
+
+Scores: `results/scores-2026-11-17-all.json`.

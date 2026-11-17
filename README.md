@@ -87,6 +87,7 @@ into the same grid; `python3 -I eval/mdparse.py --selfcheck` checks that.
 | Metric | Definition |
 |---|---|
 | Numbers in the right cell | Numeric truth cells found in the matching row and column of an output table. Truth rows are matched to output rows by shared cells (monotone alignment, at least 30 % overlap, across all output tables); columns by majority vote within the matched rows, one to one. Numbers are compared without thousands and decimal separators. Output without tables scores 0 here. |
+| Same value | Of the numbers in the right cell, those whose signed value matches the truth (sign and decimal point kept; decimal separator taken per document from the truth). Catches a lost minus or decimal point that the loose comparison above accepts ("-1.20", "1.20" and "120" share one key). Added 2026-11-17 after a reader pointed this out. |
 | Corrupted numbers | Numbers in the output that do not stand in the original like that: torn apart (`2` split off `CaCl2`), glued together (`65 280` from two cells), repeated, or new. Counted as number tokens that occur more often in the output than in the truth and the PDF's own text layer together. |
 | Word recall | Share of the truth's tokens found in the output, regardless of order (multiset). |
 | Reading order | Longest common token subsequence between output and truth, divided by the tokens they share regardless of order. |

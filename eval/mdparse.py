@@ -175,6 +175,39 @@ def tokens(s: str) -> list[str]:
     return [t for t in re.findall(r"\w+", s) if t.strip("_")]
 
 
+NUMBER = re.compile(r"\d[\d.,' \u00a0\u202f]*")
+MINUS = "-\u2212\u2013"
+
+
+def decimal_mark(rows: list[list[str]]) -> str:
+    """Decimal separator of a document's truth rows: "," if more cells end in ",d" or ",dd" than in ".d" or ".dd", else "."."""
+    dot = com = 0
+    for r in rows:
+        for c in r:
+            if c:
+                dot += len(re.findall(r"\d\.\d{1,2}(?![\d.,])", c))
+                com += len(re.findall(r"\d,\d{1,2}(?![\d.,])", c))
+    return "," if com > dot else "."
+
+
+def number_value(s: str, mark: str) -> float | None:
+    """Signed value of the first number in a cell ("-1.20", "−1,20", "(1.20)", "£ -1.20" → -1.2 with mark ".").
+    A minus counts only directly before the number (after an optional currency sign) or as parentheses around it."""
+    s = unicodedata.normalize("NFKC", s)
+    m = NUMBER.search(s)
+    if not m:
+        return None
+    raw = re.sub(r"[' \u00a0\u202f]", "", m.group(0).strip().rstrip(".,"))
+    raw = raw.replace("." if mark == "," else ",", "").replace(",", ".")
+    try:
+        v = float(raw)
+    except ValueError:
+        return None
+    before, after = s[:m.start()], s[m.end():]
+    neg = bool(re.search(f"[{MINUS}]\\s*[£$€¥]?\\s*$", before)) or (before.strip().endswith("(") and after.strip().startswith(")"))
+    return -v if neg else v
+
+
 def cell_key(s: str) -> str:
     """Comparison key of a cell: number cell → digit string, otherwise the words."""
     return " ".join(tokens(s))
@@ -240,6 +273,14 @@ def selfcheck() -> None:
         seen.append(tokens(text))
     if not all(s == seen[0] for s in seen):
         raise SystemExit(f"self-check: words differ: {seen!r}")
+    # the loose key ignores sign and decimal point, the value check does not
+    for a, b, mark, same in (("-1.20", "1.20", ".", False), ("1.20", "120", ".", False), ("£176.84", "17684", ".", False),
+                             ("−0.279", "0.279 -", ".", False), ("1,6", "16", ",", False), ("(1.20)", "-1.20", ".", True),
+                             ("£ -1.20", "-1.2", ".", True), ("1 268,5", "1.268,50", ",", True), ("1,268.5", "1268.50", ".", True)):
+        if cell_key(a) != cell_key(b) and not same:
+            raise SystemExit(f"self-check: {a!r} and {b!r} should share the loose key")
+        if (number_value(a, mark) == number_value(b, mark)) != same:
+            raise SystemExit(f"self-check: value of {a!r} vs {b!r} with mark {mark!r}")
 
 
 if __name__ == "__main__":
