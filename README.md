@@ -8,6 +8,9 @@ This benchmark is published by Aura UG (haftungsbeschränkt), the company that m
 We ran every candidate ourselves, switchfile included; see [Who publishes this](#who-publishes-this) and
 [Disclaimer](#disclaimer).
 
+This repository covers PDF → Markdown. For PDF → Word, Excel and PowerPoint (blind test on public PDFs against two
+online converters, with method and limits) see the [PDF to Office benchmark](https://switchfile.io/benchmarks/pdf-to-office).
+
 ## Results (2026-11-16)
 
 Numbers in the right cell, in percent: mean per file (every PDF counts once) and summed over all numeric cells (large
