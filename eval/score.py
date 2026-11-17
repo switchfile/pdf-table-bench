@@ -13,7 +13,7 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from mdparse import cell_key, dehyphen, is_number_cell, lcs_len, parse, selfcheck, tokens  # noqa: E402
+from mdparse import cell_key, decimal_mark, dehyphen, is_number_cell, lcs_len, number_value, parse, selfcheck, tokens  # noqa: E402
 
 # country per source; Zenodo files come from many countries
 COUNTRY = {"gouvfr": "FR", "govdata": "DE", "hamburg": "DE", "uk": "UK", "zenodo": "INT"}
@@ -59,13 +59,15 @@ def align_rows(trows: list[Counter], prows: list[Counter]) -> dict[int, int]:
     return out
 
 
-def table_numbers(truth_tables: list[dict], pred_tables: list[list[list[str]]]) -> tuple[int, int]:
-    """→ (number cells in the truth, of which in the right row and column). Rows are matched via common cells
+def table_numbers(truth_tables: list[dict], pred_tables: list[list[list[str]]]) -> tuple[int, int, int]:
+    """→ (number cells in the truth, of which in the right row and column, of those also with the same signed value). Rows are matched via common cells
     (also across several output tables, e.g. split per page); columns per output table by majority of
     matching cells in matched rows, one to one."""
     prow = [(ti, ri, [cell_key(c) for c in r]) for ti, t in enumerate(pred_tables) for ri, r in enumerate(t)]
+    praw = [r for t in pred_tables for r in t]
     pcount = [Counter(k for k in r if k) for _, _, r in prow]
-    total = hit = 0
+    total = hit = strict = 0
+    mark = decimal_mark([r for t in truth_tables for r in t["rows"]])  # per document: one table may hold no decimals
     for t in truth_tables:
         rows = [[cell_key(c) if c else "" for c in r] for r in t["rows"]]
         num = t.get("numeric") or [[bool(c) and is_number_cell(c) for c in r] for r in t["rows"]]
@@ -96,14 +98,17 @@ def table_numbers(truth_tables: list[dict], pred_tables: list[list[list[str]]]) 
                     j = cmap.get((ti, c))
                     if j is not None and j < len(pcells) and pcells[j] == k:
                         hit += 1
-    return total, hit
+                        tv, pv = number_value(t["rows"][r][c], mark), number_value(praw[rmap[r]][j], mark)
+                        strict += tv is not None and pv is not None and abs(tv - pv) <= 1e-9 * max(1.0, abs(tv))
+    return total, hit, strict
 
 
 def score_one(truth: dict, md: str | None) -> dict:
     ttok = tokens(dehyphen(truth["text"]))
     if md is None:  # a failure counts as 0 in every metric
-        nt, _ = table_numbers(truth["tables"], [])
+        nt, _, _ = table_numbers(truth["tables"], [])
         return {"failed": True, "recall": 0.0, "precision": 0.0, "bag": 0.0, "order": 0.0, "cells": nt, "cells_hit": 0,
+                "cells_value": 0,
                 "nums": 0, "nums_false": 0}
     text, tabs = parse(md)
     ptok = tokens(dehyphen(text))
@@ -112,10 +117,10 @@ def score_one(truth: dict, md: str | None) -> dict:
     # corrupted numbers: number tokens in the output that are neither in the truth nor in the page's text layer
     allowed = Counter(t for t in ttok if t.isdigit()) | Counter(t for t in tokens(dehyphen(truth["layer"])) if t.isdigit())
     pnums = Counter(t for t in ptok if t.isdigit())
-    nt, nh = table_numbers(truth["tables"], tabs)
+    nt, nh, nv = table_numbers(truth["tables"], tabs)
     return {"failed": False, "recall": lcs / len(ttok) if ttok else 1.0, "precision": lcs / len(ptok) if ptok else 0.0,
             "bag": bag / len(ttok) if ttok else 1.0, "order": lcs / bag if bag else 0.0, "cells": nt, "cells_hit": nh,
-            "nums": sum(pnums.values()), "nums_false": sum((pnums - allowed).values()), "words": len(ttok),
+            "cells_value": nv, "nums": sum(pnums.values()), "nums_false": sum((pnums - allowed).values()), "words": len(ttok),
             "pipe_tables": len(tabs)}
 
 
@@ -150,13 +155,15 @@ def summarize(ms: list[dict], per: dict, k: str) -> dict:
     rec, order = boot([r["bag"] for r in rs], cl), boot([r["order"] for r in rs], cl)
     wc = [(r, c) for r, c in zip(rs, cl) if r["cells"]]
     cells, hits = sum(r["cells"] for r in rs), sum(r["cells_hit"] for r in rs)
+    value = sum(r.get("cells_value", 0) for r in rs)
     nums, false = sum(r["nums"] for r in rs), sum(r["nums_false"] for r in rs)
     ok = [(m, r) for m, r in zip(ms, rs) if "seconds" in r and not r["failed"]]
     pages = sum(m["pages"] for m, _ in ok)
     secs = sorted(r["seconds"] / m["pages"] for m, r in ok)
     return {"files": len(ms), "pages": sum(m["pages"] for m in ms), "words": rec, "words_lcs": statistics.fmean(r["recall"] for r in rs),
             "order": order, "precision": statistics.fmean(r["precision"] for r in rs), "cells": cells, "cells_hit": hits,
-            "cells_rate": hits / cells if cells else None,
+            "cells_rate": hits / cells if cells else None, "cells_value": value,
+            "cells_value_rate": value / cells if cells else None,
             "cells_rate_ci": boot([r["cells_hit"] for r, _ in wc], [c for _, c in wc], [r["cells"] for r, _ in wc]),
             # averaged per file: otherwise a few large tables dominate the cell sum
             "cells_file": boot([r["cells_hit"] / r["cells"] for r, _ in wc], [c for _, c in wc]), "nums": nums, "nums_false": false,
@@ -204,13 +211,14 @@ def main() -> None:
     for g, ms in groups.items():
         print(f"\n== {g}: {len(ms)} files, {sum(m['pages'] for m in ms)} pages")
         print(f"{'Candidate':<12} {'Word hits':>22} {'Order':>22} {'Prec.':>6} {'Cells correct':>22} "
-              f"{'Corrupted nums':>17} {'s/page':>8} {'Failed':>9}")
+              f"{'Same value':>11} {'Corrupted nums':>17} {'s/page':>8} {'Failed':>9}")
         for k in cands:
             s = summary[g][k]
             rec, order = s["words"], s["order"]
             print(f"{k:<12} {rec[0]*100:6.1f} [{rec[1]*100:5.1f}–{rec[2]*100:5.1f}] {order[0]*100:6.1f} "
                   f"[{order[1]*100:5.1f}–{order[2]*100:5.1f}] {s['precision']*100:6.1f} "
                   f"{(float('nan') if s['cells_rate'] is None else s['cells_rate']) * 100:7.1f} ({s['cells_hit']:>5}/{s['cells']:<5}) "
+                  f"{(float('nan') if s['cells_value_rate'] is None else s['cells_value_rate']) * 100:11.1f} "
                   f"{s['nums_false']:6d}/{s['nums']:<8d} {(float('nan') if s['sec_per_page'] is None else s['sec_per_page']):8.2f} {s['failed']:9d}")
 
 
