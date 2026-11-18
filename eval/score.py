@@ -13,7 +13,8 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from mdparse import cell_key, decimal_mark, dehyphen, is_number_cell, lcs_len, number_value, parse, selfcheck, tokens  # noqa: E402
+from mdparse import (cell_key, decimal_mark, dehyphen, is_number_cell, is_number_token, lcs_len, number_value, parse,  # noqa: E402
+                    selfcheck, tokens)
 
 # country per source; Zenodo files come from many countries
 COUNTRY = {"gouvfr": "FR", "govdata": "DE", "hamburg": "DE", "uk": "UK", "zenodo": "INT"}
@@ -59,18 +60,24 @@ def align_rows(trows: list[Counter], prows: list[Counter]) -> dict[int, int]:
     return out
 
 
-def table_numbers(truth_tables: list[dict], pred_tables: list[list[list[str]]]) -> tuple[int, int, int]:
+def doc_mark(truth_tables: list[dict], lang: str | None = None) -> str:
+    """Decimal separator of a document, from its truth tables (one table may hold no decimals); without decimals there,
+    by language ("49.000" in a German table is 49000)."""
+    return decimal_mark([r for t in truth_tables for r in t["rows"]], "," if lang in ("de", "fr") else ".")
+
+
+def table_numbers(truth_tables: list[dict], pred_tables: list[list[list[str]]], mark: str | None = None) -> tuple[int, int, int]:
     """→ (number cells in the truth, of which in the right row and column, of those also with the same signed value). Rows are matched via common cells
     (also across several output tables, e.g. split per page); columns per output table by majority of
     matching cells in matched rows, one to one."""
-    prow = [(ti, ri, [cell_key(c) for c in r]) for ti, t in enumerate(pred_tables) for ri, r in enumerate(t)]
+    mark = mark or doc_mark(truth_tables)
+    prow = [(ti, ri, [cell_key(c, mark) for c in r]) for ti, t in enumerate(pred_tables) for ri, r in enumerate(t)]
     praw = [r for t in pred_tables for r in t]
     pcount = [Counter(k for k in r if k) for _, _, r in prow]
     total = hit = strict = 0
-    mark = decimal_mark([r for t in truth_tables for r in t["rows"]])  # per document: one table may hold no decimals
     for t in truth_tables:
-        rows = [[cell_key(c) if c else "" for c in r] for r in t["rows"]]
-        num = t.get("numeric") or [[bool(c) and is_number_cell(c) for c in r] for r in t["rows"]]
+        rows = [[cell_key(c, mark) if c else "" for c in r] for r in t["rows"]]
+        num = t.get("numeric") or [[bool(c) and is_number_cell(c, mark) for c in r] for r in t["rows"]]
         keep = [i for i, r in enumerate(rows) if any(r)]
         amap = align_rows([Counter(k for k in rows[i] if k) for i in keep], pcount)
         rmap = {keep[a]: b for a, b in amap.items()}
@@ -90,7 +97,7 @@ def table_numbers(truth_tables: list[dict], pred_tables: list[list[list[str]]]) 
                 used.add((ti, j))
         for r, row in enumerate(rows):
             for c, k in enumerate(row):
-                if not (k and num[r][c] and k.isdigit()):
+                if not (k and num[r][c] and is_number_token(k)):
                     continue
                 total += 1
                 if r in rmap:
@@ -103,21 +110,23 @@ def table_numbers(truth_tables: list[dict], pred_tables: list[list[list[str]]]) 
     return total, hit, strict
 
 
-def score_one(truth: dict, md: str | None) -> dict:
-    ttok = tokens(dehyphen(truth["text"]))
+def score_one(truth: dict, md: str | None, lang: str | None = None) -> dict:
+    mark = doc_mark(truth["tables"], lang)
+    ttok = tokens(dehyphen(truth["text"]), mark)
     if md is None:  # a failure counts as 0 in every metric
-        nt, _, _ = table_numbers(truth["tables"], [])
+        nt, _, _ = table_numbers(truth["tables"], [], mark)
         return {"failed": True, "recall": 0.0, "precision": 0.0, "bag": 0.0, "order": 0.0, "cells": nt, "cells_hit": 0,
                 "cells_value": 0,
                 "nums": 0, "nums_false": 0}
     text, tabs = parse(md)
-    ptok = tokens(dehyphen(text))
+    ptok = tokens(dehyphen(text), mark)
     lcs = lcs_len(ttok, ptok)
     bag = sum((Counter(ttok) & Counter(ptok)).values())
     # corrupted numbers: number tokens in the output that are neither in the truth nor in the page's text layer
-    allowed = Counter(t for t in ttok if t.isdigit()) | Counter(t for t in tokens(dehyphen(truth["layer"])) if t.isdigit())
-    pnums = Counter(t for t in ptok if t.isdigit())
-    nt, nh, nv = table_numbers(truth["tables"], tabs)
+    allowed = (Counter(t for t in ttok if is_number_token(t))
+               | Counter(t for t in tokens(dehyphen(truth["layer"]), mark) if is_number_token(t)))
+    pnums = Counter(t for t in ptok if is_number_token(t))
+    nt, nh, nv = table_numbers(truth["tables"], tabs, mark)
     return {"failed": False, "recall": lcs / len(ttok) if ttok else 1.0, "precision": lcs / len(ptok) if ptok else 0.0,
             "bag": bag / len(ttok) if ttok else 1.0, "order": lcs / bag if bag else 0.0, "cells": nt, "cells_hit": nh,
             "cells_value": nv, "nums": sum(pnums.values()), "nums_false": sum((pnums - allowed).values()), "words": len(ttok),
@@ -182,7 +191,7 @@ def main() -> None:
         for k in cands:
             f = out / k / f"{m['id']}.md"
             md = f.read_text(encoding="utf-8") if f.exists() and f.stat().st_size else None
-            r = score_one(truth, md)
+            r = score_one(truth, md, m.get("lang"))
             tf = out / k / f"{m['id']}.time.json"
             if tf.exists():
                 r["seconds"] = json.loads(tf.read_text(encoding="utf-8"))["seconds"]

@@ -19,7 +19,7 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "eval"))
-from mdparse import tokens  # noqa: E402
+from mdparse import loose_tokens as tokens  # noqa: E402  (the data set was selected with it)
 
 MAX_PAGES = 20          # max pages per PDF
 MAX_SHEETS = 4          # max sheets per workbook
