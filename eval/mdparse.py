@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
-"""Each candidate's Markdown → text and tables under the same rules (pipe and HTML tables), words, numbers.
+"""Each candidate's Markdown → text and tables under the same rules (pipe and HTML tables), words, numbers (by signed
+value, not notation).
 Standard library only. `python3 -I mdparse.py --selfcheck` checks on hand-written examples that all notations
 yield the same table."""
 from __future__ import annotations
@@ -165,29 +166,95 @@ def dehyphen(s: str) -> str:
     return re.sub(r"(\w)-[ \t]*\n[ \t]*(?=[a-zäöüßàâçéèêëîïôûùüÿñæœáíóú])", r"\1", s)
 
 
-def tokens(s: str) -> list[str]:
-    """Words lowercased; numbers without thousands and decimal separators ("1 268 082", "1.268.082" and "1268082" are
-    equal, so are "2,1" and "2.1"): the notation of a number does not decide a match."""
+def loose_tokens(s: str) -> list[str]:
+    """Tokens as used up to 2026-11-17: separators between digits removed and signs dropped, so "-1.20", "1.20" and
+    "120" are one token. Kept only for factory/build.py, which selected the data set and built the truth with it; the
+    scoring uses tokens()."""
     s = unicodedata.normalize("NFKC", s).translate(FOLD).lower()
-    # space-separated thousands groups only where the number has no other separators ("201.343 201.343" are two)
     s = re.sub(r"(?<![\d.,])(\d{1,3})((?: \d{3})+)(?!\d|[.,]\d)", lambda m: m.group(1) + m.group(2).replace(" ", ""), s)
     s = re.sub(r"(?<=\d)[.,](?=\d)", "", s)
     return [t for t in re.findall(r"\w+", s) if t.strip("_")]
 
 
-NUMBER = re.compile(r"\d[\d.,' \u00a0\u202f]*")
 MINUS = "-\u2212\u2013"
+CURRENCY = "£$€¥"
+# dashes FOLD turns into "-" that are not minus signs; before a number they become a space
+NOT_MINUS = "".join(c for c in "‐‑‒–—―−" if c not in MINUS)
+# space-separated thousands groups only where the number has no other separators ("201.343 201.343" are two), or
+# followed by a decimal part of one or two digits ("1 268,5", "92 991,00"; "03 123,760.00" stays two numbers)
+SPACE_GROUPS = re.compile(r"(?<![\d.,])(\d{1,3})((?: \d{3})+)(?!\d|[.,]\d)|(?<![\d.,])([1-9]\d{0,2})((?: \d{3})+)(?=[.,]\d{1,2}(?![\d.,]))")
+# a number token: a minus counts directly before the digits or around a currency sign ("-1.20", "-£1.20", "£ -1.20"),
+# not after a letter, digit or closing bracket ("2019-2020" and "x-5" hold no negative number); a minus standing apart
+# ("- 0.47") counts only where no word, number or currency sign precedes it ("| - 0.47", but not "2019 - 2020" or the
+# accounting zero in "£ - £ 122.00"). A number glued to letters ("15,956.23GB74", "CaCl2") is one word without its
+# separators, as before.
+_NEG = (rf"(?<![\w)\]])-(?:[{CURRENCY}] ?)?|(?<![\w)\]{CURRENCY}])(?<![\w)\]{CURRENCY}] )- +(?:[{CURRENCY}] ?)?"
+        rf"|(?<![\w)\]])[{CURRENCY}] ?-")
+TOKEN = re.compile(rf"(?P<neg>{_NEG})?(?P<num>\d+(?:[.,]\d+)*)(?!\w|[.,]?\d)|(?P<word>(?:\w|(?<=\d)[.,](?=\d))+)")
+NUM_TOKEN = re.compile(r"-?\d+(?:\.\d+)?")
 
 
-def decimal_mark(rows: list[list[str]]) -> str:
-    """Decimal separator of a document's truth rows: "," if more cells end in ",d" or ",dd" than in ".d" or ".dd", else "."."""
+def number_token(num: str, neg: bool, mark: str) -> str:
+    """Canonical token of a number written with "." and "," ("1.268,50" → "1268.5", "2,1" → "2.1", "1.20" → "1.2").
+    Several equal separators in groups of three are thousands separators; with both kinds the last one is the decimal
+    separator. A single separator before exactly three digits ("1.268") is the decimal separator if it is the
+    document's decimal mark, otherwise a thousands separator. Anything else (dates such as "12.03.2020") → the digits."""
+    parts = re.split(r"[.,]", num)
+    seps = re.findall(r"[.,]", num)
+    groups = 1 <= len(parts[0]) <= 3 and not parts[0].startswith("0")
+    whole, frac = num, ""
+    if len(set(seps)) == 2:
+        if seps.count(seps[-1]) == 1 and groups and all(len(p) == 3 for p in parts[1:-1]):
+            whole, frac = "".join(parts[:-1]), parts[-1]
+        else:
+            return re.sub(r"[.,]", "", num)
+    elif len(seps) > 1:
+        if not (groups and all(len(p) == 3 for p in parts[1:])):
+            return re.sub(r"[.,]", "", num)
+        whole = "".join(parts)
+    elif seps:
+        if groups and len(parts[1]) == 3 and seps[0] != mark:
+            whole = "".join(parts)
+        else:
+            whole, frac = parts
+    frac = frac.rstrip("0")
+    out = f"{whole}.{frac}" if frac else whole
+    return "-" + out if neg and out.strip("0.") else out
+
+
+def tokens(s: str, mark: str = ".") -> list[str]:
+    """Words lowercased; numbers by signed value, whatever the notation: "1 268 082", "1.268.082", "1,268,082" and
+    "1268082" are equal, so are "2,1" and "2.1", "1.20" and "1.2", "-1.20" and "−1,2"; "1.20" and "120" are not, nor are
+    "-1.20" and "1.20". mark is the document's decimal separator (see decimal_mark); it only decides "1.268"."""
+    s = unicodedata.normalize("NFKC", s)
+    s = re.sub(f"[{NOT_MINUS}](?= ?[{CURRENCY}]? ?\\d)", " ", s).translate(FOLD).lower()
+    s = SPACE_GROUPS.sub(lambda m: (m.group(1) or m.group(3)) + (m.group(2) or m.group(4)).replace(" ", ""), s)
+    out = []
+    for m in TOKEN.finditer(s):
+        if m.group("num") is not None:
+            out.append(number_token(m.group("num"), bool(m.group("neg")), mark))
+        elif m.group("word").strip("_"):
+            out.append(re.sub(r"[.,]", "", m.group("word")))
+    return out
+
+
+def is_number_token(t: str) -> bool:
+    return bool(NUM_TOKEN.fullmatch(t))
+
+
+NUMBER = re.compile(r"\d[\d.,' \u00a0\u202f]*")
+
+
+def decimal_mark(rows: list[list[str]], default: str = ".") -> str:
+    """Decimal separator of a document's truth rows: "," if more cells end in ",d" or ",dd" than in ".d" or ".dd", "."
+    if fewer, else default (for example by the document's language)."""
     dot = com = 0
     for r in rows:
         for c in r:
             if c:
                 dot += len(re.findall(r"\d\.\d{1,2}(?![\d.,])", c))
                 com += len(re.findall(r"\d,\d{1,2}(?![\d.,])", c))
-    return "," if com > dot else "."
+    return "," if com > dot else "." if dot > com else default
 
 
 def number_value(s: str, mark: str) -> float | None:
@@ -208,14 +275,19 @@ def number_value(s: str, mark: str) -> float | None:
     return -v if neg else v
 
 
-def cell_key(s: str) -> str:
-    """Comparison key of a cell: number cell → digit string, otherwise the words."""
-    return " ".join(tokens(s))
+def cell_key(s: str, mark: str = ".") -> str:
+    """Comparison key of a cell: its tokens, numbers by signed value. As in number_value, a number in parentheses
+    ("(1.20)", "(£1.20)") is negative, and a minus at the start of the cell may stand apart ("- 0.47", "£ - 1.20")."""
+    m = re.fullmatch(rf"\s*\(\s*([{CURRENCY}]?\s*\d[\d.,' \u00a0\u202f]*)\s*\)\s*", s)
+    if m:
+        s = "-" + m.group(1).strip()
+    s = re.sub(rf"^\s*([{CURRENCY}]?)\s*([{MINUS}])\s*([{CURRENCY}]?)\s*(?=\d)", r"\1\2\3", s)
+    return " ".join(tokens(s, mark))
 
 
-def is_number_cell(s: str) -> bool:
-    t = tokens(s)
-    return len(t) == 1 and t[0].isdigit()
+def is_number_cell(s: str, mark: str = ".") -> bool:
+    t = cell_key(s, mark).split(" ")
+    return len(t) == 1 and is_number_token(t[0])
 
 
 def lcs_len(a: list[str], b: list[str]) -> int:
@@ -273,12 +345,13 @@ def selfcheck() -> None:
         seen.append(tokens(text))
     if not all(s == seen[0] for s in seen):
         raise SystemExit(f"self-check: words differ: {seen!r}")
-    # the loose key ignores sign and decimal point, the value check does not
+    # the key keeps sign and value and ignores notation, like number_value
     for a, b, mark, same in (("-1.20", "1.20", ".", False), ("1.20", "120", ".", False), ("£176.84", "17684", ".", False),
                              ("−0.279", "0.279 -", ".", False), ("1,6", "16", ",", False), ("(1.20)", "-1.20", ".", True),
-                             ("£ -1.20", "-1.2", ".", True), ("1 268,5", "1.268,50", ",", True), ("1,268.5", "1268.50", ".", True)):
-        if cell_key(a) != cell_key(b) and not same:
-            raise SystemExit(f"self-check: {a!r} and {b!r} should share the loose key")
+                             ("£ -1.20", "-1.2", ".", True), ("1 268,5", "1.268,50", ",", True), ("1,268.5", "1268.50", ".", True),
+                             ("1 268 082", "1.268.082", ",", True), ("–7", "-7", ".", True)):
+        if (cell_key(a, mark) == cell_key(b, mark)) != same:
+            raise SystemExit(f"self-check: keys of {a!r} and {b!r} with mark {mark!r}")
         if (number_value(a, mark) == number_value(b, mark)) != same:
             raise SystemExit(f"self-check: value of {a!r} vs {b!r} with mark {mark!r}")
 

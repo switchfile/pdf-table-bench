@@ -11,7 +11,7 @@ We ran every candidate ourselves, switchfile included; see [Who publishes this](
 This repository covers PDF → Markdown. For PDF → Word, Excel and PowerPoint (blind test on public PDFs against two
 online converters, with method and limits) see the [PDF to Office benchmark](https://switchfile.io/benchmarks/pdf-to-office).
 
-## Results (2026-11-16)
+## Results (measured 2026-11-16, scored 2026-11-18)
 
 Numbers in the right cell, in percent: mean per file (every PDF counts once) and summed over all numeric cells (large
 tables count more), with 95 % intervals for all PDFs; per producer as per file \| summed. Failures count as 0.
@@ -19,12 +19,12 @@ tables count more), with 95 % intervals for all PDFs; per producer as per file \
 <!-- RESULTS-TABLE -->
 | Candidate | all PDFs, per file | all PDFs, summed | Word PDFs | Excel PDFs | LibreOffice PDFs | corrupted numbers (PDFs) | failed |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| [switchfile](https://switchfile.io) | 94.1 [90.7; 97.1] | 97.2 [95.6; 98.7] | 98.9 \| 99.5 | 93.1 \| 99.4 | 93.7 \| 95.1 | 18 (6) | 0 |
-| CloudConvert | 82.6 [75.1; 89.3] | 68.4 [38.0; 95.5] | 97.9 \| 97.3 | 79.9 \| 65.9 | 80.7 \| 67.6 | 612 (32) | 0 |
-| pymupdf4llm | 81.6 [74.0; 88.4] | 68.3 [37.9; 95.3] | 97.7 \| 97.2 | 79.9 \| 65.9 | 78.7 \| 67.3 | 245 (22) | 0 |
-| Docling | 67.6 [56.7; 77.9] | 57.2 [29.3; 86.6] | 98.9 \| 99.5 | 59.0 \| 53.6 | 65.7 \| 56.0 | 454 (37) | 0 |
-| pdfplumber + our wrapper | 48.5 [35.8; 61.5] | 48.1 [20.6; 79.2] | 58.8 \| 67.1 | 41.2 \| 45.7 | 50.9 \| 48.4 | 413 (25) | 0 |
-| markitdown | 36.9 [26.8; 47.1] | 39.7 [21.3; 64.2] | 41.7 \| 56.9 | 39.7 \| 39.0 | 33.8 \| 38.5 | 172 (16) | 0 |
+| [switchfile](https://switchfile.io) | 93.8 [90.5; 96.7] | 97.2 [95.5; 98.6] | 98.9 \| 99.5 | 92.6 \| 99.4 | 93.4 \| 95.0 | 28 (8) | 0 |
+| CloudConvert | 82.3 [74.8; 89.1] | 68.1 [37.9; 94.9] | 97.9 \| 97.3 | 77.3 \| 65.4 | 81.9 \| 67.5 | 732 (37) | 0 |
+| pymupdf4llm | 81.3 [73.7; 88.1] | 68.0 [37.8; 94.7] | 97.7 \| 97.2 | 77.3 \| 65.4 | 79.9 \| 67.2 | 370 (27) | 0 |
+| Docling | 67.9 [57.0; 78.3] | 57.1 [29.4; 86.4] | 98.9 \| 99.5 | 59.7 \| 53.5 | 65.9 \| 56.0 | 492 (39) | 0 |
+| pdfplumber + our wrapper | 49.1 [36.4; 62.0] | 48.1 [20.7; 78.9] | 58.8 \| 67.1 | 42.0 \| 45.7 | 51.5 \| 48.3 | 417 (25) | 0 |
+| markitdown | 36.7 [26.7; 46.9] | 39.5 [21.2; 63.8] | 41.7 \| 56.9 | 39.2 \| 38.9 | 33.8 \| 38.4 | 178 (17) | 0 |
 | pdftotext (baseline) | 0.0 [0.0; 0.0] | 0.0 [0.0; 0.0] | 0.0 \| 0.0 | 0.0 \| 0.0 | 0.0 \| 0.0 | 0 (0) | 0 |
 <!-- /RESULTS-TABLE -->
 
@@ -43,7 +43,7 @@ and language: [RESULTS.md](RESULTS.md). These results hold for these documents, 
   Datenlizenz Deutschland 2.0, Licence Ouverte 1.0/2.0, CC BY 4.0, CC0). Sources, licenses, checksums and fetch
   dates: [DATA-SOURCES.md](DATA-SOURCES.md) and `data/manifest.json`. Country of the source: France (data.gouv.fr),
   Germany (GovData, Hamburg), United Kingdom (data.gov.uk), international (Zenodo). No country supplies more than
-  half of the numeric cells (France 40 %, Germany 39 %, UK 11 %, international 9 %, LibreOffice set).
+  half of the numeric cells (France 41 %, Germany 39 %, UK 11 %, international 9 %, LibreOffice set).
 - Two originals were removed after a privacy review because they contain personal data of third parties
   (`data/removed.json`, `factory/remove.py`). They are absent from all sets, outputs and scores, and the build logs
   list them as removed.
@@ -80,7 +80,7 @@ and language: [RESULTS.md](RESULTS.md). These results hold for these documents, 
   `###` do not count against a converter), it prints to at most 20 pages and has no tracked changes.
   Conversely, at least 85 % of the PDF's words must be in the truth (catches sheets that could not be hidden,
   chart labels and floating text boxes). `data/build*.json` list every original and why it was dropped. 45
-  spreadsheets and 37 Word documents remain; 28,688 truth cells, 14,351 of them numeric (LibreOffice set).
+  spreadsheets and 37 Word documents remain; 28,688 truth cells, 14,417 of them scored as numbers (LibreOffice set).
 
 ## Metrics
 
@@ -89,9 +89,9 @@ into the same grid; `python3 -I eval/mdparse.py --selfcheck` checks that.
 
 | Metric | Definition |
 |---|---|
-| Numbers in the right cell | Numeric truth cells found in the matching row and column of an output table. Truth rows are matched to output rows by shared cells (monotone alignment, at least 30 % overlap, across all output tables); columns by majority vote within the matched rows, one to one. Numbers are compared without thousands and decimal separators. Output without tables scores 0 here. |
-| Same value | Of the numbers in the right cell, those whose signed value matches the truth (sign and decimal point kept; decimal separator taken per document from the truth). Catches a lost minus or decimal point that the loose comparison above accepts ("-1.20", "1.20" and "120" share one key). Added 2026-11-17 after a reader pointed this out. |
-| Corrupted numbers | Numbers in the output that do not stand in the original like that: torn apart (`2` split off `CaCl2`), glued together (`65 280` from two cells), repeated, or new. Counted as number tokens that occur more often in the output than in the truth and the PDF's own text layer together. |
+| Numbers in the right cell | Numeric truth cells found in the matching row and column of an output table. Truth rows are matched to output rows by shared cells (monotone alignment, at least 30 % overlap, across all output tables); columns by majority vote within the matched rows, one to one. Numbers are compared by signed value, not by notation: thousands separators (space, point, comma) and the decimal separator (point or comma) do not matter, the decimal point and the sign do (`1.20` ≠ `120`, `-1.20` ≠ `1.20`, `(1.20)` = `-1.20`). A lone separator before exactly three digits (`1.268`) is read with the document's decimal separator. Output without tables scores 0 here. |
+| Same value | Of the numbers in the right cell, those whose signed value matches the truth as read by a second, independent parser (decimal separator per document from the truth, else from its language). Added 2026-11-17; since the scoring fix of 2026-11-18 the right-cell comparison itself keeps sign and decimal point, so this is a cross-check. |
+| Corrupted numbers | Numbers in the output that do not stand in the original like that: torn apart (`2` split off `CaCl2`), glued together (`65 280` from two cells), repeated, or new. Counted as number tokens (by signed value, as above) that occur more often in the output than in the truth and the PDF's own text layer together; a lost minus or decimal point counts too. |
 | Word recall | Share of the truth's tokens found in the output, regardless of order (multiset). |
 | Reading order | Longest common token subsequence between output and truth, divided by the tokens they share regardless of order. |
 | Time per page | Wall time per document divided by its pages, one document at a time. Open tools: 4 CPU cores, no network, Python libraries already loaded, on a shared server. switchfile and CloudConvert: through their public APIs, including upload, queueing and network. Compare orders of magnitude within each group, not across groups. |
@@ -103,7 +103,7 @@ the mean per file (every document counts once) and the sum over all numeric cell
 cells). Results are reported for Word, Excel and LibreOffice PDFs side by side and split by country, format and
 language. Every candidate gets one attempt per PDF with a limit of 600 s; a PDF without output counts as a failure and
 scores 0. Full report: [RESULTS.md](RESULTS.md); outputs in `results/outputs/` (LibreOffice), `results/outputs-word/`
-and `results/outputs-excel/`; per-file scores in `results/scores-2026-11-16-all.json`; run windows in `results/runs.json`.
+and `results/outputs-excel/`; per-file scores in `results/scores-2026-11-18-all.json` (earlier scorings: `scores-2026-11-16-all.json`, `scores-2026-11-17-all.json`); run windows in `results/runs.json`.
 
 ## Candidates
 
@@ -166,6 +166,19 @@ excel,data/manifest-excel.json,data/pdf-excel,data/truth-excel,work/out-excel,-m
 Catalog contents change over time; `data/fetched.json` pins the exact files by URL and SHA-256. `DATA-SOURCES.md`:
 `factory/attribution.py fetch data/manifest.json data/attribution.json` (catalog metadata), then
 `factory/attribution.py data/manifest.json data/attribution.json DATA-SOURCES.md`.
+
+## Changelog
+
+- **2026-11-18, scoring fix:** the tokenizer removed decimal separators between digits and dropped the sign, so
+  `-1.20`, `1.20` and `120` were the same token. A lost minus or decimal point therefore still counted as a number in
+  the right cell, as a word hit and not as a corrupted number. Numbers are now compared by signed value; notation
+  (thousands separators, decimal comma or point, trailing zeros) still does not matter. Side effect: French amounts
+  with space-separated thousands and decimals (`92 991,00 €`) were split into two tokens before and not counted as
+  numeric cells; 132 such cells are now scored (28,453 instead of 28,321 numeric cells). Only the scoring was rerun,
+  on the published outputs; no conversion was repeated. Numbers in the right cell, mean per file over all PDFs, moved
+  by at most 0.6 points per candidate and the order of candidates is unchanged; corrupted numbers rose for every
+  candidate with table output. Before/after: [RESULTS.md](RESULTS.md#scoring-fix-2026-11-18).
+- **2026-11-17:** "Same value" added (matched cells with the same signed value).
 
 ## Who publishes this
 
