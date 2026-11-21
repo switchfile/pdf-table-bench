@@ -30,6 +30,7 @@ MIN_COVERAGE = 0.97     # share of truth words found in the PDF text layer (othe
 # (sheets that could not be hidden, chart text, text frames); in the first run all others were at 0.89 or above
 MIN_LAYER_IN_TRUTH = 0.85
 MIN_PAGE_COVERAGE = 0.9  # per page block of a table: share of its words on exactly that printed page
+# and no row of a page block may be printed on another page (see misplaced_rows)
 # Follow-up draws (not draws 1 and 2): a sheet that would exceed the page limit is cropped to its first pages
 # (print area; very wide sheets keep two column pages). Open-data tables are often long lists and would otherwise
 # all be dropped at the page limit.
@@ -45,9 +46,31 @@ W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 MC = "{http://schemas.openxmlformats.org/markup-compatibility/2006}"
 
 
-def pdftotext(pdf: Path, page: int | None = None) -> str:
+def pdftotext(pdf: Path, page: int | None = None, layout: bool = False) -> str:
     only = ["-f", str(page), "-l", str(page)] if page else []
-    return subprocess.run(["pdftotext", "-enc", "UTF-8", *only, str(pdf), "-"], capture_output=True, text=True).stdout
+    return subprocess.run(["pdftotext", "-enc", "UTF-8", *(["-layout"] if layout else []), *only, str(pdf), "-"],
+                          capture_output=True, text=True).stdout
+
+
+def misplaced_rows(tables: list[dict], pdf: Path) -> list[tuple[int, int, list[int]]]:
+    """Rows of page block k that the PDF prints on another page instead of page k+1: (block, row, pages). A row is on a
+    page if its words occur in order on one printed line; rows with fewer than two filled cells, or found on no page
+    (wrapped cells), prove nothing."""
+    lines = [[f" {' '.join(tokens(x))} " for x in pdftotext(pdf, k + 1, layout=True).split("\n") if x.strip()]
+             for k in range(len(tables))]
+    out = []
+    for k, t in enumerate(tables):
+        for i, row in enumerate(t["rows"]):
+            cells = [c for c in row if c]
+            if len(cells) < 2:
+                continue
+            seq = f" {' '.join(tokens(' '.join(cells)))} "
+            if any(seq in x for x in lines[k]):
+                continue
+            other = [q + 1 for q, page in enumerate(lines) if q != k and any(seq in x for x in page)]
+            if other:
+                out.append((k, i, other))
+    return out
 
 
 def pages_of(pdf: Path) -> int:
@@ -353,7 +376,7 @@ def xlsx(off: Office, src: Path, tmp: Path, dest: Path, fid: str) -> dict:
                 why["page blocks do not match the print"] += 1
                 continue
             if any(coverage("\n".join(" | ".join(r) for r in t["rows"]), pdftotext(one, k + 1)) < MIN_PAGE_COVERAGE
-                   for k, t in enumerate(pages)):
+                   for k, t in enumerate(pages)) or misplaced_rows(pages, one):
                 why["page block not on its own page"] += 1
                 continue
             text = "\n".join(" | ".join(r) for t in pages for r in t["rows"])
@@ -647,12 +670,12 @@ def adopt(manifest: Path, pdfs: Path, truths: Path, dest: Path, grid_dir: Path |
         strip_info(out)
         n, layer = pages_of(out), pdftotext(out)
         shown = rounded_display(truth, layer) if m["format"] == "xlsx" else 0
-        # XLSX: the truth is split per printed page; if the producer breaks pages differently, it no longer fits.
-        # Then derive page blocks from the original's grid following its print, with the same per-page check.
+        # XLSX: the truth is split per printed page; if the producer breaks pages differently, even by one row, it no
+        # longer fits. Then derive page blocks from the original's grid following its print, with the same per-page check.
         def paged_bad(tables):
             return m["format"] == "xlsx" and (len(tables) != n or any(
                 coverage("\n".join(" | ".join(r) for r in t["rows"]), pdftotext(out, k + 1)) < MIN_PAGE_COVERAGE
-                for k, t in enumerate(tables)))
+                for k, t in enumerate(tables)) or bool(misplaced_rows(tables, out)))
         paged, split = paged_bad(truth["tables"]), False
         gf = grid_dir / f"{m['id']}.grid.json" if grid_dir else None
         if paged and gf and gf.exists():
