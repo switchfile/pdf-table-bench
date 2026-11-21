@@ -40,7 +40,8 @@
   "id": "en-xlsx-78b2fa4e93",
   "pages": 2,
   "pages_other": 2,
-  "coverage": 1.0
+  "coverage": 1.0,
+  "resplit": true
  },
  {
   "id": "de-xlsx-76a7055067",
@@ -59,7 +60,8 @@
   "id": "de-xlsx-419cd9607c",
   "pages": 6,
   "pages_other": 6,
-  "coverage": 0.9968
+  "coverage": 0.9968,
+  "resplit": true
  },
  {
   "id": "fr-xlsx-5e5046f461",
@@ -207,7 +209,8 @@
   "id": "en-xlsx-36967b578c",
   "pages": 4,
   "pages_other": 4,
-  "coverage": 1.0
+  "coverage": 1.0,
+  "resplit": true
  },
  {
   "id": "en-xlsx-0ab954f487",
@@ -220,7 +223,8 @@
   "id": "en-xlsx-e8634c8958",
   "pages": 4,
   "pages_other": 4,
-  "coverage": 1.0
+  "coverage": 1.0,
+  "resplit": true
  },
  {
   "id": "de-xlsx-8fef54b211",
@@ -259,7 +263,8 @@
   "id": "de-xlsx-2f6f8557b8",
   "pages": 4,
   "pages_other": 4,
-  "coverage": 1.0
+  "coverage": 1.0,
+  "resplit": true
  },
  {
   "id": "de-xlsx-4f4e6a3538",
@@ -282,7 +287,8 @@
   "id": "en-xlsx-bea458d951",
   "pages": 4,
   "pages_other": 4,
-  "coverage": 1.0
+  "coverage": 1.0,
+  "resplit": true
  },
  {
   "id": "de-xlsx-fa2af86144",

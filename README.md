@@ -11,7 +11,7 @@ We ran every candidate ourselves, switchfile included; see [Who publishes this](
 This repository covers PDF → Markdown. For PDF → Word, Excel and PowerPoint (blind test on public PDFs against two
 online converters, with method and limits) see the [PDF to Office benchmark](https://switchfile.io/benchmarks/pdf-to-office).
 
-## Results (measured 2026-11-16, scored 2026-11-18)
+## Results (measured 2026-11-16, scored 2026-11-21)
 
 Numbers in the right cell, in percent: mean per file (every PDF counts once) and summed over all numeric cells (large
 tables count more), with 95 % intervals for all PDFs; per producer as per file \| summed. Failures count as 0.
@@ -20,11 +20,11 @@ tables count more), with 95 % intervals for all PDFs; per producer as per file \
 | Candidate | all PDFs, per file | all PDFs, summed | Word PDFs | Excel PDFs | LibreOffice PDFs | corrupted numbers (PDFs) | failed |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | [switchfile](https://switchfile.io) | 93.8 [90.5; 96.7] | 97.2 [95.5; 98.6] | 98.9 \| 99.5 | 92.6 \| 99.4 | 93.4 \| 95.0 | 28 (8) | 0 |
-| CloudConvert | 82.3 [74.8; 89.1] | 68.1 [37.9; 94.9] | 97.9 \| 97.3 | 77.3 \| 65.4 | 81.9 \| 67.5 | 732 (37) | 0 |
-| pymupdf4llm | 81.3 [73.7; 88.1] | 68.0 [37.8; 94.7] | 97.7 \| 97.2 | 77.3 \| 65.4 | 79.9 \| 67.2 | 370 (27) | 0 |
+| CloudConvert | 82.3 [74.8; 89.1] | 68.2 [37.9; 95.0] | 97.9 \| 97.3 | 77.4 \| 65.6 | 81.9 \| 67.5 | 732 (37) | 0 |
+| pymupdf4llm | 81.3 [73.8; 88.1] | 68.1 [37.8; 94.8] | 97.7 \| 97.2 | 77.4 \| 65.6 | 79.9 \| 67.2 | 370 (27) | 0 |
 | Docling | 67.9 [57.0; 78.3] | 57.1 [29.4; 86.4] | 98.9 \| 99.5 | 59.7 \| 53.5 | 65.9 \| 56.0 | 492 (39) | 0 |
 | pdfplumber + our wrapper | 49.1 [36.4; 62.0] | 48.1 [20.7; 78.9] | 58.8 \| 67.1 | 42.0 \| 45.7 | 51.5 \| 48.3 | 417 (25) | 0 |
-| markitdown | 36.7 [26.7; 46.9] | 39.5 [21.2; 63.8] | 41.7 \| 56.9 | 39.2 \| 38.9 | 33.8 \| 38.4 | 178 (17) | 0 |
+| markitdown | 36.7 [26.7; 46.9] | 39.5 [21.2; 63.8] | 41.7 \| 56.9 | 39.2 \| 38.8 | 33.8 \| 38.4 | 178 (17) | 0 |
 | pdftotext (baseline) | 0.0 [0.0; 0.0] | 0.0 [0.0; 0.0] | 0.0 \| 0.0 | 0.0 \| 0.0 | 0.0 \| 0.0 | 0 (0) | 0 |
 <!-- /RESULTS-TABLE -->
 
@@ -67,13 +67,14 @@ and language: [RESULTS.md](RESULTS.md). These results hold for these documents, 
   - Word and Excel PDFs are kept with the same truth and the same checks (`build.py adopt`; `data/build-word.json`,
     `data/build-excel.json`, `data/manifest-*.json`, `data/pdf-*/`, `data/truth-*/`). Two adjustments for Excel, both
     logged per file: where Excel rounds a General-format number to the column width, the rounded display of the same
-    original value is used; where Excel breaks pages differently, the per-page truth blocks are recomputed from the
-    original's cell grid (`build.py grids`) by matching each Excel page, then checked as before.
+    original value is used; where Excel breaks pages differently (even by a single row), the per-page truth blocks are
+    recomputed from the original's cell grid (`build.py grids`) by matching each Excel page, then checked as before.
 - The truth comes from the original file, not from the PDF:
   - XLSX: every visible cell of the printed sheets as the spreadsheet displays it (number formats applied), with its
     cell type (number or text). One truth table per printed page, in print order: a wide sheet prints its columns on
     several pages, so a converter sees several tables. A sheet is kept only if it has as many non-empty page blocks as
-    printed pages and each block is at least 90 % on its own page.
+    printed pages, each block is at least 90 % on its own page and no row of a block is printed on another page
+    (`eval/test_truth_pages.py` checks every render).
   - DOCX: paragraphs and tables in document order, read from `word/document.xml` (merged cells: value in the first
     cell). Headers, footers and footnotes are not part of the truth.
 - A file is kept only if at least 97 % of its truth words appear in the PDF's text layer (so cut-off cells such as
@@ -91,7 +92,7 @@ into the same grid; `python3 -I eval/mdparse.py --selfcheck` checks that.
 |---|---|
 | Numbers in the right cell | Numeric truth cells found in the matching row and column of an output table. Truth rows are matched to output rows by shared cells (monotone alignment, at least 30 % overlap, across all output tables); columns by majority vote within the matched rows, one to one. Numbers are compared by signed value, not by notation: thousands separators (space, point, comma) and the decimal separator (point or comma) do not matter, the decimal point and the sign do (`1.20` ≠ `120`, `-1.20` ≠ `1.20`, `(1.20)` = `-1.20`). A lone separator before exactly three digits (`1.268`) is read with the document's decimal separator. Output without tables scores 0 here. |
 | Same value | Of the numbers in the right cell, those whose signed value matches the truth as read by a second, independent parser (decimal separator per document from the truth, else from its language). Added 2026-11-17; since the scoring fix of 2026-11-18 the right-cell comparison itself keeps sign and decimal point, so this is a cross-check. |
-| Corrupted numbers | Numbers in the output that do not stand in the original like that: torn apart (`2` split off `CaCl2`), glued together (`65 280` from two cells), repeated, or new. Counted as number tokens (by signed value, as above) that occur more often in the output than in the truth and the PDF's own text layer together; a lost minus or decimal point counts too. |
+| Corrupted numbers | Numbers in the output that do not stand in the original like that: torn apart (`2` split off `CaCl2`), glued together (`65 280` from two cells), repeated, or new. Counted per document as number tokens (by signed value, as above) that occur more often in the output than allowed; the allowance per token is the larger of its count in the truth text and its count in the PDF's own text layer. A lost minus or decimal point counts too. Two tokenizer conventions apply to output, truth and text layer alike: digit groups separated by single spaces are one number (`91 248` = 91248), and a minus standing apart counts as a sign only where no word, number or currency sign precedes it, so `\| - 19` after a cell boundary is −19 (but `2019 - 2020` is two positive numbers). Truth table boundaries play no part: an intact number in the wrong cell is a right-cell miss, not a corrupted number. |
 | Word recall | Share of the truth's tokens found in the output, regardless of order (multiset). |
 | Reading order | Longest common token subsequence between output and truth, divided by the tokens they share regardless of order. |
 | Time per page | Wall time per document divided by its pages, one document at a time. Open tools: 4 CPU cores, no network, Python libraries already loaded, on a shared server. switchfile and CloudConvert: through their public APIs, including upload, queueing and network. Compare orders of magnitude within each group, not across groups. |
@@ -103,7 +104,7 @@ the mean per file (every document counts once) and the sum over all numeric cell
 cells). Results are reported for Word, Excel and LibreOffice PDFs side by side and split by country, format and
 language. Every candidate gets one attempt per PDF with a limit of 600 s; a PDF without output counts as a failure and
 scores 0. Full report: [RESULTS.md](RESULTS.md); outputs in `results/outputs/` (LibreOffice), `results/outputs-word/`
-and `results/outputs-excel/`; per-file scores in `results/scores-2026-11-18-all.json` (earlier scorings: `scores-2026-11-16-all.json`, `scores-2026-11-17-all.json`); run windows in `results/runs.json`.
+and `results/outputs-excel/`; per-file scores in `results/scores-2026-11-21-all.json` (earlier scorings: `scores-2026-11-16-all.json`, `scores-2026-11-17-all.json`, `scores-2026-11-18-all.json`); run windows in `results/runs.json`.
 
 ## Candidates
 
@@ -169,6 +170,20 @@ Catalog contents change over time; `data/fetched.json` pins the exact files by U
 
 ## Changelog
 
+- **2026-11-21, Excel truth follows Excel's page breaks:** in six of the 42 Excel PDFs, one to eight rows of a long
+  table stood on a different page in Excel's print than in the truth, which kept LibreOffice's page breaks. Example:
+  in `en-xlsx-bea458d951` Excel prints 21/02 and 22/02 at the bottom of page 1, but the truth started block 2 with
+  21/02. The build recomputed the blocks only when less than 90 % of a block was on its own page, and these few rows
+  stayed below that threshold. Reported by a PyMuPDF developer in a public comment on Reddit. Now any row printed on
+  another page triggers the recomputation (`factory/build.py`), and a test checks every row of every spreadsheet
+  render (`eval/test_truth_pages.py`). Rebuilt: `de-xlsx-2f6f8557b8`, `de-xlsx-419cd9607c`, `en-xlsx-36967b578c`,
+  `en-xlsx-78b2fa4e93`, `en-xlsx-bea458d951`, `en-xlsx-e8634c8958` (Excel set only; the LibreOffice set had no such
+  row, the Word set has no spreadsheets). All other truth files are byte-identical. Only the scoring was rerun, on the
+  published outputs; no conversion was repeated. Numbers in the right cell, all PDFs, summed: CloudConvert 68.1 → 68.2
+  and pymupdf4llm 68.0 → 68.1 (+21 cells each, all in `de-xlsx-2f6f8557b8`), markitdown −2 cells, Docling ±0 (+1 in
+  one file, −1 in another); switchfile, pdfplumber and pdftotext unchanged. Corrupted numbers, word recall and reading
+  order did not change for any candidate. The order of candidates is unchanged in every group. Before/after:
+  [RESULTS.md](RESULTS.md#truth-fix-2026-11-21).
 - **2026-11-18, scoring fix:** the tokenizer removed decimal separators between digits and dropped the sign, so
   `-1.20`, `1.20` and `120` were the same token. A lost minus or decimal point therefore still counted as a number in
   the right cell, as a word hit and not as a corrupted number. Numbers are now compared by signed value; notation
