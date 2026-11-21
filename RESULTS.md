@@ -1,4 +1,4 @@
-# Results: business PDF → Markdown, table cells and corrupted numbers (measured 2026-11-16, scored 2026-11-18)
+# Results: business PDF → Markdown, table cells and corrupted numbers (measured 2026-11-16, scored 2026-11-21)
 
 Published by Aura UG (haftungsbeschränkt), the company that makes switchfile, one of the candidates. We chose the
 data, wrote the scoring code and ran every candidate ourselves, switchfile included. Scope and limits: README and
@@ -24,11 +24,11 @@ data, wrote the scoring code and ran every candidate ourselves, switchfile inclu
   | Candidate | all, per file | all, summed | Word PDFs | Excel PDFs | LibreOffice PDFs | failed |
   |---|---:|---:|---:|---:|---:|---:|
   | switchfile | 93.8 [90.5; 96.7] | 97.2 [95.5; 98.6] | 98.9 \| 99.5 | 92.6 \| 99.4 | 93.4 \| 95.0 | 0 |
-  | CloudConvert | 82.3 [74.8; 89.1] | 68.1 [37.9; 94.9] | 97.9 \| 97.3 | 77.3 \| 65.4 | 81.9 \| 67.5 | 0 |
-  | pymupdf4llm | 81.3 [73.7; 88.1] | 68.0 [37.8; 94.7] | 97.7 \| 97.2 | 77.3 \| 65.4 | 79.9 \| 67.2 | 0 |
+  | CloudConvert | 82.3 [74.8; 89.1] | 68.2 [37.9; 95.0] | 97.9 \| 97.3 | 77.4 \| 65.6 | 81.9 \| 67.5 | 0 |
+  | pymupdf4llm | 81.3 [73.8; 88.1] | 68.1 [37.8; 94.8] | 97.7 \| 97.2 | 77.4 \| 65.6 | 79.9 \| 67.2 | 0 |
   | Docling | 67.9 [57.0; 78.3] | 57.1 [29.4; 86.4] | 98.9 \| 99.5 | 59.7 \| 53.5 | 65.9 \| 56.0 | 0 |
   | pdfplumber + our wrapper | 49.1 [36.4; 62.0] | 48.1 [20.7; 78.9] | 58.8 \| 67.1 | 42.0 \| 45.7 | 51.5 \| 48.3 | 0 |
-  | markitdown | 36.7 [26.7; 46.9] | 39.5 [21.2; 63.8] | 41.7 \| 56.9 | 39.2 \| 38.9 | 33.8 \| 38.4 | 0 |
+  | markitdown | 36.7 [26.7; 46.9] | 39.5 [21.2; 63.8] | 41.7 \| 56.9 | 39.2 \| 38.8 | 33.8 \| 38.4 | 0 |
   | pdftotext (baseline) | 0.0 [0.0; 0.0] | 0.0 [0.0; 0.0] | 0.0 \| 0.0 | 0.0 \| 0.0 | 0.0 \| 0.0 | 0 |
 
   Word, Excel and LibreOffice columns: per file \| summed. Numeric cells: Word 1,463, Excel 12,573, LibreOffice 14,417
@@ -41,16 +41,16 @@ data, wrote the scoring code and ran every candidate ourselves, switchfile inclu
 
   | Candidate | all | Microsoft Office PDFs | LibreOffice PDFs |
   |---|---:|---:|---:|
-  | CloudConvert | +11.5 [+5.7; +18.4] (41/48/13) | +11.5 [+2.4; +20.9] (20/25/4) | +11.5 [+4.0; +20.4] (21/23/9) |
-  | pymupdf4llm | +12.6 [+6.6; +19.5] (42/48/12) | +11.6 [+2.5; +20.9] (20/26/3) | +13.5 [+5.3; +22.8] (22/22/9) |
+  | CloudConvert | +11.5 [+5.6; +18.4] (41/48/13) | +11.4 [+2.4; +20.8] (20/25/4) | +11.5 [+4.0; +20.4] (21/23/9) |
+  | pymupdf4llm | +12.5 [+6.5; +19.5] (42/48/12) | +11.5 [+2.5; +20.9] (20/26/3) | +13.5 [+5.3; +22.8] (22/22/9) |
   | Docling | +25.9 [+16.8; +35.8] (52/44/6) | +24.2 [+13.1; +36.0] (22/26/1) | +27.5 [+16.9; +38.7] (30/18/5) |
   | pdfplumber + our wrapper | +44.8 [+32.8; +56.7] (55/45/2) | +47.8 [+34.6; +61.0] (29/20/0) | +41.9 [+30.0; +54.3] (26/25/2) |
-  | markitdown | +57.1 [+46.1; +67.6] (88/12/2) | +54.4 [+41.6; +66.8] (41/6/2) | +59.6 [+49.2; +69.7] (47/6/0) |
+  | markitdown | +57.1 [+46.1; +67.6] (88/12/2) | +54.5 [+41.6; +66.8] (41/6/2) | +59.6 [+49.2; +69.7] (47/6/0) |
 
 - **Same originals, different producer:** on the same 36 XLSX originals with numeric cells, switchfile changes by −0.4
   [−8.6; +6.6] points per file when Excel instead of LibreOffice prints them (interval includes 0); switchfile minus
-  pymupdf4llm is +21.0 [+9.9; +34.0] on LibreOffice and +15.3 [+3.1; +27.6] on Excel PDFs, switchfile minus
-  CloudConvert +18.2 [+7.8; +30.4] and +15.3 [+3.1; +27.6]. On 13 DOCX originals with numeric cells, switchfile minus
+  pymupdf4llm is +21.0 [+9.9; +34.0] on LibreOffice and +15.2 [+3.0; +27.6] on Excel PDFs, switchfile minus
+  CloudConvert +18.2 [+7.8; +30.4] and +15.2 [+3.0; +27.6]. On 13 DOCX originals with numeric cells, switchfile minus
   Docling on Word PDFs is +0.0 [+0.0; +0.0], minus pymupdf4llm +1.2 [+0.0; +3.6], minus CloudConvert +0.9 [−0.8;
   +3.6]. Table below.
 - **Numbers in the right cell by country** (all producers, per file \| summed):
@@ -58,11 +58,11 @@ data, wrote the scoring code and ran every candidate ourselves, switchfile inclu
   | Candidate | FR (54) | DE (39) | UK (28) | international (39) |
   |---|---:|---:|---:|---:|
   | switchfile | 92.5 \| 99.3 | 83.4 \| 93.8 | 99.6 \| 99.0 | 99.9 \| 99.8 |
-  | CloudConvert | 80.7 \| 94.2 | 75.6 \| 28.5 | 76.7 \| 85.4 | 98.3 \| 96.8 |
-  | pymupdf4llm | 80.7 \| 94.2 | 75.2 \| 28.5 | 72.5 \| 84.1 | 98.3 \| 96.8 |
-  | Docling | 62.5 \| 84.8 | 50.7 \| 15.4 | 63.3 \| 65.4 | 99.6 \| 99.3 |
+  | CloudConvert | 80.7 \| 94.2 | 75.7 \| 28.7 | 76.7 \| 85.4 | 98.3 \| 96.8 |
+  | pymupdf4llm | 80.7 \| 94.2 | 75.4 \| 28.7 | 72.5 \| 84.1 | 98.3 \| 96.8 |
+  | Docling | 62.5 \| 84.8 | 50.8 \| 15.4 | 63.3 \| 65.4 | 99.6 \| 99.3 |
   | pdfplumber + our wrapper | 52.7 \| 84.6 | 26.3 \| 4.1 | 54.2 \| 50.3 | 59.8 \| 66.9 |
-  | markitdown | 37.7 \| 53.5 | 33.0 \| 10.9 | 26.6 \| 64.9 | 50.4 \| 66.6 |
+  | markitdown | 37.7 \| 53.5 | 32.9 \| 10.9 | 26.6 \| 64.9 | 50.4 \| 66.6 |
   | pdftotext (baseline) | 0.0 \| 0.0 | 0.0 \| 0.0 | 0.0 \| 0.0 | 0.0 \| 0.0 |
 
 - **Corrupted numbers** (numbers that do not stand in the original like that: torn apart, glued together, repeated or
@@ -82,9 +82,9 @@ Numbers in the right cell, mean per file, on the same 36 XLSX originals (LibreOf
 | Candidate | XLSX LibreOffice | XLSX Excel | Excel − LibreOffice | switchfile − candidate, XLSX LibreOffice | switchfile − candidate, XLSX Excel | switchfile − candidate, DOCX LibreOffice | switchfile − candidate, DOCX Word |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | switchfile | 93.0 | 92.6 | −0.4 [−8.6; +6.6] | – | – | – | – |
-| CloudConvert | 74.8 | 77.3 | +2.6 [−8.8; +14.9] | +18.2 [+7.8; +30.4] | +15.3 [+3.1; +27.6] | +1.3 [−0.9; +3.8] | +0.9 [−0.8; +3.6] |
-| pymupdf4llm | 72.0 | 77.3 | +5.3 [−6.9; +18.7] | +21.0 [+9.9; +34.0] | +15.3 [+3.1; +27.6] | +1.6 [−0.2; +3.9] | +1.2 [+0.0; +3.6] |
-| Docling | 51.9 | 59.7 | +7.8 [−4.7; +20.6] | +41.1 [+27.8; +54.7] | +33.0 [+18.7; +47.6] | +3.7 [+0.0; +10.1] | +0.0 [+0.0; +0.0] |
+| CloudConvert | 74.8 | 77.4 | +2.6 [−8.7; +15.0] | +18.2 [+7.8; +30.4] | +15.2 [+3.0; +27.6] | +1.3 [−0.9; +3.8] | +0.9 [−0.8; +3.6] |
+| pymupdf4llm | 72.0 | 77.4 | +5.4 [−6.9; +18.8] | +21.0 [+9.9; +34.0] | +15.2 [+3.0; +27.6] | +1.6 [−0.2; +3.9] | +1.2 [+0.0; +3.6] |
+| Docling | 51.9 | 59.7 | +7.8 [−4.7; +20.6] | +41.1 [+27.8; +54.7] | +33.0 [+18.7; +47.5] | +3.7 [+0.0; +10.1] | +0.0 [+0.0; +0.0] |
 | pdfplumber + our wrapper | 46.8 | 42.0 | −4.7 [−12.1; +0.0] | +46.3 [+31.3; +61.0] | +50.6 [+35.1; +65.9] | +38.3 [+15.2; +63.0] | +40.1 [+16.1; +64.8] |
 | markitdown | 30.5 | 39.2 | +8.7 [+3.7; +14.3] | +62.5 [+49.8; +74.5] | +53.5 [+37.0; +68.3] | +56.2 [+33.4; +78.9] | +57.2 [+35.2; +78.6] |
 | pdftotext (baseline) | 0.0 | 0.0 | +0.0 [+0.0; +0.0] | – | – | – | – |
@@ -94,18 +94,18 @@ Numbers in the right cell, mean per file, on the same 36 XLSX originals (LibreOf
 "Right cell, mean per file" and "all cells": numbers in the right cell averaged per file or summed over all numeric
 cells (hits/numeric cells); corrupted numbers as total (files); word recall and reading order as mean per file; time
 per page as total/total (median per file; API services include network); 95 % bootstrap clustered by source
-document. Per-file values: `results/scores-2026-11-18-all.json` (Word files end in `-msword`, Excel files in `-msexcel`).
+document. Per-file values: `results/scores-2026-11-21-all.json` (Word files end in `-msword`, Excel files in `-msexcel`).
 
 **all**: 160 files, 781 pages
 
 | Candidate | Right cell, mean per file [95 % CI] | Right cell, all cells | Corrupted numbers (files) | Word recall | Reading order | s/page (median) | Failed |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | switchfile | 93.8 [90.5–96.7] | 97.2 [95.5–98.6] (27649/28453) | 28 (8) | 99.5 [99.3–99.7] | 98.9 [97.9–99.6] | 0.47 (0.59) | 0 |
-| cloudconvert | 82.3 [74.8–89.1] | 68.1 [37.9–94.9] (19387/28453) | 732 (37) | 98.3 [97.6–98.8] | 98.1 [97.1–99.0] | 0.62 (0.75) | 0 |
-| pymupdf4llm | 81.3 [73.7–88.1] | 68.0 [37.8–94.7] (19343/28453) | 370 (27) | 98.3 [97.6–98.9] | 98.1 [97.1–99.0] | 0.88 (0.74) | 0 |
+| cloudconvert | 82.3 [74.8–89.1] | 68.2 [37.9–95.0] (19408/28453) | 732 (37) | 98.3 [97.6–98.8] | 98.1 [97.1–99.0] | 0.62 (0.75) | 0 |
+| pymupdf4llm | 81.3 [73.8–88.1] | 68.1 [37.8–94.8] (19364/28453) | 370 (27) | 98.3 [97.6–98.9] | 98.1 [97.1–99.0] | 0.88 (0.74) | 0 |
 | Docling | 67.9 [57.0–78.3] | 57.1 [29.4–86.4] (16258/28453) | 492 (39) | 98.2 [96.8–99.2] | 97.3 [96.2–98.3] | 13.90 (10.62) | 0 |
 | pdfplumber + our wrapper | 49.1 [36.4–62.0] | 48.1 [20.7–78.9] (13691/28453) | 417 (25) | 98.2 [97.1–99.1] | 98.4 [96.9–99.5] | 0.18 (0.13) | 0 |
-| markitdown | 36.7 [26.7–46.9] | 39.5 [21.2–63.8] (11253/28453) | 178 (17) | 98.6 [97.6–99.4] | 87.8 [83.0–92.0] | 0.26 (0.22) | 0 |
+| markitdown | 36.7 [26.7–46.9] | 39.5 [21.2–63.8] (11251/28453) | 178 (17) | 98.6 [97.6–99.4] | 87.8 [83.0–92.0] | 0.26 (0.22) | 0 |
 | pdftotext (baseline) | 0.0 [0.0–0.0] | 0.0 [0.0–0.0] (0/28453) | 0 (0) | 99.8 [99.7–99.9] | 79.5 [73.9–84.8] | 0.01 (0.01) | 0 |
 
 **producer=word**: 36 files, 206 pages
@@ -125,11 +125,11 @@ document. Per-file values: `results/scores-2026-11-18-all.json` (Word files end 
 | Candidate | Right cell, mean per file [95 % CI] | Right cell, all cells | Corrupted numbers (files) | Word recall | Reading order | s/page (median) | Failed |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | switchfile | 92.6 [85.4–98.1] | 99.4 [98.2–99.8] (12492/12573) | 7 (2) | 99.6 [99.3–99.9] | 98.5 [97.3–99.5] | 0.55 (0.63) | 0 |
-| cloudconvert | 77.3 [65.7–87.8] | 65.4 [32.6–95.8] (8227/12573) | 184 (11) | 96.6 [95.1–98.0] | 96.8 [94.7–98.5] | 0.72 (0.78) | 0 |
-| pymupdf4llm | 77.3 [65.7–87.8] | 65.4 [32.6–95.8] (8227/12573) | 184 (11) | 96.6 [95.1–98.0] | 96.8 [94.7–98.5] | 1.03 (0.89) | 0 |
-| Docling | 59.7 [44.9–74.1] | 53.5 [23.3–86.0] (6724/12573) | 186 (9) | 96.1 [91.8–99.4] | 95.2 [93.0–97.2] | 20.78 (16.79) | 0 |
+| cloudconvert | 77.4 [65.8–87.9] | 65.6 [32.7–95.9] (8248/12573) | 184 (11) | 96.6 [95.1–98.0] | 96.8 [94.7–98.5] | 0.72 (0.78) | 0 |
+| pymupdf4llm | 77.4 [65.8–87.9] | 65.6 [32.7–95.9] (8248/12573) | 184 (11) | 96.6 [95.1–98.0] | 96.8 [94.7–98.5] | 1.03 (0.89) | 0 |
+| Docling | 59.7 [45.0–74.1] | 53.5 [23.3–86.0] (6724/12573) | 186 (9) | 96.1 [91.8–99.4] | 95.2 [93.0–97.2] | 20.78 (16.79) | 0 |
 | pdfplumber + our wrapper | 42.0 [26.5–58.0] | 45.7 [14.7–80.7] (5740/12573) | 250 (9) | 97.0 [94.0–99.2] | 98.7 [97.4–99.7] | 0.17 (0.13) | 0 |
-| markitdown | 39.2 [26.9–52.0] | 38.9 [19.0–67.4] (4886/12573) | 58 (2) | 98.6 [96.2–99.9] | 81.8 [74.2–88.8] | 0.27 (0.22) | 0 |
+| markitdown | 39.2 [26.9–52.0] | 38.8 [19.0–67.4] (4884/12573) | 58 (2) | 98.6 [96.2–99.9] | 81.8 [74.2–88.8] | 0.27 (0.22) | 0 |
 | pdftotext (baseline) | 0.0 [0.0–0.0] | 0.0 [0.0–0.0] (0/12573) | 0 (0) | 99.9 [99.7–100.0] | 61.6 [53.8–69.5] | 0.02 (0.02) | 0 |
 
 **producer=libreoffice**: 82 files, 404 pages
@@ -149,11 +149,11 @@ document. Per-file values: `results/scores-2026-11-18-all.json` (Word files end 
 | Candidate | Right cell, mean per file [95 % CI] | Right cell, all cells | Corrupted numbers (files) | Word recall | Reading order | s/page (median) | Failed |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | switchfile | 94.3 [88.9–98.4] | 99.4 [98.4–99.8] (13947/14036) | 26 (6) | 99.6 [99.4–99.8] | 99.0 [98.3–99.5] | 0.49 (0.63) | 0 |
-| cloudconvert | 82.8 [73.8–90.8] | 68.8 [37.7–96.1] (9651/14036) | 336 (18) | 97.9 [97.0–98.7] | 98.1 [96.9–99.0] | 0.62 (0.77) | 0 |
-| pymupdf4llm | 82.7 [73.8–90.7] | 68.7 [37.7–96.1] (9649/14036) | 192 (14) | 97.9 [97.0–98.7] | 98.1 [96.9–99.0] | 0.87 (0.75) | 0 |
-| Docling | 70.1 [57.9–81.6] | 58.3 [29.7–88.3] (8179/14036) | 264 (17) | 97.7 [95.4–99.5] | 97.1 [95.8–98.3] | 14.90 (11.53) | 0 |
+| cloudconvert | 82.9 [73.9–90.8] | 68.9 [37.8–96.2] (9672/14036) | 336 (18) | 97.9 [97.0–98.7] | 98.1 [96.9–99.0] | 0.62 (0.77) | 0 |
+| pymupdf4llm | 82.8 [73.8–90.7] | 68.9 [37.7–96.2] (9670/14036) | 192 (14) | 97.9 [97.0–98.7] | 98.1 [96.9–99.0] | 0.87 (0.75) | 0 |
+| Docling | 70.1 [58.0–81.6] | 58.3 [29.7–88.3] (8179/14036) | 264 (17) | 97.7 [95.4–99.5] | 97.1 [95.8–98.3] | 14.90 (11.53) | 0 |
 | pdfplumber + our wrapper | 46.5 [33.1–60.3] | 47.9 [19.7–79.6] (6721/14036) | 275 (15) | 98.2 [96.5–99.4] | 98.6 [97.1–99.6] | 0.20 (0.14) | 0 |
-| markitdown | 39.8 [29.4–50.7] | 40.7 [21.7–65.8] (5718/14036) | 83 (10) | 99.2 [97.8–99.9] | 87.8 [82.8–92.1] | 0.29 (0.24) | 0 |
+| markitdown | 39.8 [29.4–50.7] | 40.7 [21.7–65.8] (5716/14036) | 83 (10) | 99.2 [97.8–99.9] | 87.8 [82.8–92.1] | 0.29 (0.24) | 0 |
 | pdftotext (baseline) | 0.0 [0.0–0.0] | 0.0 [0.0–0.0] (0/14036) | 0 (0) | 99.8 [99.7–99.9] | 77.5 [71.5–83.1] | 0.01 (0.02) | 0 |
 
 **family=libreoffice**: 82 files, 404 pages
@@ -185,10 +185,10 @@ document. Per-file values: `results/scores-2026-11-18-all.json` (Word files end 
 | Candidate | Right cell, mean per file [95 % CI] | Right cell, all cells | Corrupted numbers (files) | Word recall | Reading order | s/page (median) | Failed |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | switchfile | 83.4 [73.5–91.7] | 93.8 [83.3–95.6] (10295/10974) | 16 (3) | 99.4 [98.9–99.8] | 99.5 [99.0–99.9] | 0.45 (0.51) | 0 |
-| cloudconvert | 75.6 [56.4–91.4] | 28.5 [7.3–93.9] (3133/10974) | 85 (6) | 98.5 [97.6–99.3] | 98.8 [98.2–99.4] | 0.58 (0.64) | 0 |
-| pymupdf4llm | 75.2 [56.2–91.0] | 28.5 [7.3–93.7] (3129/10974) | 83 (5) | 98.5 [97.6–99.3] | 98.8 [98.2–99.4] | 0.89 (0.75) | 0 |
-| Docling | 50.7 [28.5–73.9] | 15.4 [3.4–64.7] (1693/10974) | 149 (13) | 97.2 [93.5–99.4] | 96.7 [94.7–98.5] | 10.90 (9.12) | 0 |
-| markitdown | 33.0 [12.9–54.3] | 10.9 [1.3–49.9] (1200/10974) | 2 (2) | 98.5 [96.3–99.9] | 88.9 [80.4–95.3] | 0.24 (0.19) | 0 |
+| cloudconvert | 75.7 [56.4–91.5] | 28.7 [7.4–93.9] (3154/10974) | 85 (6) | 98.5 [97.6–99.3] | 98.8 [98.2–99.4] | 0.58 (0.64) | 0 |
+| pymupdf4llm | 75.4 [56.3–91.2] | 28.7 [7.3–93.7] (3150/10974) | 83 (5) | 98.5 [97.6–99.3] | 98.8 [98.2–99.4] | 0.89 (0.75) | 0 |
+| Docling | 50.8 [28.5–73.9] | 15.4 [3.4–64.7] (1694/10974) | 149 (13) | 97.2 [93.5–99.4] | 96.7 [94.7–98.5] | 10.90 (9.12) | 0 |
+| markitdown | 32.9 [12.9–54.3] | 10.9 [1.3–49.9] (1198/10974) | 2 (2) | 98.5 [96.3–99.9] | 88.9 [80.4–95.3] | 0.24 (0.19) | 0 |
 | pdfplumber + our wrapper | 26.3 [3.8–52.0] | 4.1 [0.5–32.4] (451/10974) | 119 (4) | 96.6 [92.8–99.2] | 98.1 [95.5–100.0] | 0.20 (0.17) | 0 |
 | pdftotext (baseline) | 0.0 [0.0–0.0] | 0.0 [0.0–0.0] (0/10974) | 0 (0) | 99.8 [99.6–100.0] | 84.5 [75.5–92.5] | 0.01 (0.01) | 0 |
 
@@ -199,7 +199,7 @@ document. Per-file values: `results/scores-2026-11-18-all.json` (Word files end 
 | switchfile | 99.6 [98.8–100.0] | 99.0 [96.6–100.0] (3165/3198) | 1 (1) | 99.3 [98.6–99.8] | 98.9 [97.6–99.8] | 0.65 (1.25) | 0 |
 | cloudconvert | 76.7 [59.1–91.8] | 85.4 [61.5–95.8] (2730/3198) | 55 (4) | 97.4 [95.2–99.3] | 95.0 [90.3–98.8] | 0.89 (1.57) | 0 |
 | pymupdf4llm | 72.5 [55.2–88.3] | 84.1 [57.8–94.9] (2690/3198) | 26 (3) | 97.6 [95.4–99.4] | 95.0 [90.3–98.8] | 0.97 (0.77) | 0 |
-| Docling | 63.3 [41.4–83.8] | 65.4 [29.1–90.4] (2092/3198) | 122 (5) | 99.0 [97.9–99.8] | 95.5 [91.8–98.5] | 23.69 (18.14) | 0 |
+| Docling | 63.3 [41.4–83.8] | 65.4 [29.1–90.4] (2091/3198) | 122 (5) | 99.0 [97.9–99.8] | 95.5 [91.8–98.5] | 23.69 (18.14) | 0 |
 | pdfplumber + our wrapper | 54.2 [25.0–79.2] | 50.3 [4.4–89.3] (1608/3198) | 122 (4) | 98.9 [97.9–99.7] | 99.5 [98.6–100.0] | 0.14 (0.10) | 0 |
 | markitdown | 26.6 [5.0–50.0] | 64.9 [12.9–88.4] (2076/3198) | 0 (0) | 98.1 [95.8–100.0] | 64.9 [50.0–79.6] | 0.25 (0.21) | 0 |
 | pdftotext (baseline) | 0.0 [0.0–0.0] | 0.0 [0.0–0.0] (0/3198) | 0 (0) | 99.9 [99.7–100.0] | 57.1 [44.5–70.3] | 0.02 (0.03) | 0 |
@@ -221,11 +221,11 @@ document. Per-file values: `results/scores-2026-11-18-all.json` (Word files end 
 | Candidate | Right cell, mean per file [95 % CI] | Right cell, all cells | Corrupted numbers (files) | Word recall | Reading order | s/page (median) | Failed |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | switchfile | 92.1 [87.8–95.8] | 96.9 [94.8–98.6] (24712/25494) | 8 (3) | 99.5 [99.1–99.7] | 98.3 [96.5–99.5] | 0.55 (0.58) | 0 |
-| cloudconvert | 76.8 [67.4–85.5] | 64.8 [32.7–94.5] (16525/25494) | 369 (20) | 97.2 [96.1–98.2] | 96.8 [94.9–98.4] | 0.74 (0.77) | 0 |
-| pymupdf4llm | 75.5 [66.2–84.3] | 64.7 [32.7–94.3] (16485/25494) | 340 (19) | 97.3 [96.2–98.3] | 96.8 [94.9–98.4] | 1.09 (0.83) | 0 |
+| cloudconvert | 76.8 [67.5–85.5] | 64.9 [32.8–94.5] (16546/25494) | 369 (20) | 97.2 [96.1–98.2] | 96.8 [94.9–98.4] | 0.74 (0.77) | 0 |
+| pymupdf4llm | 75.5 [66.3–84.3] | 64.7 [32.8–94.3] (16506/25494) | 340 (19) | 97.3 [96.2–98.3] | 96.8 [94.9–98.4] | 1.09 (0.83) | 0 |
 | Docling | 57.5 [45.0–70.1] | 52.4 [23.0–84.4] (13357/25494) | 335 (18) | 96.9 [94.5–98.8] | 95.5 [93.6–97.1] | 18.65 (13.21) | 0 |
 | pdfplumber + our wrapper | 44.8 [30.2–59.8] | 45.8 [15.2–80.4] (11684/25494) | 374 (13) | 97.1 [95.0–98.7] | 98.3 [96.7–99.5] | 0.16 (0.11) | 0 |
-| markitdown | 34.3 [22.9–46.4] | 37.3 [18.4–63.9] (9507/25494) | 136 (5) | 97.5 [95.8–99.0] | 81.7 [74.5–88.3] | 0.23 (0.17) | 0 |
+| markitdown | 34.3 [22.9–46.4] | 37.3 [18.4–63.9] (9505/25494) | 136 (5) | 97.5 [95.8–99.0] | 81.7 [74.5–88.3] | 0.23 (0.17) | 0 |
 | pdftotext (baseline) | 0.0 [0.0–0.0] | 0.0 [0.0–0.0] (0/25494) | 0 (0) | 99.9 [99.8–100.0] | 65.4 [58.4–72.4] | 0.01 (0.01) | 0 |
 
 **format=docx**: 73 files, 433 pages
@@ -245,10 +245,10 @@ document. Per-file values: `results/scores-2026-11-18-all.json` (Word files end 
 | Candidate | Right cell, mean per file [95 % CI] | Right cell, all cells | Corrupted numbers (files) | Word recall | Reading order | s/page (median) | Failed |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | switchfile | 83.4 [73.5–91.7] | 93.8 [83.3–95.6] (10295/10974) | 16 (3) | 99.4 [98.9–99.8] | 99.5 [99.0–99.9] | 0.45 (0.51) | 0 |
-| cloudconvert | 75.6 [56.4–91.4] | 28.5 [7.3–93.9] (3133/10974) | 85 (6) | 98.5 [97.6–99.3] | 98.8 [98.2–99.4] | 0.58 (0.64) | 0 |
-| pymupdf4llm | 75.2 [56.2–91.0] | 28.5 [7.3–93.7] (3129/10974) | 83 (5) | 98.5 [97.6–99.3] | 98.8 [98.2–99.4] | 0.89 (0.75) | 0 |
-| Docling | 50.7 [28.5–73.9] | 15.4 [3.4–64.7] (1693/10974) | 149 (13) | 97.2 [93.5–99.4] | 96.7 [94.7–98.5] | 10.90 (9.12) | 0 |
-| markitdown | 33.0 [12.9–54.3] | 10.9 [1.3–49.9] (1200/10974) | 2 (2) | 98.5 [96.3–99.9] | 88.9 [80.4–95.3] | 0.24 (0.19) | 0 |
+| cloudconvert | 75.7 [56.4–91.5] | 28.7 [7.4–93.9] (3154/10974) | 85 (6) | 98.5 [97.6–99.3] | 98.8 [98.2–99.4] | 0.58 (0.64) | 0 |
+| pymupdf4llm | 75.4 [56.3–91.2] | 28.7 [7.3–93.7] (3150/10974) | 83 (5) | 98.5 [97.6–99.3] | 98.8 [98.2–99.4] | 0.89 (0.75) | 0 |
+| Docling | 50.8 [28.5–73.9] | 15.4 [3.4–64.7] (1694/10974) | 149 (13) | 97.2 [93.5–99.4] | 96.7 [94.7–98.5] | 10.90 (9.12) | 0 |
+| markitdown | 32.9 [12.9–54.3] | 10.9 [1.3–49.9] (1198/10974) | 2 (2) | 98.5 [96.3–99.9] | 88.9 [80.4–95.3] | 0.24 (0.19) | 0 |
 | pdfplumber + our wrapper | 26.3 [3.8–52.0] | 4.1 [0.5–32.4] (451/10974) | 119 (4) | 96.6 [92.8–99.2] | 98.1 [95.5–100.0] | 0.20 (0.17) | 0 |
 | pdftotext (baseline) | 0.0 [0.0–0.0] | 0.0 [0.0–0.0] (0/10974) | 0 (0) | 99.8 [99.6–100.0] | 84.5 [75.5–92.5] | 0.01 (0.01) | 0 |
 
@@ -259,7 +259,7 @@ document. Per-file values: `results/scores-2026-11-18-all.json` (Word files end 
 | switchfile | 99.7 [99.3–100.0] | 99.4 [98.1–100.0] (5688/5725) | 11 (4) | 99.4 [99.0–99.7] | 99.3 [98.8–99.8] | 0.48 (0.59) | 0 |
 | cloudconvert | 86.8 [75.7–95.7] | 90.4 [79.5–96.7] (5176/5725) | 415 (19) | 98.7 [97.6–99.5] | 97.7 [95.6–99.5] | 0.62 (0.77) | 0 |
 | pymupdf4llm | 84.5 [73.1–94.1] | 89.7 [78.1–96.1] (5136/5725) | 55 (10) | 98.7 [97.7–99.5] | 97.8 [95.6–99.5] | 0.81 (0.72) | 0 |
-| Docling | 80.3 [65.7–92.7] | 80.4 [57.4–95.4] (4601/5725) | 255 (16) | 99.4 [98.9–99.8] | 97.9 [96.1–99.2] | 13.83 (11.20) | 0 |
+| Docling | 80.3 [65.7–92.7] | 80.3 [57.4–95.3] (4600/5725) | 255 (16) | 99.4 [98.9–99.8] | 97.9 [96.1–99.2] | 13.83 (11.20) | 0 |
 | pdfplumber + our wrapper | 56.8 [37.0–76.1] | 57.6 [18.0–84.6] (3299/5725) | 146 (14) | 99.3 [98.7–99.7] | 98.3 [95.6–99.9] | 0.20 (0.15) | 0 |
 | markitdown | 37.7 [21.1–55.4] | 65.7 [36.7–82.2] (3760/5725) | 39 (9) | 99.1 [98.0–99.8] | 81.3 [72.0–89.8] | 0.28 (0.24) | 0 |
 | pdftotext (baseline) | 0.0 [0.0–0.0] | 0.0 [0.0–0.0] (0/5725) | 0 (0) | 99.8 [99.7–99.9] | 78.7 [69.3–87.5] | 0.01 (0.01) | 0 |
@@ -280,8 +280,8 @@ Paired per file against switchfile, numbers in right cell, all (files with numer
 
 | Candidate | Difference, points [95 % CI] | first better / equal / worse |
 |---|---:|---:|
-| cloudconvert | +11.5 [+5.7; +18.4] | 41 / 48 / 13 |
-| pymupdf4llm | +12.6 [+6.6; +19.5] | 42 / 48 / 12 |
+| cloudconvert | +11.5 [+5.6; +18.4] | 41 / 48 / 13 |
+| pymupdf4llm | +12.5 [+6.5; +19.5] | 42 / 48 / 12 |
 | Docling | +25.9 [+16.8; +35.8] | 52 / 44 / 6 |
 | pdfplumber + our wrapper | +44.8 [+32.8; +56.7] | 55 / 45 / 2 |
 | markitdown | +57.1 [+46.1; +67.6] | 88 / 12 / 2 |
@@ -300,11 +300,11 @@ Paired per file against switchfile, numbers in right cell, family=office (files 
 
 | Candidate | Difference, points [95 % CI] | first better / equal / worse |
 |---|---:|---:|
-| cloudconvert | +11.5 [+2.4; +20.9] | 20 / 25 / 4 |
-| pymupdf4llm | +11.6 [+2.5; +20.9] | 20 / 26 / 3 |
+| cloudconvert | +11.4 [+2.4; +20.8] | 20 / 25 / 4 |
+| pymupdf4llm | +11.5 [+2.5; +20.9] | 20 / 26 / 3 |
 | Docling | +24.2 [+13.1; +36.0] | 22 / 26 / 1 |
 | pdfplumber + our wrapper | +47.8 [+34.6; +61.0] | 29 / 20 / 0 |
-| markitdown | +54.4 [+41.6; +66.8] | 41 / 6 / 2 |
+| markitdown | +54.5 [+41.6; +66.8] | 41 / 6 / 2 |
 
 ## Third producer: Excel for Mac
 
@@ -327,11 +327,12 @@ Paired per file against switchfile, numbers in right cell, family=office (files 
   - *Rounding:* Excel shows General-format numbers with as many digits as the column holds (4.565122265 instead of
     LibreOffice's 4.56512226512227). If a numeric cell is not in the text layer but a rounding of exactly its original
     value is, the rounded display counts for this PDF (1 file, 7 cells). The value never comes from the PDF.
-  - *Page blocks:* the XLSX truth is split per printed page. Where Excel breaks pages differently, the blocks are
-    recomputed from the original's cell grid (`build.py grids`) along Excel's pages: page by page, the columns and rows
-    whose cells stand on that page, each word of the page used once. The same per-page check (≥ 90 %) follows.
-    Recomputed this way: 17 workbooks; three of them checked by eye (first and last row of each block against the
-    page).
+  - *Page blocks:* the XLSX truth is split per printed page. Where Excel breaks pages differently (fewer than 90 % of
+    a block's words on its page, or any row of a block printed on another page), the blocks are recomputed from the
+    original's cell grid (`build.py grids`) along Excel's pages: page by page, the columns and rows whose cells stand
+    on that page, each word of the page used once. The same checks follow. Recomputed this way: 23 workbooks (17
+    before the truth fix of 2026-11-21, see below); three of them checked by eye (first and last row of each block
+    against the page).
 - **Dropped (3):** `de-xlsx-76a7055067`, `de-xlsx-4f4e6a3538`, `de-xlsx-fa2af86144`: Excel's pages do not map onto
   blocks of the original unambiguously ("page blocks do not match the producer's print").
 
@@ -386,7 +387,7 @@ Paired per file against switchfile, numbers in right cell, family=office (files 
 
 The truth comes from the original, not from the PDF. XLSX: displayed text and cell type of every visible cell of the
 printed sheets, one table per printed page in print order (check: as many blocks as pages, each block at least 90 %
-on its own page; for Excel recomputed along Excel's pages, see above). DOCX: paragraphs and tables from
+on its own page, no row of a block printed on another page; for Excel recomputed along Excel's pages, see above). DOCX: paragraphs and tables from
 `word/document.xml` (no headers, footers or footnotes). Two coverage checks per file (at least 97 % of the truth in the
 text layer, at least 85 % of the text layer in the truth), at most 20 pages, no tracked changes. The same metrics for
 everyone (`eval/`, standard library only, pipe and HTML tables read the same way, self-check against hand-made
@@ -396,9 +397,12 @@ examples):
   found in the matching row and column of an output table. Rows matched by shared cells (monotone, at least 30 %
   overlap, across all output tables), columns per table by majority, one to one. Text without tables scores 0.
 - **Corrupted numbers:** numbers in the output that do not stand in the original like that: torn apart ("CaCl 2"),
-  glued together (two cells as "65 280"), repeated, or new. Counted as number tokens that occur more often in the
-  output than in the truth and the PDF's text layer together; numbers compared without thousands and decimal
-  separators. The count does not tell whether a value was made up; that takes a look at the output (examples above).
+  glued together (two cells as "65 280"), repeated, or new. Counted per document as number tokens that occur more
+  often in the output than allowed; the allowance per token is the larger of its count in the truth text and in the
+  PDF's text layer. Numbers are compared by signed value (as for the right cell). Digit groups separated by single
+  spaces are one number ("91 248"), and a minus standing apart is a sign only where no word, number or currency sign
+  precedes it ("| - 19" after a cell boundary is −19, "2019 - 2020" is not negative). Truth table boundaries play no
+  part. The count does not tell whether a value was made up; that takes a look at the output (examples above).
 - **Word recall:** share of the truth's words found in the output, regardless of order.
 - **Reading order:** longest common word subsequence divided by the words in common.
 - **Mean per file and cell sum** are shown side by side with equal weight; tables are ordered by the mean per file,
@@ -457,6 +461,42 @@ offline with `DOCLING_ARTIFACTS_PATH`.
 - **Services change:** switchfile and CloudConvert can change without a version number. The numbers hold for the
   date of measurement; the outputs in `results/` show what each service returned on that date.
 - **Native PDFs only:** all PDFs have a text layer. Scanned documents and OCR are not measured.
+
+## Truth fix (2026-11-21)
+
+**What was wrong.** The XLSX truth has one block per printed page. For the Excel set, `build.py adopt` kept the
+LibreOffice blocks unless fewer than 90 % of a block's words stood on its Excel page. In six workbooks Excel printed one
+to eight rows of a long table on the neighbouring page, which stayed below that threshold; the truth then put those
+rows into the wrong block. Example: `en-xlsx-bea458d951`, where Excel prints 21/02 and 22/02 at the bottom of page 1
+and the truth started block 2 with 21/02. A PyMuPDF developer reported it in a public comment on Reddit.
+
+**What changed.** A row of a block (at least two filled cells) that is not printed on its page but on another one now
+triggers the recomputation from the original's grid (`factory/build.py`, `misplaced_rows`); a row counts as printed on
+a page if its words occur in order on one line of that page. `eval/test_truth_pages.py` checks every row of every
+spreadsheet render (LibreOffice and Excel) this way. Rebuilt: `de-xlsx-2f6f8557b8`, `de-xlsx-419cd9607c`,
+`en-xlsx-36967b578c`, `en-xlsx-78b2fa4e93`, `en-xlsx-bea458d951`, `en-xlsx-e8634c8958`. Same cells, same values and
+the same text layer; only the page blocks changed. The other 36 Excel truth files and all LibreOffice and Word truth
+files are byte-identical.
+
+**Effect.** Only the scoring was rerun, on the published outputs of 2026-11-16; no candidate was run again. Numbers in
+the right cell in percent (summed: matched cells in brackets) and corrupted numbers (files), all 160 PDFs and the 42
+Excel PDFs:
+
+| Candidate | All PDFs, per file | All PDFs, summed | Excel PDFs, per file | Excel PDFs, summed | Corrupted numbers |
+|---|---:|---:|---:|---:|---:|
+| switchfile | 93.8 → 93.8 | 97.2 → 97.2 (27,649 → 27,649) | 92.6 → 92.6 | 99.4 → 99.4 (12,492 → 12,492) | 28 (8) → 28 (8) |
+| CloudConvert | 82.3 → 82.3 | 68.1 → 68.2 (19,387 → 19,408) | 77.3 → 77.4 | 65.4 → 65.6 (8,227 → 8,248) | 732 (37) → 732 (37) |
+| pymupdf4llm | 81.3 → 81.3 | 68.0 → 68.1 (19,343 → 19,364) | 77.3 → 77.4 | 65.4 → 65.6 (8,227 → 8,248) | 370 (27) → 370 (27) |
+| Docling | 67.9 → 67.9 | 57.1 → 57.1 (16,258 → 16,258) | 59.7 → 59.7 | 53.5 → 53.5 (6,724 → 6,724) | 492 (39) → 492 (39) |
+| pdfplumber + our wrapper | 49.1 → 49.1 | 48.1 → 48.1 (13,691 → 13,691) | 42.0 → 42.0 | 45.7 → 45.7 (5,740 → 5,740) | 417 (25) → 417 (25) |
+| markitdown | 36.7 → 36.7 | 39.5 → 39.5 (11,253 → 11,251) | 39.2 → 39.2 | 38.9 → 38.8 (4,886 → 4,884) | 178 (17) → 178 (17) |
+
+Per file: `de-xlsx-2f6f8557b8` +21 cells for CloudConvert and pymupdf4llm and −2 for markitdown; Docling +1 on
+`de-xlsx-419cd9607c` and −1 on `en-xlsx-bea458d951`. Corrupted numbers, word recall and reading order did not change
+for any candidate. The order of candidates, by mean per file and by cell sum, is unchanged overall and in every group
+by producer, country, format and language.
+
+Scores: `results/scores-2026-11-21-all.json`; before the fix: `results/scores-2026-11-18-all.json`.
 
 ## Scoring fix (2026-11-18)
 
